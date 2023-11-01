@@ -127,14 +127,3 @@ This configuration file will tell Bower to install tools into the “public/java
 ### Charts
 
 - [Morris.js](http://www.oesmith.co.uk/morris.js/)
-
-
-
-
-
-
-
-
-
-
-
