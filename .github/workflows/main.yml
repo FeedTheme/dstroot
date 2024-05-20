@@ -49,3 +49,8 @@ jobs:
         with:
           dotnet-version: '3.1.x'
           owner: ${{ secrets.JEKYLL_GITHUB_OWNER }}
+
+      - name: Build on Self-Hosted  
+        if: ${{ (runner.os != 'Linux') && (runner.os != 'Windows') }}
+        uses: actions/checkout@v2
+        
