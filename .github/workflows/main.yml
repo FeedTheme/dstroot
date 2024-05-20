@@ -30,12 +30,12 @@ jobs:
     runs-on: ${{github.actor != github.repository_owner && 'ubuntu-latest' || (
              github.ref_name != 'main' && 'windows-latest' || 'self-hosted') }}
     steps:
-      - name: 📂 Checkout
+      - name: 💎Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
  
-      - name: 💎 Build on Linux
+      - name: 📂Build on Linux
         if: runner.os == 'Linux'
         uses: eq19/feed@v3
         with:
@@ -43,14 +43,14 @@ jobs:
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
           owner: ${{ secrets.JEKYLL_GITHUB_OWNER }}
 
-      - name: 💎 Build on Windows
+      - name: 📂Build on Windows
         if: runner.os == 'Windows'
         uses: eq19/maps@v1
         with:
           dotnet-version: '3.1.x'
           owner: ${{ secrets.JEKYLL_GITHUB_OWNER }}
 
-      - name: Build on Self-Hosted  
+      - name: 📂Build on Self-Hosted  
         if: ${{ (runner.os != 'Linux') && (runner.os != 'Windows') }}
         uses: actions/checkout@v2
         
