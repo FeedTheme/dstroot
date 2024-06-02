@@ -66,4 +66,3 @@ jobs:
         with:
           path-to-root: /tmp/workdir/_site
           include-pdf: false
- 
