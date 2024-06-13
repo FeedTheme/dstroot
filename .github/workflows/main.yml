@@ -10,18 +10,6 @@ on:
   
 # 🪂 Allow concurrent deployment
 concurrency:
-  group: "pages# Deploy GitHub Pages
-name: Build and deploy eQuantum site
-
-# 💎 Runs on workflow_run.conclusion
-on:
-  push:
-  workflow_run:
-    types: [completed]
-    workflows: ["pages-build-deployment"]
-  
-# 🪂 Allow concurrent deployment
-concurrency:
   group: "pages"
   cancel-in-progress: true
 
@@ -110,78 +98,6 @@ jobs:
           include-pdf: false
 
       - name: 🚀 Build Feed on Linux
-        if: runner.os == 'Linux'
-        uses: eq19/feed@v3
-        with:
-          pre_build_commands: 'make build'
-          token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-  cancel-in-progress: true
-
-# Set GITHUB_TOKEN scopes
-permissions: write-all
-
-# Sets global environtment variables
-env:
-  RUN: ${{ github.run_id }}
-  USER: ${{ github.actor }}
-  REPO: ${{ github.repository }}
-  OWNER: ${{ github.repository_owner }}
-  ACTOR: ${{ github.triggering_actor }}
-  
-#defaults:
-  #run:
-    #working-directory: /github/workspace/_site
-    
-jobs:
-  github-pages:
-    strategy:
-      max-parallel: 1
-      fail-fast: false
-      matrix:
-        os:
-          - 'windows-latest'
-          - 'ubuntu-latest'
-          #- 'self-hosted'
-
-    runs-on: '${{ matrix.os }}'
-    #runs-on: ${{github.ref_name != 'main' && 'ubuntu-latest' || (
-             #github.ref_protected && matrix.os || 'windows-latest') }}
-
-    if: ${{github.event_name == 'push' ||
-        github.event.workflow_run.conclusion == 'success'}}
-
-    steps:
-      - name: 💎Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
- 
-      - id: 'auth'
-        uses: 'google-github-actions/auth@v2'
-        with:
-          credentials_json: ${{ secrets.GCP_CREDENTIALS }}
-
-      - name: 'Set up Cloud SDK'
-        uses: 'google-github-actions/setup-gcloud@v2'
-
-      - name: 'Use gcloud CLI'
-        run: 'gcloud info'
-      
-      - name: 📂Build on Self-Hosted
-        if: ${{runner.os != 'Linux' && runner.os != 'Windows'}}
-        uses: eq19/maps@v1
-        with:
-          path-to-root: /github/workspace/_site
-          include-pdf: false
-
-      - name: 📂Build on Windows
-        if: runner.os == 'Windows'
-        uses: eq19/parser@v2
-        with:
-          dotnet-version: '3.1.x'
-
-      - name: 📂Feed on Linux
         if: runner.os == 'Linux'
         uses: eq19/feed@v3
         with:
