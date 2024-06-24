@@ -1,14 +1,14 @@
 # Deploy GitHub Pages
 name: Build and deploy eQuantum site
 
-# 💎 Runs on workflow_run.conclusion
+# Runs on workflow_run.conclusion
 on:
   push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
   
-# 🪂 Allow concurrent deployment
+# Allow concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -30,23 +30,42 @@ jobs:
     outputs:
       runner: ${{ steps.set-runner.outputs.use-runner }}
     steps:
-      - uses: eq19/eq19.github.io@v1
-        if: ${{ contains(github.repository, 'github.io') }}
+      - name: 📂 Checkout
+        uses: actions/checkout@v4
         with:
-          docker_hub_username: "eq19"
+          token: ${{ secrets.ACCESS_TOKEN }}
+ 
+      - name: 🪂 Build Dev Container
+        if: ${{ contains(github.repository, 'github.io') }}
+        uses: eq19/eq19.github.io@v1
+        with:
+          docker_hub_username: ${{ github.actor }}
           docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
           dockerfile_path: ./.devcontainer/Dockerfile
           image_name: "prime"
           image_tag: "latest"
 
-      - name: Determine which runner to use
-        id: set-runner
+      - name: 🚀 Terminate Runner
         uses: eq19/maps@v2
         with:
           primary-runner: "self-hosted,linux"
           fallback-runner: "ubuntu-latest"
           github-token: ${{ secrets.ACCESS_TOKEN }}
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
 
+      - name: 🚀 Build Feed on Linux
+        uses: eq19/feed@v3
+        with:
+          pre_build_commands: 'make build'
+          token: ${{ secrets.ACCESS_TOKEN }}
+   
+      - name: 🚀 Build Self-Hosted Runner
+        id: set-runner
+        uses: eq19/lexer@v1
+        with:
+          pre_build_commands: 'gcloud info'
+          token: ${{ secrets.ACCESS_TOKEN }}
+      
   github-pages:
     needs: determine-runner
   
@@ -67,42 +86,13 @@ jobs:
 
     steps:
       - name: 📂 Checkout
+        if: runner.os == 'Linux'
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.ACCESS_TOKEN }}
  
-      - name: 📂 Setup Dotnet
+      - name: 💎 Setup Dotnet
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '3.1.x'
-
-      - name: 💎 Set Credential
-        id: 'auth'
-        uses: 'google-github-actions/auth@v2'
-        with:
-          credentials_json: ${{ secrets.GCP_CREDENTIALS }}
-
-      - name: 💎 Authentication
-        uses: 'google-github-actions/setup-gcloud@v2'
-
-      - name: 🚀 Self-Hosted Runner
-        if: runner.os == 'Linux'
-        uses: eq19/lexer@v3
-        with:
-          pre_build_commands: 'gcloud info'
-          token: ${{ secrets.ACCESS_TOKEN }}
-      
-      - name: 🚀 Build on Self-Hosted
-        if: ${{runner.os != 'Linux' && runner.os != 'Windows'}}
-        uses: eq19/maps@v1
-        with:
-          path-to-root: /github/workspace/_site
-          include-pdf: false
-
-      - name: 🚀 Build Feed on Linux
-        if: runner.os == 'Linux'
-        uses: eq19/feed@v3
-        with:
-          pre_build_commands: 'make build'
-          token: ${{ secrets.ACCESS_TOKEN }}tnet-version: '3.1.x'
