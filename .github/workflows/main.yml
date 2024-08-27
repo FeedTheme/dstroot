@@ -1,79 +1,46 @@
-# Deploy GitHub Pages
-name: Build and deploy eQuantum site
-
-# Runs on workflow_run.conclusion
+# 💎 Main Workflow: eQuantum MEC Structure
+name: Build and Deploy Cell Types – Modulo 6
+#
+# The semantics for running shell commands in GitHub actions is non-obvious. Please read
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsshell
+# before modifying this file. Our strategy is to rely on the built-in (unspecified) shell, and
+# explicitly set the shell settings we want (with `set -eo pipefail`) at the beginning of any
+# bash script. For more information on these settings, see `man bash`.
+#
+# GitHub Actions files can be difficult to modify with confidence, because testing changes often
+# requires pushing to a branch and running CI remotely. To make this process easier, consider
+# the following:
+#
+# 1) Use Visual Studio Code with the GitHub Actions Extension (github.vscode-github-actions).
+#    This allows you to check the validity of your action schema and syntax without pushing to a
+#    branch.
+# 2) Use https://github.com/nektos/act to run your CI steps locally. Note this will only work with
+#    steps run on Linux platforms, as `act` is implemented with Docker containers.
+#
 on:
   push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
-  
-# Allow concurrent deployment
+
+# 💢 Allow concurrent
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# Set GITHUB_TOKEN scopes
+# ⚠️ Set GITHUB_TOKEN
 permissions: write-all
-
-# Global environtment variables
-env:
-  RUN: ${{ github.run_id }}
-  USER: ${{ github.actor }}
-  REPO: ${{ github.repository }}
-  OWNER: ${{ github.repository_owner }}
-  ACTOR: ${{ github.triggering_actor }}
-  
+        
 jobs:
-  determine-runner:
-    runs-on: ubuntu-latest
-    outputs:
-      runner: ${{ steps.set-runner.outputs.use-runner }}
-    steps:
-      - name: 📂 Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.ACCESS_TOKEN }}
- 
-      - name: 🪂 Pre-build Maps
-        uses: eq19/maps@v2
-        with:
-          docker_hub_username: ${{ github.actor }}
-          docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
-          dockerfile_path: ./.devcontainer/Dockerfile
-          credentials: ${{ secrets.GCP_CREDENTIALS }}
-          image_name: "prime"
-          image_tag: "latest"
-
-      - name: 🚀 Build Feed on Linux
-        uses: eq19/grammar@v2
-        #uses: eq19/feed@v1
-        with:
-          token: ${{ secrets.ACCESS_TOKEN }}
-   
-      - name: 🚀 Initiate Lexer on Linux
-        #uses: eq19/lexer@v1
-        uses: devcontainers/ci@v0.3
-        with:
-          push: always
-          runCmd: ls -al /
-          imageName: eq19/prime
-          skipContainerUserIdUpdate: true
-          cacheFrom: tcardonne/github-runner
-        if: ${{ contains(github.repository, 'github.io') }}
-     
-  github-pages:
-    needs: determine-runner
-  
+  lexering:
     strategy:
       max-parallel: 1
-      fail-fast: false
+      fail-fast: true
       matrix:
         #node_version: [8, 10, 12]
-        os: [windows-latest, self-hosted]
+        os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
-    #runs-on: ${{ fromJson(needs.determine-runner.outputs.runner) }}
-    
+    # ✔️ Runs on workflow_run.conclusion
     if: ${{github.event_name == 'push' ||
         github.event.workflow_run.conclusion == 'success'}}
 
@@ -82,24 +49,70 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository: eq19/eq19.github.io
 
-      - name: 🚀 Setup Parser
-        if: runner.os == 'Windows'
-        uses: eq19/parser@v1
-        id: set-runner
+      - name: ⚙️ Build Maps
+        uses: eq19/maps@v1
+        id: build-maps
         with:
-          repository: ${{ github.repository }}
+          token: ${{ secrets.ACCESS_TOKEN }}
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
+          docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
+          docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
+      - name: 🪂 Feed Mapping
+        uses: eq19/feed@v3        
+        id: feed-mapping
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
+          docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
+          docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
+      - name: 🏃‍♂️ Lexering Runner
+        uses: eq19/lexer@v1
+        id: set-lexer
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
+          docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
+          docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+          
+    outputs:
+      runner: ${{ steps.set-runner.outputs.use-runner }}
+
+  setup-parser:
+    needs: lexering
+    strategy:
+      matrix:
+        os: [self-hosted]
+            
+    # ♻️ Simulate Gell-Mann           
+    runs-on: ${{ matrix.os }}
+    #runs-on: ${{ fromJson(needs.determine-runner.outputs.runner) }}
+
+    steps:
+      - name: 📂 Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: ➿ Parsering
+        uses: eq19/parser@v2
+        id: set-parser
+        with:
           token: ${{ secrets.ACCESS_TOKEN }}
           credentials: ${{ secrets.GCP_CREDENTIALS }}
   
-      - name: 🪂 Evaluate Syntax
-        if: runner.os == 'Windows'
-        #uses: eq19/syntax@v1
-        uses: Vampire/setup-wsl@v3
-
-      - name: 🪂 Set Grammar Rules
-        if: runner.os != 'Windows'
-        #uses: eq19/grammar@v2
-        uses: eq19/feed@v1
-   
+      - name: 🔧 Evaluate Syntax
+        uses: eq19/syntax@v2
+        id: eval-syntax
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
+  
+      - name: 🚀 Set Grammar Rules 
+        uses: eq19/grammar@v1
+        id: grammar-rules
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
