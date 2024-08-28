@@ -102,7 +102,7 @@ runs:
 
     - run: |
         python3 -m pip install --upgrade pip pytest psycopg furl
-        copy "${{ inputs.action_path }}/test.file"
+        mv -f ${{ inputs.action_path }}/test.py .
         #psql -U postgres -c 'SHOW config_file'
         python3 -m pytest -vv test.py
       env:
