@@ -14,7 +14,7 @@ name: Build and Deploy Cell Types – Modulo 6
 # 1) Use Visual Studio Code with the GitHub Actions Extension (github.vscode-github-actions).
 #    This allows you to check the validity of your action schema and syntax without pushing to a
 #    branch.
-# 2) Use https://githubm.com/nektos/act to run your CI steps locally. Note this will only work with
+# 2) Use https://github.com/nektos/act to run your CI steps locally. Note this will only work with
 #    steps run on Linux platforms, as `act` is implemented with Docker containers.
 #
 on:
@@ -39,8 +39,8 @@ jobs:
       matrix:
         #node_version: [8, 10, 12]
         config:
-          - { os: ubuntu-latest, path: /tmp }
-          - { os: windows-latest, path: "D:\\tmp" }
+          - { os: ubuntu-latest, temp: /tmp }
+          - { os: windows-latest, temp: "D:\\a\\_temp" }
 
     runs-on: ${{ matrix.config.os }}
     # ✔️ Runs on workflow_run.conclusion
@@ -57,7 +57,7 @@ jobs:
         uses: eq19/maps@v1
         id: build-maps
         with:
-          path: ${{ matrix.config.path }}
+          temp: ${{ matrix.config.temp }}
           token: ${{ secrets.ACCESS_TOKEN }}
           credentials: ${{ secrets.GCP_CREDENTIALS }}
           docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
