@@ -44,10 +44,9 @@ runs:
         
         cd "${{ github.workspace }}" && rm -rf .github
         BASE=/home/runner/work/_actions/eq19/eq19/main/.github
+ 
         if [ "$RUNNER_OS" == "Windows" ]; then BASE="D:/a/_actions/eq19/eq19/main/.github"; fi
-
         cp -r "$BASE" . && chown -R "$(whoami)" .github
-        export PATH=$GITHUB_WORKSPACE/.github/entrypoint:$PATH
 
         REMOTE_REPO="https://${{ inputs.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"
         git remote set-url origin $REMOTE_REPO
