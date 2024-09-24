@@ -74,9 +74,15 @@ runs:
       if: runner.os != 'Windows'
       shell: bash
       run: |
+        HEADER="Accept: application/vnd.github+json"
+        echo ${{ inputs.token }} | gh auth login --with-token
         python -m pip -q install --upgrade pip setuptools six wheel
-        python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
-        ./.github/entrypoint/init.sh
+        python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt && ./.github/entrypoint/init.sh
+
+        #See: https://docs.github.com/en/rest/actions/self-hosted-runners
+        TOTAL_COUNT=$(gh api -H "${HEADER}" /repos/${{ github.repository }}/actions/runners --jq '.total_count')
+        RUNNER_ID=$(gh api -H "${HEADER}" /repos/${{ github.repository }}/actions/runners --jq '.runners.[].id')
+        if (( $TOTAL_COUNT != 0 )); then gh api --method DELETE -H "${HEADER}" /repos/${{ github.repository }}/actions/runners/${RUNNER_ID}; fi 
 
     - name: 💎 Set Credential
       if: runner.os == 'Windows'
