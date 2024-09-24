@@ -76,7 +76,7 @@ runs:
       run: |
         python -m pip -q install --upgrade pip setuptools six wheel
         python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
-        /home/runner/work/_actions/eq19/eq19/v1/.github /entrypoint/init.sh
+        ./.github/entrypoint/init.sh
 
     - name: 💎 Set Credential
       if: runner.os == 'Windows'
