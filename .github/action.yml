@@ -97,19 +97,7 @@ runs:
       with:
         install_components: 'alpha,cloud-datastore-emulator'
 
-    - name: 💎 Update workflow conveniently
-      if: runner.os == 'Windows'
-      shell: bash
-      run: |
-        BASE="D:/a/_actions/eq19/eq19/v1/.github"
-        $BASE/entrypoint/init.sh
-
-    - name: View context attributes
-      uses: actions/github-script@v7
-      with:
-        script: console.log(context)
-
-    - name: Remove Existing Self-Hosted Runner
+    - name: 💎 Remove Existing Self-Hosted Runner
       if: runner.os == 'Windows'
       shell: bash
       run: |
@@ -121,3 +109,11 @@ runs:
             echo "deleted: ${instance_zone}/${instance_name}"
           fi
         done
+        BASE="D:/a/_actions/eq19/eq19/v1/.github"
+        $BASE/entrypoint/init.sh
+
+    - name: View context attributes
+      uses: actions/github-script@v7
+      with:
+        script: console.log(context)
+
