@@ -118,6 +118,107 @@ runs:
         curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function \
           -H "Authorization: Bearer $IDENTITY" -H "Content-Type: application/json" -d '{}'
 
+    - name: 🪂 Setup Runner by API
+      if: runner.os == 'Windows'          
+      shell: bash
+      run: >
+        curl -s -X POST POST https://compute.googleapis.com/compute/v1/projects/feedmapping/zones/us-central1-a/instances
+        -H "Authorization: Bearer $IDENTITY" -H "Content-Type: application/json" -d 
+        '{         
+          "canIpForward": false,
+          "confidentialInstanceConfig": {
+           "enableConfidentialCompute": false
+          },
+          "deletionProtection": false,
+          "description": "",
+          "disks": [
+            {
+              "autoDelete": true,
+              "boot": true,
+              "deviceName": "instance-20240930-102016",
+              "diskEncryptionKey": {},
+              "initializeParams": {
+                "diskSizeGb": "10",
+                "diskType": "pd-standard",
+                "labels": {},
+                "sourceImage": "cos-101-17162-528-49"
+              },
+              "mode": "READ_WRITE",
+              "type": "PERSISTENT"
+            },
+            {
+              "autoDelete": false,
+              "boot": false,
+              "deviceName": "tensorflow",
+              "interface": "SCSI",
+              "mode": "READ_ONLY",
+              "source": "tensorflow",
+              "type": "PERSISTENT"
+            }
+          ],
+          "displayDevice": {
+            "enableDisplay": false
+          },
+          "guestAccelerators": [],
+          "instanceEncryptionKey": {},
+          "keyRevocationActionType": "NONE",
+          "labels": {
+            "goog-ec-src": "vm_add-rest"
+          },
+          "machineType": "e2-micro",
+          "metadata": {
+            "items": [
+              {
+                "key": "metadata-file",
+                "value": "cloud-config"
+              }
+            ]
+          },
+          "name": "spin-1",
+          "networkInterfaces": [
+            {
+              "accessConfigs": [
+                {
+                  "name": "External NAT",
+                  "networkTier": "PREMIUM"
+                }
+              ],
+              "stackType": "IPV4_ONLY",
+              "subnetwork": "projects/feedmapping/regions/us-central1/subnetworks/default"
+            }
+          ],
+          "params": {
+             "resourceManagerTags": {}
+          },
+          "reservationAffinity": {
+            "consumeReservationType": "NO_RESERVATION"
+          },
+          "scheduling": {
+            "automaticRestart": true,
+            "onHostMaintenance": "MIGRATE",
+            "provisioningModel": "STANDARD"
+         },
+          "serviceAccounts": [
+            {
+              "email": "project-owner@feedmapping.iam.gserviceaccount.com",
+              "scopes": [
+                "https://www.googleapis.com/auth/cloud-platform"
+              ]
+            }
+          ],
+          "shieldedInstanceConfig": {
+            "enableIntegrityMonitoring": true,
+            "enableSecureBoot": false,
+            "enableVtpm": true
+          },
+          "tags": {
+            "items": [
+              "https-server"
+            ]
+          },
+          "zone": "us-central1-a"
+        }'
+        
     - name: 💎 Setup Gcloud
       if: runner.os == 'Windows'
       uses: 'google-github-actions/setup-gcloud@v2'
