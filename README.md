@@ -1,11 +1,5 @@
 ## [Landing Page Example](http://dstroot.github.io/landing-page-example)
 
-
-[![Dependency Status](https://david-dm.org/dstroot/landing-page-example.png)](https://david-dm.org/dstroot/landing-page-example)
-[![devDependency Status](https://david-dm.org/dstroot/landing-page-example/dev-status.png)](https://david-dm.org/dstroot/landing-page-example#info=devDependencies)
-
-
-
 ### Background
 
 I wanted to create a reasonably nice landing page as a learning process.  Feel free to use and abuse as you see fit.
