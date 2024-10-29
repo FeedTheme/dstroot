@@ -8,15 +8,18 @@ branding:
   color: 'green'
 
 inputs:
-  docker_hub_username:
+  hub_username:
     description: Username for Docker Hub
-    default: ${{ github.actor }}    
+    default: ${{ github.actor }}       
     required: true
-  docker_hub_password:
+  hub_password:
     description: Docker Hub authentication token
     required: true
-  docker_hub_token:
+  hub_token:
     description: Docker Hub authentication token
+    required: true
+  action_path:
+    description: Path to the dockerfile from which to build the image
     required: true
   credentials:
     description: 'The gcloud credentials'
@@ -44,7 +47,7 @@ inputs:
     required: false
     default: /tmp/.buildx-cache
   cache_dest:
-    description: Path for the docker cache destinationoh
+    description: Path for the docker cache destination
     required: false
     default: /tmp/.buildx-cache-new
   provider:
