@@ -23,7 +23,6 @@ inputs:
     required: true
   image_name:
     description: "Name for the container to be created. Example: nginx"
-    default: 'prime'
     required: false
   image_tag:
     description: Tag to use for the new image
