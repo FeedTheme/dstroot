@@ -1,10 +1,21 @@
-This section serve to study the internal (color) rotations of the [gluon fields](https://en.m.wikipedia.org/wiki/Gluon_field) associated with the coloured quarks in [quantum chromodynamics](https://en.m.wikipedia.org/wiki/Quantum_chromodynamics) of [colours of the gluon](https://en.m.wikipedia.org/wiki/Gluon#Eight_gluon_colours). 
+---
+sort: 24
+spin: 33
+span: 
+suit: 131
+description: 
+---
+# Chromodynamics (lexer)
+
+Quantum Chromodynamics ([QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics)) is the theory of the strong interactions that glue together quarks inside protons and neutrons, the constituents of ordinary matter.
 
 {% include list.liquid all=true %}
 
-A gauge colour rotation is _[a spacetime-dependent SU(3)](https://en.m.wikipedia.org/wiki/Special_unitary_group#The_group_SU(3))_ group element. They span the [Lie algebra](https://github.com/lkpetrich/Semisimple-Lie-Algebras) of the SU(3) group in the defining representation.
+Is QCD a confining theory ? This is one of the fundamental questions and constitutes one of the famous [Millennium Prize problems](http://www.claymath.org/millennium-problems).
 
 ## Feynman diagram
+
+This section serve to study the internal (color) rotations of the [gluon fields](https://en.m.wikipedia.org/wiki/Gluon_field) associated with the coloured quarks in [quantum chromodynamics](https://en.m.wikipedia.org/wiki/Quantum_chromodynamics) of [colours of the gluon](https://en.m.wikipedia.org/wiki/Gluon#Eight_gluon_colours). 
 
 ```note
 In this Feynman diagram, an electron (e−) and a positron (e+) annihilate, producing a photon (γ, represented by the blue sine wave) that becomes a quark–antiquark pair (quark q, antiquark q̄), after which the antiquark radiates a gluon (g, represented by the green helix).
@@ -12,19 +23,51 @@ In this Feynman diagram, an electron (e−) and a positron (e+) annihilate, prod
 
 [![default](https://user-images.githubusercontent.com/8466209/224185881-0d1c448e-ee04-4ad2-87e2-1da3c864643c.png)](https://en.wikipedia.org/wiki/Feynman_diagram)
 
-![quark-quark_scattering](https://github.com/eq19/eq19.github.io/assets/8466209/06a2f256-191f-438b-aa24-0c8d75bb254e)
+Like electromagnetism ([QED](https://www.eq19.com/maps/exponentiation/span17/)), it is a gauge theory, where the force between charged particles originates in the exchange of intermediate massless vector bosons: _one photon in the case of QED and eight gluons in the case of QCD_.
 
-![SmallBookPile](https://github.com/eq19/eq19.github.io/assets/8466209/0971f647-c8f7-4fc7-8ec6-0a11e1767773)
+```note
+QCD is extremely predictive:
+- One gauge coupling constant, six quark masses and the so-called theta vacuum angle are the only free parameters from which a plethora of phenomena can in principle be predicted, such as the spectrum of hadrons and their interactions.
+- The famous theta vacuum angle is the only source of CP violation (asymmetry between matter and antimatter) of the strong interactions, but has been constrained from the measurement of the neutron electric dipole moment to be unnaturally small.
 
-So basically  there is a basic transformation between ***[addition](https://www.eq19.com/addition/)*** of `3 + 4 = 7` in to their ***[multiplication](https://www.eq19.com/multiplication/)*** of `3 x 4 = 12` while the 7 vs 12 will be treated as ***exponentiation***.
+The fact that this parameter is so small is the so-called strong CP problem.
+```
 
-![images6-ezgif com-resize](https://github.com/eq19/eq19.github.io/assets/8466209/9831d77d-9c18-4691-b0be-5bb244509368)
+![quark-quark_scattering](https://github.com/eq19/maps/assets/8466209/06a2f256-191f-438b-aa24-0c8d75bb254e)
+
+The gauge symmetry of QCD is based on the special unitary group, SU(3), and the associated charge is called color. Quarks carry three basic charges or colors: red, blue and green.
+
+```note
+In spite of the simplicity of the QCD Lagrangian, quantitative predictions are highly non trivial.
+- Indeed the colored quarks or gluons have not been observed in isolation.
+- This fact is referred to as confinement, an essential property of QCD which implies that only states that carry no color charge can propagate freely.
+
+The neutral composites that we observe in nature are the hadrons: mesons composed of a quark and an antiquark, or baryons composed of three quarks.
+```
+
+![SmallBookPile](https://github.com/eq19/maps/assets/8466209/0971f647-c8f7-4fc7-8ec6-0a11e1767773)
+
+A gauge colour rotation is _[a spacetime-dependent SU(3)](https://en.m.wikipedia.org/wiki/Special_unitary_group#The_group_SU(3))_ group element. They span the [Lie algebra](https://github.com/lkpetrich/Semisimple-Lie-Algebras) of the SU(3) group in the defining representation.
+
+```note
+One of the more mature applications of LQCD simulations is precisely the study of confinement and asymptotic freedom. Simulations have demonstrated that the energy between a quark and antiquark pair increases linearly with their separation.
+- The running of the QCD gauge coupling has been also studied beyond perturbation theory confirming the property of asymptotic freedom and providing the most accurate determination of the QCD coupling strength, as can be seen from the upper-right figure.
+- Nevertheless, there are still important limitations in lattice simulations. One of the major difficulties has to do with the treatment of the quark degrees of freedom. It is very difficult to maintain the chiral properties of the continuum action, which is mandatory to simulate the light quarks. Very important progress has been made in the last decade on this problem. Fermion discretizations that can maintain chiral properties have been found (domain wall fermions and overlap fermions), and variants of the most cost-effective Wilson fermions with improved chiral behaviour, the so-called twisted-mass Wilson fermions, have made the simulation of the chiral regime feasible.
+- Furthermore important algorithmic improvements (like Schwarz preconditioning, deflation acceleration, trivializing maps and the Wilson flow and open boundary conditions and twisted-mass reweighting) have been necessary to incorporate efficiently the contribution of quarks to the path integral, which represents the quantum effects of virtual quark-antiquark pairs. State-of-the-art simulations nowadays include the most relevant quark effects: those of the two lightest u and d quarks (Nf=2 simulations), those plus the strange quark (Nf=2+1 simulations) and more recently also the charm quark (Nf=2+1+1 simulations) has been included.
+- The lattice approach is not universally applicable but has been used to compute from first principles many physical quantities beyond the QCD coupling constant, including the hadron mass spectrum, the quark condensate, quark masses, decay constants and form factors for leptonic and semileptonic decays.
+- Also the lattice approach is mandatory in computing weak matrix elements, such as the K or B-parameters of meson-antimeson oscillations that are very important for the precise determination of the elements of the CKM mixing matrix, and for performing consistency checks of unitarity and searching possible physics beyond the SM.
+- Another important contribution of lattice QCD is the computation of the moments of parton and gluon distribution functions, essential for the calculation of cross sections in the LHC and Tevatron, as well as the isosinglet and strange sigma terms that play a role in the direct searches for dark matter.
+
+The lattice is also the method to study QCD in extreme conditions (high temperature and density) such as those that would be found in the early Universe or in astrophysical objects such as neutron stars _([IFIC](https://webific.ific.uv.es/web/en/content/lattice-qcd-numerical-approach-strong-force))_.
+```
+
+![images6-ezgif com-resize](https://github.com/eq19/maps/assets/8466209/9831d77d-9c18-4691-b0be-5bb244509368)
 
 ## Matrix Scheme
 
 Quarks have three colors. Color is to the strong interaction as electric charge is to the electromagnetic interaction.
 
-![quantum-chromodynamics-1-320](https://github.com/eq19/eq19.github.io/assets/8466209/47786899-e7a8-4388-9d20-f0f7805e1ea9)
+![quantum-chromodynamics-1-320](https://github.com/eq19/maps/assets/8466209/47786899-e7a8-4388-9d20-f0f7805e1ea9)
 
 ```liquid
 red   anti-red,   red   anti-blue,   red   anti-green,
@@ -57,11 +100,11 @@ Fermions and bosons—fermions have quantum spin = 1/2.
 The (u, c, t) quarks have electric charge 2/3 while the (d, s, b) quarks have electric charge −1/3. _([IntechOpen](https://www.intechopen.com/chapters/71535))_
 ```
 
-![UF1](https://github.com/eq19/eq19.github.io/assets/8466209/649939c3-ad6d-427f-8ea6-6edb94229e08)
+![UF1](https://github.com/eq19/maps/assets/8466209/649939c3-ad6d-427f-8ea6-6edb94229e08)
 
 Interactions in quantum chromodynamics are strong, so perturbation theory does not work. Therefore, Feynman diagrams used for quantum electrodynamics cannot be used.
 
-![UF2](https://github.com/eq19/eq19.github.io/assets/8466209/4d602e7a-ac0c-4c36-9f3f-741c40af5249)
+![UF2](https://github.com/eq19/maps/assets/8466209/4d602e7a-ac0c-4c36-9f3f-741c40af5249)
 
 Bosons have quantum spin = 1: photon, quantum of the electromagnetic field; gluon, quantum of the strong field; and W and Z, weak field quanta, which we do not need.
 
@@ -94,7 +137,7 @@ The subclasses of partitions systemically develops characters similar to the dis
 ***Unlike the strong force, the residual strong force diminishes with distance, and does so rapidly***. The decrease is approximately as a negative exponential power of distance, though there is no simple expression known for this; see [Yukawa potential](https://en.wikipedia.org/wiki/Yukawa_potential). The rapid decrease with distance of the attractive residual force and the less rapid decrease of the repulsive electromagnetic force acting between protons within a nucleus, causes the instability of larger atomic nuclei, such as all those with [atomic numbers](https://en.wikipedia.org/wiki/Atomic_number) larger than 82 (the element lead). _([Wikipedia](https://en.wikipedia.org/wiki/Strong_interaction#Between_hadrons))_
 ```
 
-![gifman](https://github.com/eq19/eq19.github.io/assets/8466209/0f1df87d-b377-4903-b69c-8e41b0b72f82)
+![gifman](https://github.com/eq19/maps/assets/8466209/0f1df87d-b377-4903-b69c-8e41b0b72f82)
 
 ```note
 Feynman diagram for the same process as in the animation, with the individual quark constituents shown, to illustrate how the fundamental strong interaction gives rise to the nuclear force. Straight lines are quarks, while ***multi-colored loops are gluons (the carriers of the fundamental force). Other gluons, which bind together the proton, neutron, and pion "in-flight", are not shown***. The π⁰ pion contains an anti-quark, shown to travel in the opposite direction, as per the Feynman–Stueckelberg interpretation. _([Wikipedia](https://en.wikipedia.org/wiki/Pion))_
@@ -143,20 +186,26 @@ From the 50 we gonna split the 15 by _bilateral 9 sums_ resulting 2 times 15+9=2
 ```note
 Consider the evidence: scattering experiments strongly suggest a meson to be composed of a quark anti-quark pair and a baryon to be composed of three quarks. The famous 3R experiment also suggests that whatever force binds the quarks together has 3 types of charge (called the 3 colors).
 - Now, into the realm of theory: we are looking for an internal symmetry having a 3-dimensional representation which can give rise to a neutral combination of 3 particles (otherwise no color-neutral baryons).
--  The simplest such statement is that a linear combination of each type of charge (red + green + blue) must be neutral, and following William of Occam we believe that the simplest theory describing all the facts must be the correct one.
--  We now postulate that the particles carrying this force, called gluons, must occur in color anti-color units (i.e. nine of them).
+- The simplest such statement is that a linear combination of each type of charge (red + green + blue) must be neutral, and following William of Occam we believe that the simplest theory describing all the facts must be the correct one.
+- We now postulate that the particles carrying this force, called gluons, must occur in color anti-color units (i.e. nine of them).
 - BUT, red + blue + green is neutral, which means that the linear combination red anti-red + blue anti-blue + green anti-green must be non-interacting, since otherwise the colorless baryons would be able to emit these gluons and interact with each other via the strong force—contrary to the evidence.  So, there can only be ***EIGHT gluons***.
 
 This is just Occam's razor again: a hypothetical particle that can't interact with anything, and therefore can't be detected, doesn't exist. The simplest theory describing the above is the SU(3) one with the gluons as the basis states of the Lie algebra.  That is, gluons transform in the adjoint representation of SU(3), which is 8-dimensional. _([Physics FAQ](https://math.ucr.edu/home/baez/physics/ParticleAndNuclear/gluons.html))_
 ```
 
-![0_kGdCmWqcFG_s8fIq](https://github.com/eq19/eq19.github.io/assets/8466209/dbb91090-dcb6-4ad9-bcb6-427054eab4dc)
+![0_kGdCmWqcFG_s8fIq](https://github.com/eq19/maps/assets/8466209/dbb91090-dcb6-4ad9-bcb6-427054eab4dc)
 
 Please note that we are not talking about the number of 19 which is the 8th prime. Here we are talking about ***19th*** as sequence follow backward position of 19 as per the scheme below where the 19th prime which is 67 goes 15 from 66 to 51. 
 
+```note
+- In [quantum field theory](https://en.wikipedia.org/wiki/Quantum_field_theory), the theta vacuum is the semi-classical [vacuum state](https://en.wikipedia.org/wiki/Quantum_vacuum_state) of non-[abelian](https://en.wikipedia.org/wiki/Abelian_group) [Yang–Mills theories](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory) specified by the vacuum angle θ that arises when the state is written as a [superposition](https://en.wikipedia.org/wiki/Quantum_superposition) of an infinite set of [topologically](https://en.wikipedia.org/wiki/Topology) distinct vacuum states.
+- The dynamical effects of the vacuum are captured in the [Lagrangian formalism](https://en.wikipedia.org/wiki/Lagrangian_mechanics) through the presence of a θ-term which in [quantum chromodynamics](https://en.wikipedia.org/wiki/Quantum_chromodynamics) leads to the [fine tuning](https://en.wikipedia.org/wiki/Fine-tuning_(physics)) problem known as the [strong CP problem](https://en.wikipedia.org/wiki/Strong_CP_problem).
+- It was discovered in 1976 by [Curtis Callan](https://en.wikipedia.org/wiki/Curtis_Callan), [Roger Dashen](https://en.wikipedia.org/wiki/Roger_Dashen), and [David Gross](https://en.wikipedia.org/wiki/David_Gross),[[1]](https://en.wikipedia.org/wiki/Theta_vacuum#cite_note-1) and independently by [Roman Jackiw](https://en.wikipedia.org/wiki/Roman_Jackiw) and Claudio Rebbi  _([Wikipedia](https://en.wikipedia.org/wiki/Theta_vacuum))_.
+```
+
 ***π(1000) = π(Φ x 618) = 168 = 100 + 68 = (50x2) + (66+2) = 102 + 66***
 
-![960x0](https://github.com/eq19/eq19.github.io/assets/8466209/a21fb47a-c4a7-43d4-a65f-88bfd353d7da)
+![960x0](https://github.com/eq19/maps/assets/8466209/a21fb47a-c4a7-43d4-a65f-88bfd353d7da)
 
 ```txt
 $True Prime Pairs:
@@ -188,7 +237,7 @@ In number theory, the [partition functionp(n)](https://gist.github.com/eq19/e983
 [Young diagrams](https://commons.wikimedia.org/wiki/Category:Young_diagrams) associated to the partitions of the positive integers 1 through 8. They are arranged so that images under the reflection about the main diagonal of the square are conjugate partitions _([Wikipedia](https://en.wikipedia.org/wiki/Partition_(number_theory)))_.
 ```
 
-![Hadron_colors svg](https://github.com/eq19/eq19.github.io/assets/8466209/1b1e5d20-049e-48b6-9161-d8dce3d19deb)
+![Hadron_colors svg](https://github.com/eq19/maps/assets/8466209/1b1e5d20-049e-48b6-9161-d8dce3d19deb)
 
 ```note
 In mathematics, orthonormality typically implies a norm which has a value of unity (1). Gell-Mann matrices, however, ***are normalized to a value of 2***.
@@ -223,13 +272,4 @@ $True Prime Pairs:
                     Δ                 Δ                 Δ       
 ```
 
-![The-PMNS-Neutrino-Mixing-Matrix-The-non-diagonal-structure-and-the-smallness-of-the-U-e3](https://github.com/eq19/eq19.github.io/assets/8466209/4f88d01a-f0e5-4646-8e28-2994a6a13c94)
-![images (8)](https://github.com/eq19/eq19.github.io/assets/8466209/cf192c00-aa54-4ea2-8702-2ec51ca03155)
-![16-0054-07 hr-web](https://github.com/eq19/eq19.github.io/assets/8466209/98112bc5-ca88-4c97-8ee7-87fc0d59211f)
-![images (12)](https://github.com/eq19/eq19.github.io/assets/8466209/bfacddf4-73db-4943-90fd-3219441d1abb)
-![1-neutrino-oscillation-l](https://github.com/eq19/eq19.github.io/assets/8466209/8216ea51-eebd-4b25-82c2-b4f11e9ecc3e)
-![](https://github.com/eq19/eq19.github.io/assets/8466209/f97a0e7e-af2c-402c-ae25-2570aab8f467)
-
-![](https://github.com/eq19/eq19.github.io/assets/8466209/938e3517-d66e-4f37-8488-f18a8b522f14)
-
-
+So basically  there is a basic transformation between ***[addition](https://www.eq19.com/addition/)*** of `3 + 4 = 7` in to their ***[multiplication](https://www.eq19.com/multiplication/)*** of `3 x 4 = 12` while the 7 vs 12 will be treated as ***exponentiation***.

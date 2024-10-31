@@ -1,3 +1,12 @@
+---
+sort: 39
+spin: 68
+span: 
+suit: 
+description: 
+---
+# Wormhole Theory (span 1)
+
 This section serve to study the internal (color) rotations of the [gluon fields](https://en.m.wikipedia.org/wiki/Gluon_field) associated with the coloured quarks in [quantum chromodynamics](https://en.m.wikipedia.org/wiki/Quantum_chromodynamics) of [colours of the gluon](https://en.m.wikipedia.org/wiki/Gluon#Eight_gluon_colours). 
 
 {% include list.liquid all=true %}
@@ -40,7 +49,7 @@ Leptons may be assigned the six flavour quantum numbers: electron number, muon n
 - Therefore, such flavour quantum numbers are not of great use. A separate quantum number for each [generation](https://en.wikipedia.org/wiki/Generation_(particle_physics)) is more useful: electronic lepton number (+1 for electrons and electron neutrinos), muonic lepton number (+1 for muons and muon neutrinos), and tauonic lepton number (+1 for tau leptons and tau neutrinos).
 - However, even these numbers are not absolutely conserved, as neutrinos of different generations can [mix](https://en.wikipedia.org/wiki/Quantum_superposition); that is, a neutrino of one flavour can [transform into another flavour](https://en.wikipedia.org/wiki/Neutrino_oscillation).
 
-[![PMNS Matriks](https://github.com/eq19/eq19.github.io/assets/8466209/da339619-8e78-4453-9eac-f1b5eebe547d)](https://en.wikipedia.org/wiki/Pontecorvo%E2%80%93Maki%E2%80%93Nakagawa%E2%80%93Sakata_matrix)
+[![PMNS Matriks](https://github.com/eq19/maps/assets/8466209/da339619-8e78-4453-9eac-f1b5eebe547d)](https://en.wikipedia.org/wiki/Pontecorvo%E2%80%93Maki%E2%80%93Nakagawa%E2%80%93Sakata_matrix)
 
 The strength of such mixings is specified by a matrix called the [Pontecorvo–Maki–Nakagawa–Sakata matrix](https://en.wikipedia.org/wiki/Pontecorvo%E2%80%93Maki%E2%80%93Nakagawa%E2%80%93Sakata_matrix) (PMNS matrix). _([Wikipedia](https://en.wikipedia.org/wiki/Flavour_(particle_physics)))_
 ```
@@ -91,7 +100,7 @@ layer | node | sub |  i  |  f
 
 While there are ***nine (9) possible*** combinations of color/anti-color pairs, due to symmetry considerations one of these combinations is eliminated. A gluon can effectively carry one of ***eight (8) possible*** color/anti-color combinations.
 
-[![color charge and confinement](https://github.com/eq19/eq19.github.io/assets/8466209/5c0f29a2-b3ac-4f93-90bf-1b5bd7bf9558)](https://fafnir.phyast.pitt.edu/particles/color.html)
+[![color charge and confinement](https://github.com/eq19/maps/assets/8466209/5c0f29a2-b3ac-4f93-90bf-1b5bd7bf9558)](https://fafnir.phyast.pitt.edu/particles/color.html)
 
 These [matrices](https://mathworld.wolfram.com/Matrix.html) are particularly important in both mathematics and physics. For example, these matrices (and their generalizations) are important in Lie theory.
 
@@ -166,10 +175,10 @@ The action of C⊗O on itself can be seen to generate a ***64-complex-dimensiona
 - The 64-dimensional octonionic chain algebra splits into ***two sets of SU (3) generators of the form iΛν and −iΛ * ν * , six SU (3) singlets j , six triplets q k , and their complex conjugates***.
 - These objects are sectioned off above into four quadrants according to their forms: νaν, ν * aν, νaν * and ν * aν * for a in the chain algebra.
 
-Transforming particles into anti-particles, and vice versa, requires only the complex conjugate ***i → −i*** in our formalism. _([Standard Model from an algebra - pdf](https://github.com/eq19/eq19.github.io/files/14387513/Standard_model_physics_from_an_algebra.pdf))_
+Transforming particles into anti-particles, and vice versa, requires only the complex conjugate ***i → −i*** in our formalism. _([Standard Model from an algebra - pdf](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf))_
 ```
 
-[![The-64-dimensional-octonionic-chain-algebra-splits-into-two-sets-of-SU-3-generators](https://github.com/eq19/eq19.github.io/assets/8466209/9fb5e061-0e82-4c0d-980d-528932ff1f3f)](https://github.com/eq19/eq19.github.io/files/14387513/Standard_model_physics_from_an_algebra.pdf)
+[![The-64-dimensional-octonionic-chain-algebra-splits-into-two-sets-of-SU-3-generators](https://github.com/eq19/maps/assets/8466209/9fb5e061-0e82-4c0d-980d-528932ff1f3f)](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf)
 
 This quark model underlies [flavor SU(3)](https://en.wikipedia.org/wiki/Flavour_(particle_physics)), or [Eightfold Way](https://en.wikipedia.org/wiki/Eightfold_way_(physics)), the successful classification scheme organizing the large number of lighter [hadrons](https://en.wikipedia.org/wiki/Hadron)
 
@@ -185,12 +194,12 @@ The [pseudoscalar](https://en.wikipedia.org/wiki/pseudoscalar) [meson](https://e
 Figure below shows the application of this decomposition to the mesons. _([Wikipedia](https://en.wikipedia.org/wiki/Quark_model))_
 ```
 
-[![8foldway svg](https://github.com/eq19/eq19.github.io/assets/8466209/5c3e5114-e89b-40ad-b550-62b39a2963dd)](https://en.wikipedia.org/wiki/Quark_model)
+[![8foldway svg](https://github.com/eq19/maps/assets/8466209/5c3e5114-e89b-40ad-b550-62b39a2963dd)](https://en.wikipedia.org/wiki/Quark_model)
 
 The symmetrical states can couple to a pair of pseudoscalar mesons in a wave, and hence their widths and masses are strongly influenced by these couplings.
 
 ```note
-In order to be _[four-spinors](https://en.wikipedia.org/wiki/Dirac_spinor#Four-spinor_for_particles)_ like the electron and other [lepton](https://en.wikipedia.org/wiki/Lepton) components, there must be one quark component for every combination of [flavour](https://en.wikipedia.org/wiki/Flavor_(particle_physics)) and [colour](https://en.wikipedia.org/wiki/Color_charge), _bringing the total to 24 (3 for charged leptons, 3 for neutrinos, and 2·3·3 = 18 for quarks). Each of these is a four (4) component [bispinor](https://en.wikipedia.org/wiki/Bispinor), for a total of [96 complex-valued components](https://github.com/eq19/eq19.github.io/files/13796986/NEUTRINOS_Mysterious_Particles_with_Fascinating_Fe.pdf) for the fermion field_. _([Wikipedia](https://en.wikipedia.org/wiki/Mathematical_formulation_of_the_Standard_Model))_
+In order to be _[four-spinors](https://en.wikipedia.org/wiki/Dirac_spinor#Four-spinor_for_particles)_ like the electron and other [lepton](https://en.wikipedia.org/wiki/Lepton) components, there must be one quark component for every combination of [flavour](https://en.wikipedia.org/wiki/Flavor_(particle_physics)) and [colour](https://en.wikipedia.org/wiki/Color_charge), _bringing the total to 24 (3 for charged leptons, 3 for neutrinos, and 2·3·3 = 18 for quarks). Each of these is a four (4) component [bispinor](https://en.wikipedia.org/wiki/Bispinor), for a total of [96 complex-valued components](https://github.com/eq19/maps/files/13796986/NEUTRINOS_Mysterious_Particles_with_Fascinating_Fe.pdf) for the fermion field_. _([Wikipedia](https://en.wikipedia.org/wiki/Mathematical_formulation_of_the_Standard_Model))_
 ```
 
 ***Eightfold Way = 8 × (6®+6®) = 96®***
@@ -263,12 +272,12 @@ Why do we see certain types of strongly interacting elementary particles and not
 - Mesons and baryons would then have integral charges. Mesons such as qqq¯q¯ and baryons such as qqqqq¯ would also have integral charges. Why weren’t they seen?
 - They have now been seen, but only with additional heavy quarks and under conditions which tell us a lot about the strong interactions and how they manifest themselves.
 
-[![Beyond the standard model](https://github.com/eq19/eq19.github.io/assets/8466209/0d5cee08-92b4-48e8-9b50-e55312a5736f)](https://github.com/eq19/eq19.github.io/files/13793234/the-physics-of-the-standard-model-and-beyond.pdf)
+[![Beyond the standard model](https://github.com/eq19/maps/assets/8466209/0d5cee08-92b4-48e8-9b50-e55312a5736f)](https://github.com/eq19/maps/files/13793234/the-physics-of-the-standard-model-and-beyond.pdf)
 
-The present article describes recent progress in our understanding of such “exotic” mesons and baryons. _([Multiquark States - pdf](https://github.com/eq19/eq19.github.io/files/14322719/1711.10626.pdf))_
+The present article describes recent progress in our understanding of such “exotic” mesons and baryons. _([Multiquark States - pdf](https://github.com/eq19/maps/files/14322719/1711.10626.pdf))_
 ```
 
-[![structure-of-composite-particles-l](https://github.com/eq19/eq19.github.io/assets/8466209/2966004c-0c0d-4bca-85a9-1217d6b0237b)](https://github.com/eq19/eq19.github.io/files/14322719/1711.10626.pdf)
+[![structure-of-composite-particles-l](https://github.com/eq19/maps/assets/8466209/2966004c-0c0d-4bca-85a9-1217d6b0237b)](https://github.com/eq19/maps/files/14322719/1711.10626.pdf)
 
 There are higher dimensional numbers besides complex numbers. The classical octet [meson](https://en.wikipedia.org/wiki/meson) is now nonet. Thus consequently it would go higher than E8.
 
@@ -276,7 +285,7 @@ There are higher dimensional numbers besides complex numbers. The classical octe
 These are called hypercomplex numbers, such as, quaternions (4D), octonions (8D), sedenions (16D), pathions (32D), chingons (64D), routons (128D), and voudons (256D).  These names were coined by Robert P.C. de Marrais and Tony Smith.  It is an alternate naming system providing relief from the difficult Latin names, such as: trigintaduonions (32D), sexagintaquattuornions (64D), centumduodetrigintanions (128D), and ducentiquinquagintasexions (256D). _([Wordpress.com](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/))_ 
 ```
 
-[![4 types of numbers](https://github.com/eq19/eq19.github.io/assets/8466209/5b6d06cf-e7b3-442c-b5d8-0818a2eb470c)](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/)
+[![4 types of numbers](https://github.com/eq19/maps/assets/8466209/5b6d06cf-e7b3-442c-b5d8-0818a2eb470c)](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/)
 
 The _[three (3) layers](https://www.eq19.com/identition/span12/#three-3-layers)_ as explained above is in the 1st-term of our discussed structure. So the next step is the 2nd-term which ***goes to the four (4)*** dimensional space-time.
 
@@ -301,7 +310,7 @@ Throughout his life, Einstein published hundreds of books and articles. He publi
 Comparatively, four-dimensional space has an extra coordinate axis, orthogonal to the other three, which is usually labeled w to describe the two additional cardinal directions of ***up toward*** and ***down from***, respectively. 
 
 ```note
-On the other hand, one does not yet have a mathematically complete example of a quantum gauge theory in [4D Space vs Time](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap#Background), nor even a precise definition of quantum gauge theory in four dimensions. Will this change in the 21st century? We hope so! _([Clay Institute's - Yang Mills Official problem description](https://github.com/eq19/eq19.github.io/files/14056642/yangmills.pdf))_.
+On the other hand, one does not yet have a mathematically complete example of a quantum gauge theory in [4D Space vs Time](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap#Background), nor even a precise definition of quantum gauge theory in four dimensions. Will this change in the 21st century? We hope so! _([Clay Institute's - Yang Mills Official problem description](https://github.com/eq19/maps/files/14056642/yangmills.pdf))_.
 ```
 
 ```txt
@@ -359,7 +368,7 @@ Equivalently, they are the linear transformations fixing that hyperboloid of two
 ***And when n = 24, we get a very beautiful discrete subgroup, namely the automorphism group of the II(25,1)*** lattice intimately related to the [Leech lattice](http://cp4space.wordpress.com/2013/09/12/leech-lattice/). _([Complex Projective 4-Space](https://cp4space.hatsya.com/2013/10/10/what-should-this-group-be-called/))_
 ```
 
-[![spacetime](https://github.com/eq19/eq19.github.io/assets/8466209/ff442f14-c1c4-4e87-a3e5-8bc157d20e46)](https://cp4space.hatsya.com/2013/10/10/what-should-this-group-be-called/)
+[![spacetime](https://github.com/eq19/maps/assets/8466209/ff442f14-c1c4-4e87-a3e5-8bc157d20e46)](https://cp4space.hatsya.com/2013/10/10/what-should-this-group-be-called/)
 
 This diagram is representing groupings (leptons, quarks, weak-force bosons) with 6 quarks in a way that parallels the 6 leptons.
 
@@ -374,22 +383,22 @@ This diagram is representing groupings (leptons, quarks, weak-force bosons) with
 ***In a diagram at the top left, this 6-dimensional space is shown to be curved***. In another diagram at the bottom right, we see two waves that are perpendicular to each other, representing the motion of a particle in a 'Dirac harmonic oscillator' – a concept in quantum mechanics. _([Physics In History](https://twitter.com/PhysInHistory/status/1739158977089274165))_
 ```
 
-[![Dirac_bispinor_6D](https://github.com/eq19/eq19.github.io/assets/8466209/093efd9e-85ab-4caf-87e5-8987436fa049)](https://github.com/eq19/eq19.github.io/files/13791680/Zitterbewegung_in_Quantum_Mechanics_a_re.pdf)
+[![Dirac_bispinor_6D](https://github.com/eq19/maps/assets/8466209/093efd9e-85ab-4caf-87e5-8987436fa049)](https://github.com/eq19/maps/files/13791680/Zitterbewegung_in_Quantum_Mechanics_a_re.pdf)
 
 While the Dirac CP-violating phase δℓ can be determined in the future, how to probe or constrain ***the Majorana CP-violating phases ρ and σ is still an open question***
 
 ```note
 Four of the dimensions are the usual four of spacetime. The six (or perhaps seven) extra dimensions are rolled up to be almost unobservable.
-- First, let's see why they exist at all. If [N=8 Supersymmetry](https://en.wikipedia.org/wiki/N=8_Supergravity) is correct the universe must be 10 or 11 dimensional.![extra dimensions](https://github.com/eq19/eq19.github.io/assets/8466209/dc2fca4c-26be-4e52-b8e4-bf8b9ac46835)
-- Let D be the actual dimensionality of space time. Let d be the apparent dimensionality. (We know d = 4, but let's think generally.) Then there is a nice relation between D, d and N.[![Dimensional-reduction-of-supergravity-from-11D-to-4D-over-a-space-like-or-time-like](https://github.com/eq19/eq19.github.io/assets/8466209/9fb715b2-6ab2-45e6-9ae2-7ccd1e1cf38e)
+- First, let's see why they exist at all. If [N=8 Supersymmetry](https://en.wikipedia.org/wiki/N=8_Supergravity) is correct the universe must be 10 or 11 dimensional.![extra dimensions](https://github.com/eq19/maps/assets/8466209/dc2fca4c-26be-4e52-b8e4-bf8b9ac46835)
+- Let D be the actual dimensionality of space time. Let d be the apparent dimensionality. (We know d = 4, but let's think generally.) Then there is a nice relation between D, d and N.[![Dimensional-reduction-of-supergravity-from-11D-to-4D-over-a-space-like-or-time-like](https://github.com/eq19/maps/assets/8466209/9fb715b2-6ab2-45e6-9ae2-7ccd1e1cf38e)
 ](https://www.researchgate.net/publication/273788549_10D_to_4D_Euclidean_Supergravity_over_a_Calabi-Yau_three-fold)
-- It follows from the number of spinor dimensions required by the Dirac equation, which is  The s mean round down to the nearest whole number. So plugging in d=4 and N=8 (which is the highest value N can have) we get D = 10 or 11. String theory has D=10, M-theory has D=11.[![Dirac, Weyl, and Majorana in 4D](https://github.com/eq19/eq19.github.io/assets/8466209/544aefc2-7ba5-4623-9d99-51febf61efb0)](https://www.mdpi.com/2218-1997/6/8/111)
+- It follows from the number of spinor dimensions required by the Dirac equation, which is  The s mean round down to the nearest whole number. So plugging in d=4 and N=8 (which is the highest value N can have) we get D = 10 or 11. String theory has D=10, M-theory has D=11.[![Dirac, Weyl, and Majorana in 4D](https://github.com/eq19/maps/assets/8466209/544aefc2-7ba5-4623-9d99-51febf61efb0)](https://www.mdpi.com/2218-1997/6/8/111)
 - One dimension is reserved for time, leaving space with 9 or 10 dimensions.
 
 We don't see 6 (or 7) of these extra dimensions because - we assume - they are [rolled up ](https://en.m.wikipedia.org/wiki/Compactification_(physics))a la [Kaluza–Klein theory](https://en.wikipedia.org/wiki/Kaluza%E2%80%93Klein_theory) into a 6 dimensional [Calabi–Yau space](https://en.m.wikipedia.org/wiki/Calabi%E2%80%93Yau_manifold)
 ```
 
-![main-qimg-f8cd59c3b8504bdaab0977ee2704ce0e-ezgif com-webp-to-png-converter](https://github.com/eq19/eq19.github.io/assets/8466209/a55d8ed9-af8c-48ae-ae82-d9f83a5c92f7)
+![main-qimg-f8cd59c3b8504bdaab0977ee2704ce0e-ezgif com-webp-to-png-converter](https://github.com/eq19/maps/assets/8466209/a55d8ed9-af8c-48ae-ae82-d9f83a5c92f7)
 
 The most promising candidate is [SO(10)](https://en.wikipedia.org/wiki/SO(10)) but it does not contain any [exotic fermions](https://en.wikipedia.org/Exotic_fermion) (i.e. additional fermions besides the Standard Model and the right-handed neutrino), and it unifies each generation into a single [irreducible representation](https://en.wikipedia.org/wiki/Irreducible_representation).
 
@@ -406,7 +415,7 @@ It has been long known that the SO(10) model is free from all perturbative local
 
 | Syntax | Description | Last |
 | ----------- | ----------- | ---- |
-| ![download (3)](https://github.com/eq19/eq19.github.io/assets/8466209/69668b65-0dae-41c1-b9a4-f4ff5dd67aa4) | ![download (4)](https://github.com/eq19/eq19.github.io/assets/8466209/b15fab38-3ac0-4f11-9824-d995ab9aa5fe) | ![download (2)](https://github.com/eq19/eq19.github.io/assets/8466209/a4c1a97b-6580-4889-bd37-abe72ce5a294) |
+| ![download (3)](https://github.com/eq19/maps/assets/8466209/69668b65-0dae-41c1-b9a4-f4ff5dd67aa4) | ![download (4)](https://github.com/eq19/maps/assets/8466209/b15fab38-3ac0-4f11-9824-d995ab9aa5fe) | ![download (2)](https://github.com/eq19/maps/assets/8466209/a4c1a97b-6580-4889-bd37-abe72ce5a294) |
 
 In the spin-foam formalism, the [Barrett–Crane model](https://en.wikipedia.org/wiki/Barrett%E2%80%93Crane_model), which was for a while the most promising state-sum model of 4D Lorentzian quantum gravity
 
@@ -414,16 +423,16 @@ In the spin-foam formalism, the [Barrett–Crane model](https://en.wikipedia.org
 It was [based on representations](https://www.eq19.com/addition/5.html#power-of-magnitude) of the noncompact groups SO(3,1) or SL(2,C), so the spin foam faces (and hence the spin network edges) were labelled by positive real numbers as opposed to the half-integer labels of SU(2) spin networks. _([Wikipedia](https://en.wikipedia.org/wiki/Lorentz_invariance_in_loop_quantum_gravity))_
 ```
 
-[![41114_2016_3_Equ168](https://github.com/eq19/eq19.github.io/assets/8466209/561fe8cb-65f6-4050-ab54-3b45392ac897)](https://link.springer.com/article/10.12942/lrr-2013-3)
+[![41114_2016_3_Equ168](https://github.com/eq19/maps/assets/8466209/561fe8cb-65f6-4050-ab54-3b45392ac897)](https://link.springer.com/article/10.12942/lrr-2013-3)
 
-![41114_2016_3_Equ115](https://github.com/eq19/eq19.github.io/assets/8466209/db04e836-0f19-48a1-8f1f-cc48c9a52a1b)
+![41114_2016_3_Equ115](https://github.com/eq19/maps/assets/8466209/db04e836-0f19-48a1-8f1f-cc48c9a52a1b)
 
 The field content of this theory is the massless N = 8 supergravity which comprises the graviton, 8 gravitinos, _[28 vector fields](https://en.wikipedia.org/wiki/N_%3D_8_supergravity)_.
 
 ```note
 In four spacetime dimensions, N = 8 supergravity, speculated by [Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking), is the most [symmetric](https://en.wikipedia.org/wiki/Symmetric) quantum field theory which ***involves gravity*** and a finite number of fields.
 - It can be found from a [dimensional reduction](https://www.eq19.com/identition/span12/#the-seven-7-groups) of 11D supergravity ***by making the size of seven (7) of the dimensions go to zero***.
-- ***It has eight (8) supersymmetries***, which is the most any gravitational theory can have, since there are eight half-steps between spin 2 and spin −2. (The spin 2 graviton is the particle with the highest spin in this theory.)[![eight (8) supersymmetries](https://github.com/eq19/eq19.github.io/assets/8466209/3796ffd2-465f-44d7-b750-95a092537939)](https://github.com/eq19/eq19.github.io/files/14229967/0109010.pdf)
+- ***It has eight (8) supersymmetries***, which is the most any gravitational theory can have, since there are eight half-steps between spin 2 and spin −2. (The spin 2 graviton is the particle with the highest spin in this theory.)[![eight (8) supersymmetries](https://github.com/eq19/maps/assets/8466209/3796ffd2-465f-44d7-b750-95a092537939)](https://github.com/eq19/maps/files/14229967/0109010.pdf)
 
 - More supersymmetries would mean the particles would have [superpartners](https://en.wikipedia.org/wiki/Superpartner) with spins higher than 2.
 - The only theories with ***spins higher than 2 which are consistent*** involve an infinite number of particles (such as String Theory and Higher-Spin Theories).
@@ -436,19 +445,19 @@ In four spacetime dimensions, N = 8 supergravity, speculated by [Stephen Hawking
 There has been renewed interest in the 21st century, with the possibility that string theory may be finite. _([Wikipedia](https://en.wikipedia.org/wiki/N_%3D_8_supergravity))_
 ```
 
-[![15-Figure1-1](https://github.com/eq19/eq19.github.io/assets/8466209/3733ba04-0bad-4651-90ee-01afbe319a5f)](https://github.com/eq19/eq19.github.io/files/14229964/0209128.pdf)
+[![15-Figure1-1](https://github.com/eq19/maps/assets/8466209/3733ba04-0bad-4651-90ee-01afbe319a5f)](https://github.com/eq19/maps/files/14229964/0209128.pdf)
 
 One remarkable property of both [string](https://en.wikipedia.org/wiki/String_theory) and [M-theory](https://en.wikipedia.org/wiki/M-theory) is that ***seven (7) extra dimensions*** are required for the theory's consistency, on top of the four dimensions in our universe.
 
 ```note
 There exist scenarios in which there could actually be more than [4D of spacetime](https://en.wikipedia.org/wiki/PMNS_matrix). String theories require extra dimensions of spacetime for their mathematical consistency. These are situations where theories in two or three spacetime dimensions are no more useful.
 
-In string theory, spacetime is _[26-dimensional](https://github.com/eq19/eq19.github.io/files/13904636/0102042.pdf)_, while in superstring theory it is 10-dimensional, and in M-theory it is 11-dimensional.
+In string theory, spacetime is _[26-dimensional](https://github.com/eq19/maps/files/13904636/0102042.pdf)_, while in superstring theory it is 10-dimensional, and in M-theory it is 11-dimensional.
 
 This classification theorem identifies several infinite families of groups as well as ***26 additional groups*** which do not fit into any family. _([Wikipedia](https://en.wikipedia.org/wiki/String_theory))_
 ```
 
-![M-Theory](https://github.com/eq19/eq19.github.io/assets/8466209/30099ac7-71e9-47db-9a57-e00176ddb191)
+![M-Theory](https://github.com/eq19/maps/assets/8466209/30099ac7-71e9-47db-9a57-e00176ddb191)
 
 So the last “Superstring revolution” was impressive but it was close to 30 years ago now - and we still don’t seem to be adopting it as “The Truth”.
 
@@ -458,9 +467,9 @@ M Theory and/or Loop Quantum Gravity hold the promise of ***resolving the confli
 - It also suggests a cosmological model which has acceleration as being fundamental.
 - It provides for an intuitive understanding of the Standard Model and its relationship to particle masses and the structure of the atom.
 
-The prediction of particle mass and lifetimes is a good indicator for its validity. _([TOE - pdf](https://github.com/eq19/eq19.github.io/files/14378301/ToE.pdf))_
+The prediction of particle mass and lifetimes is a good indicator for its validity. _([TOE - pdf](https://github.com/eq19/maps/files/14378301/ToE.pdf))_
 ```
 
-[![string-theory-dimensions](https://github.com/eq19/eq19.github.io/assets/8466209/ca05f8c9-d90a-4206-9b8b-37454f897fc8)](https://qr.ae/pKBEhD)
+[![string-theory-dimensions](https://github.com/eq19/maps/assets/8466209/ca05f8c9-d90a-4206-9b8b-37454f897fc8)](https://qr.ae/pKBEhD)
 
 We suspect that using that Lorentz, all four have the same complexified Lie algebra. In loop quantum gravity it makes matters [even more](https://en.wikipedia.org/wiki/Lorentz_invariance_in_loop_quantum_gravity) confusing.

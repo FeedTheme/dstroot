@@ -1,3 +1,12 @@
+---
+sort: 37
+spin: 60
+span: 
+suit: 
+description: 
+---
+# Vibrating Strings (span 3)
+
 {% include list.liquid all=true %}
 
 It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**.
@@ -22,7 +31,7 @@ Quantum field theory is any theory that describes a quantized field.
 This theory describes all the known fields and all the known interactions other than gravity. _([Quora](https://www.quora.com/What-exactly-is-the-difference-between-QED-QCD-Electroweak-theory-Standard-model-Quantum-field-theory-and-how-are-they-related-together))_
 ```
 
-[![DifferencebetweenQEDandQCD.pdf](https://user-images.githubusercontent.com/8466209/284030300-f9055f01-341a-4ffa-9a14-2cb36cf1a189.png)](https://github.com/eq19/eq19.github.io/files/13401849/DifferencebetweenQEDandQCD.pdf)
+[![DifferencebetweenQEDandQCD.pdf](https://user-images.githubusercontent.com/8466209/284030300-f9055f01-341a-4ffa-9a14-2cb36cf1a189.png)](https://github.com/eq19/maps/files/13401849/DifferencebetweenQEDandQCD.pdf)
 
 Speaking of the Fibonacci number sequence, there is symmetry mirroring the above in the relationship between the terminating digits of Fibonacci numbers and their index numbers equating to members of the array populating the Prime Spiral Sieve.
 
@@ -65,7 +74,7 @@ We show that the Big Bang singularity of the Friedmann-Lemaˆıtre-Robertson-Wal
 These results follow from our research on singular semi-Riemannian geometry and singular General Relativity [26, 27, 29] (which we applied in previous articles to the black hole singularities [30, 31, 32, 28]).
 ```
 
-[![Big_Bang_singularity_in_the_Friedmann-Lemaitre-Rob.pdf](https://github.com/eq19/eq19.github.io/assets/8466209/2b3054ae-5b23-4e59-abe5-4819061a81ec)](https://github.com/eq19/eq19.github.io/files/13401911/Big_Bang_singularity_in_the_Friedmann-Lemaitre-Rob.pdf)
+[![Big_Bang_singularity_in_the_Friedmann-Lemaitre-Rob.pdf](https://github.com/eq19/maps/assets/8466209/2b3054ae-5b23-4e59-abe5-4819061a81ec)](https://github.com/eq19/maps/files/13401911/Big_Bang_singularity_in_the_Friedmann-Lemaitre-Rob.pdf)
 
 The opposite direction will be made through switching beetween Linux and Windows which is proceed the old strand in the 3′ to 5′ direction, while the new strand is synthesized in the 5' to 3' direction. Here we set a remote self-host runner via WSL.
 

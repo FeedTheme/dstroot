@@ -1,4 +1,13 @@
-Identition is defined for a [complex operation](https://github.com/eq19/eq19.github.io/files/14396617/Albaid_okstate_0664D_11668.pdf)
+---
+sort: 27
+spin: 36
+span: 
+suit: 149
+description: 
+---
+# Identition Zones (36-102)
+
+Identition is defined for a [complex operation](https://github.com/eq19/maps/files/14396617/Albaid_okstate_0664D_11668.pdf)
  by extending one of the definitions of the exponential function from real exponents to complex exponents.
 
 {% include list.liquid all=true %}
@@ -17,7 +26,7 @@ As we know all forces can be unified in GUT or TOE the forces could be an exampl
 To solve quantum gravity we can treat gravity like electromagnetism and have gravity as waves which has basically already been proven because gravitational waves have been proven, light could produce the gravitron particle. All the particles and forces correspond to the 4/5 elements. _([The Octonion Math](https://xenqabbalah.fandom.com/wiki/User_blog:Dimensional_consciousness/The_Octonion_Math_That_Could_Underpin_Physics))_
 ```
 
-[![GUT to TOE](https://github.com/eq19/eq19.github.io/assets/8466209/900c6d4e-616d-4c2d-8ad0-dd4ce9d351ea)](https://www.eq19.com/exponentiation/#default-configuration)
+[![GUT to TOE](https://github.com/eq19/maps/assets/8466209/900c6d4e-616d-4c2d-8ad0-dd4ce9d351ea)](https://www.eq19.com/exponentiation/#default-configuration)
 
 In physics, string theory is a theoretical framework in which the point-like particles of particle physics are replaced by ***one-dimensional objects*** called strings.
 
@@ -32,7 +41,7 @@ The concept of eleven dimensions is a theoretical one in physics and cosmology, 
 Ultimately, the concept of eleven dimensions is a fascinating area of study that continues to inspire new research and discoveries in the field of physics and cosmology. _(ChatGPT)_
 ```
 
-![M-theory](https://github.com/eq19/eq19.github.io/assets/8466209/38b6bb71-6e4b-4020-aa59-03d83873ffc5)
+![M-theory](https://github.com/eq19/maps/assets/8466209/38b6bb71-6e4b-4020-aa59-03d83873ffc5)
 
 Our physical space is observed to have only three large dimensions and taken together with time as the fourth dimension, a physical theory must take this into account. 
 
@@ -71,10 +80,10 @@ There are several open questions that need to be addressed to convert the model 
 - Third, there is a question of how to describe Lorentzian signature metrics using this formalism. To do this one must make the 3-form C complex-valued, and then impose some appropriate reality conditions. Similar issues exist in all Plebanski-related formulations. We postpone their resolution to future work.
 Finally, to avoid confusion, we would like to say that our present use of G2 structures (3-forms in 7D) is different from what one can find in the literature on Kaluza–Klein compactifications of supergravity.
 
-In our approach a 3-form is not an object that exist in addition to the metric — it is the only object that exist. The metric, and in particular the 4D metric, is defined by the 3-forvia (2). Also, in the supergravity context a 7D manifold with a G2 structure is used for compactifying the 11D supergravity down to 4D. In contrast, we compactify from 7D to 4D. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/eq19.github.io/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
+In our approach a 3-form is not an object that exist in addition to the metric — it is the only object that exist. The metric, and in particular the 4D metric, is defined by the 3-forvia (2). Also, in the supergravity context a 7D manifold with a G2 structure is used for compactifying the 11D supergravity down to 4D. In contrast, we compactify from 7D to 4D. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/maps/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
 ```
 
-[![image](https://github.com/eq19/eq19.github.io/assets/8466209/ffcf7817-4cd8-4383-8bdc-abec8d07c948)](https://www.mdpi.com/2073-8994/11/8/993)
+[![image](https://github.com/eq19/maps/assets/8466209/ffcf7817-4cd8-4383-8bdc-abec8d07c948)](https://www.mdpi.com/2073-8994/11/8/993)
 
 When describing [spacetime](https://en.wikipedia.org/wiki/Spacetime) as a continuum, certain statistical and quantum mechanical constructions are not [well-defined](https://en.wikipedia.org/wiki/Well-defined).
 
@@ -87,7 +96,7 @@ To define them, or make them unambiguous, a [continuum limit](https://en.wikiped
 Despite his later skepticism, it was [Paul Dirac](https://en.wikipedia.org/wiki/Paul_Dirac) who pioneered renormalization. _([Wikipedia](https://en.wikipedia.org/wiki/Renormalization))_
 ```
 
-[![image](https://github.com/eq19/eq19.github.io/assets/8466209/c6364322-cc8c-47d2-aaad-efd2e835911f)](https://www.nature.com/articles/ncomms6153)
+[![image](https://github.com/eq19/maps/assets/8466209/c6364322-cc8c-47d2-aaad-efd2e835911f)](https://www.nature.com/articles/ncomms6153)
 
 Numerous connections have been observed between some, though not all, of these exceptional objects. Most common are objects related to [8](https://en.wikipedia.org/wiki/8_(number)) and [24](https://en.wikipedia.org/wiki/24_(number)) dimensions.
 
@@ -102,7 +111,7 @@ By contrast, the [pariah groups](https://en.wikipedia.org/wiki/Pariah_group) sta
 In [string theory](https://en.wikipedia.org/wiki/String_theory) and superstring theory we often find that particular dimensions are singled out as a result of exceptional algebraic phenomena. For example, [bosonic string theory](https://en.wikipedia.org/wiki/Bosonic_string_theory) requires a spacetime of dimension 26 which is directly related to the presence of 24 in the [Dedekind eta function](https://en.wikipedia.org/wiki/Dedekind_eta_function). Similarly, the possible dimensions of [supergravity](https://en.wikipedia.org/wiki/Supergravity) are related to the dimensions of the [division algebras](https://en.wikipedia.org/wiki/Division_algebras). _([Wikipedia](https://en.wikipedia.org/wiki/Exceptional_object))_
 ```
 
-[![1200px-Exceptionalmindmap2](https://github.com/eq19/eq19.github.io/assets/8466209/f8c1039c-d2fb-474d-8fff-95051853efd9)](https://en.wikipedia.org/wiki/Exceptional_object)
+[![1200px-Exceptionalmindmap2](https://github.com/eq19/maps/assets/8466209/f8c1039c-d2fb-474d-8fff-95051853efd9)](https://en.wikipedia.org/wiki/Exceptional_object)
 
 The simplest group is SU(5), which we will consider here, other examples include SO(10). SU(5) has [`5²−1 = 24`](https://jefferywinkler.com/beyondstandardmodel.html) generators which means there are 24 gauge bosons. 
 
@@ -112,12 +121,12 @@ It is known that the recently reported shift of ***the W boson mass can be easil
 - We consider that it is a consequence of SU(5) grand unification and show a possible potential for the Higgs fields yielding a weak scale complex SU(2) triplet scalar boson.
 - Although it seems the proton decay constraint would doom such a low-scale unification, we show that the constraint can be avoided by introducing ***vector-like fermions*** which mix with the SM fermions through mass terms involving the VEV of GUT breaking Higgs field.
 
-Importantly, the simplest viable model only requires the addition of one pair of vector-like fermions transforming 10 and 10. _([W boson mass anomaly and grand unification - pdf](https://github.com/eq19/eq19.github.io/files/14412652/2205.03877.pdf))_
+Importantly, the simplest viable model only requires the addition of one pair of vector-like fermions transforming 10 and 10. _([W boson mass anomaly and grand unification - pdf](https://github.com/eq19/maps/files/14412652/2205.03877.pdf))_
 ```
 
 ***168 + 329 + 289 - 619 - 30 - 30 - 5 = 786 - 619 - 65 = 102***
 
-[![W Mass Shift](https://github.com/eq19/eq19.github.io/assets/8466209/06d69e3a-9aad-4bd0-8a8b-8fe44da67056)](https://github.com/eq19/eq19.github.io/files/14394752/MWmassShiftTalk.pdf)
+[![W Mass Shift](https://github.com/eq19/maps/assets/8466209/06d69e3a-9aad-4bd0-8a8b-8fe44da67056)](https://github.com/eq19/maps/files/14394752/MWmassShiftTalk.pdf)
 
 Mathematicians used “magic functions” to prove that two highly symmetric lattices solve a myriad of problems in 8- and 24-dimensional space.
 
@@ -125,7 +134,7 @@ Mathematicians used “magic functions” to prove that two highly symmetric lat
 Summing the principal and secondary diagonals gives us 1200 + 960 = 2160 = 360 * 6 = 432 * 5. And aligning the principal and secondary diagonals forms this string of 24 dyads summing to 90 each, again for a total of 2160 (and note that only terminating digits 1 and 9 are present and that there are also 24 diagonal dyads summing to 90 each, as somewhat crudely illustrated) _([Primesdemystified](https://www.primesdemystified.com/Factorization.html))_
 ```
 
-[![Principal_Diagonals_Mod_90_Squares](https://github.com/eq19/eq19.github.io/assets/8466209/c6f4e56a-9b5e-4ad4-a752-abcdb7d645dc)](https://www.primesdemystified.com/Factorization.html)
+[![Principal_Diagonals_Mod_90_Squares](https://github.com/eq19/maps/assets/8466209/c6f4e56a-9b5e-4ad4-a752-abcdb7d645dc)](https://www.primesdemystified.com/Factorization.html)
 
 This generated a lot of interest in the approach and eventually led to the [Loop Quantum Gravity](https://en.wikipedia.org/wiki/Loop_quantum_gravity) (LQG). You may find that the rest of topics will concern mainly to this matter.
 
@@ -147,7 +156,7 @@ In [particle physics](https://en.wikipedia.org/wiki/Particle_physics), a lepton 
 For every lepton flavor, there is a corresponding type of [antiparticle](https://en.wikipedia.org/wiki/Antiparticle), known as an antilepton, that differs from the lepton only in that some of its properties have [equal magnitude but opposite sign](https://en.wikipedia.org/wiki/Charge_conjugation). According to certain theories, neutrinos may be [their own antiparticle](https://en.wikipedia.org/wiki/Majorana_fermion). It is not currently known whether this is the case. _([Wikipedia](https://en.wikipedia.org/wiki/Lepton))_
 ```
 
-![force_chart](https://github.com/eq19/eq19.github.io/assets/8466209/dd7cc532-a84e-4921-834c-1e9939937f66)
+![force_chart](https://github.com/eq19/maps/assets/8466209/dd7cc532-a84e-4921-834c-1e9939937f66)
 
 When we take all the forces that we understand, i.e., ***[not including gravity](https://youtu.be/NsUm9mNXrX4)***, and write down the QFT version of them, we arrive at the predictions of the Standard Model.
 
@@ -163,7 +172,7 @@ This is where the idea of ***12 fermion fields and 12 boson fields*** come from.
 The quarks and leptons are fermions, which is why they have antimatter counterparts, and the W boson comes in two equal-and-opposite varieties (positively and negatively charged), but all told, ***there are 24 unique, fundamental excitations of quantum fields possible***. This is where the 24 fields idea comes from. _([Forbes](https://www.forbes.com/sites/startswithabang/2018/11/17/ask-ethan-are-quantum-fields-real/?sh=32c398b3777a))_
 ```
 
-[![SM-particles](https://github.com/eq19/eq19.github.io/assets/36441664/37b9ddf0-8069-4786-ac49-d918aff20aec)](https://www.forbes.com/sites/startswithabang/2018/11/17/ask-ethan-are-quantum-fields-real/?sh=32c398b3777a)
+[![SM-particles](https://github.com/eq19/maps/assets/36441664/37b9ddf0-8069-4786-ac49-d918aff20aec)](https://www.forbes.com/sites/startswithabang/2018/11/17/ask-ethan-are-quantum-fields-real/?sh=32c398b3777a)
 
 So there are thought to be ***[24 separate quantum fields](https://youtu.be/euNr9PozCmg?t=41m25s)*** that permit the universe. It consists of 12 various [fundamental forces](https://www.eq19.com/exponentiation/#fundamental-forces) including mass, 9 quarks, and 3 leptons.
 
@@ -183,7 +192,7 @@ Spin networks constitute a basis that minimize the degree of over-completeness o
 Some of these relations are rooted in a relation to superstring theory and quantum gravity which is [directly related](https://www.eq19.com/identition/span12/#final-theory) to the quantization of general relativity. _([Wikipedia](https://en.wikipedia.org/wiki/Loop_representation_in_gauge_theories_and_quantum_gravity#spin_network_states))_
 ```
 
-[![Spin network states](https://github.com/eq19/eq19.github.io/assets/8466209/4945cbd3-57ff-42ee-a363-7b27ed693a0e)](https://en.wikipedia.org/wiki/Loop_representation_in_gauge_theories_and_quantum_gravity#spin_network_states)
+[![Spin network states](https://github.com/eq19/maps/assets/8466209/4945cbd3-57ff-42ee-a363-7b27ed693a0e)](https://en.wikipedia.org/wiki/Loop_representation_in_gauge_theories_and_quantum_gravity#spin_network_states)
 
 A ***Dirac fermion*** is equivalent to ***two (2) [Weyl fermions](https://en.wikipedia.org/wiki/Weyl_fermion)*** so it is not the same as bispinor. The counterpart is a [Majorana fermion](https://en.wikipedia.org/wiki/Majorana_fermion), a particle that must be its own ***[antiparticle](https://en.wikipedia.org/wiki/Antiparticle)***.
 
@@ -213,14 +222,14 @@ The real part of complex parameters would reflect to the canonical set of seesaw
 
 ## Canonical Set
 
-A general mass structure for the heavy SM fermion generations has been obtained which explains the following [features of SO(10)](https://github.com/eq19/eq19.github.io/files/14412555/beyond.pdf):
+A general mass structure for the heavy SM fermion generations has been obtained which explains the following [features of SO(10)](https://github.com/eq19/maps/files/14412555/beyond.pdf):
 
 ```note
 The work performed in this thesis will focus on two different models, that both can be used in the creation of a GUT. ***Both models are based on having SO(10) as the unification gauge group***.
 - Such models are more complex than the original suggestions, but can also accommodate more physics. In these two models, it is not possible ***to achieve unification among the gauge couplings with tree-level matching conditions***.
 - However, so-called threshold effects appear when matching the couplings at a higher order in perturbation theory, which are a result of particles with masses around the symmetry breaking scales.
 
-Specifically, it will be investigated if threshold effects can save these two models, and thereby allowing unification. _([Threshold Effects in SO(10) Grand Unified Theories - pdf](https://github.com/eq19/eq19.github.io/files/14396682/FULLTEXT01.pdf))_
+Specifically, it will be investigated if threshold effects can save these two models, and thereby allowing unification. _([Threshold Effects in SO(10) Grand Unified Theories - pdf](https://github.com/eq19/maps/files/14396682/FULLTEXT01.pdf))_
 ```
 
 [![Grand Unification](https://user-images.githubusercontent.com/8466209/226088008-95da40ee-aece-4ec8-86ee-cff448e15b42.png)](https://www.eq19.com/exponentiation/#grand-unification)
@@ -231,7 +240,7 @@ New findings are fueling an old suspicion that fundamental particles and forces 
 It has been long known that the SO(10) model is free from all perturbative local anomalies, computable by Feynman diagrams. However, it only became clear in 2018 that the SO(10) model is also free from all [nonperturbative global anomalies](https://en.wikipedia.org/wiki/Anomaly_(physics)#Witten_anomaly_and_Wang-Wen-Witten_anomaly) on [non-spin manifolds](https://en.wikipedia.org/wiki/Spin_structure) --- an important rule for confirming the consistency of SO(10) grand unified theory, with a Spin(10) gauge group and chiral fermions in the 16-dimensional spinor representations, defined on non-spin manifolds. _([Wikipedia](https://en.wikipedia.org/wiki/SO(10)))_
 ```
 
-[![The Octonion Math](https://github.com/eq19/eq19.github.io/assets/8466209/06f06127-2155-40cc-81bc-5db2f9c10312)](https://xenqabbalah.fandom.com/wiki/User_blog:Dimensional_consciousness/The_Octonion_Math_That_Could_Underpin_Physics)
+[![The Octonion Math](https://github.com/eq19/maps/assets/8466209/06f06127-2155-40cc-81bc-5db2f9c10312)](https://xenqabbalah.fandom.com/wiki/User_blog:Dimensional_consciousness/The_Octonion_Math_That_Could_Underpin_Physics)
 
 There are ***30 canonical sets*** of 7 triads indexed with a Fano plane index (fpi). In order to make a valid octonion, each fpi gets one of 8 possible 7-bit sign masks (sm).
 
@@ -240,7 +249,7 @@ As in E8 with 16 of the 2^8 = 256 binary representations excluded from the group
 permutations of {±1, 0, 0, 0, 0, 0, 0, 0}.
 ```
 
-[![30 canonical sets of 7 triples](https://github.com/eq19/eq19.github.io/assets/8466209/23137029-c1a9-4d07-8744-4872cce7fadb)](https://github.com/eq19/eq19.github.io/files/14746885/E8toH4fold.pdf)
+[![30 canonical sets of 7 triples](https://github.com/eq19/maps/assets/8466209/23137029-c1a9-4d07-8744-4872cce7fadb)](https://github.com/eq19/maps/files/14746885/E8toH4fold.pdf)
 
 The finiteness position of MEC30 along with Euler's identity opens up the possibility of accurately representing the self-singularity of [True Prime Pairs](https://www.eq19.com/addition/file02.html#true-prime-pairs).
 
@@ -248,10 +257,10 @@ The finiteness position of MEC30 along with Euler's identity opens up the possib
 The Mathematical Elementary Cell 30 (MEC30) standard [unites](https://www.eq19.com/multiplication/12.html#entrypoint-of-momentum-spin-3) the mathematical and physical results of 1972 by the mathematician Hugh Montgomery and the physicist Freeman Dyson and thus reproduces energy distribution in systems as a path plan more accurately than a measurement. ([Google Patent DE102011101032A9](https://patents.google.com/patent/DE102011101032A9/en#similarDocuments))
 ```
 
-[![Spinning the MEC30](https://github.com/eq19/eq19.github.io/assets/8466209/5c2885a6-97ea-42db-a75d-ffaaed006b95)](https://www.eq19.com/#identition-zones)
+[![Spinning the MEC30](https://github.com/eq19/maps/assets/8466209/5c2885a6-97ea-42db-a75d-ffaaed006b95)](https://www.eq19.com/#identition-zones)
 
 Remember we must sum over all the quantum numbers of the quarks so the cross section is multiplied by [Num
-ber of colours, Nc](https://github.com/eq19/eq19.github.io/files/14418795/Pheno_Harland-Lang.pdf).
+ber of colours, Nc](https://github.com/eq19/maps/files/14418795/Pheno_Harland-Lang.pdf).
 
 ```note
 Finally NG′ is the number of parameters of the group G′, the subgroup of G still unbroken by the flavour matrices.
@@ -260,7 +269,7 @@ Finally NG′ is the number of parameters of the group G′, the subgroup of G s
 - It is straightforward to obtain that we have, and ***Nmod = 84 − 5 × 3 = 69 moduli in the flavour sector*** and Nph = 69 − 5 × 6 + 2 = 41 phases.
 - This amounts to a total of 123 parameters in the model4, out of which 44 are CP violating phases!!
 
-As we know, in the SM, there is only one observable CP violating phase, the CKM phase, and therefore we have here ***43 new phases, 40 in the flavour sector and three in the flavour independent sector***. _([Flavour Physics and Grand Unification - pdf](https://github.com/eq19/eq19.github.io/files/14413722/0711.2903.pdf))_
+As we know, in the SM, there is only one observable CP violating phase, the CKM phase, and therefore we have here ***43 new phases, 40 in the flavour sector and three in the flavour independent sector***. _([Flavour Physics and Grand Unification - pdf](https://github.com/eq19/maps/files/14413722/0711.2903.pdf))_
 ```
 
 ```txt
@@ -286,17 +295,17 @@ If the four pieces are restructured in the form of a rectangle, it appears that 
 Notice that the divisions in the original square have been done according to some [Fibonacci numbers](https://www.sacred-geometry.es/?q=en/content/golden-ratio): 5, 8 and 13=5+8; therefore the sides of the transformed rectangle are also Fibonacci numbers because it has been constructed additively. Now, do you guess how could we correct the dimensions of the initial square so that the above transformation into a rectangle was area-preserving? Yes, as it could not be another way round, we need to introduce the Golden Ratio! If the pieces of the square are constructed according to Golden proportions, then the area of the resulting rectangle will coincide with the area of the square. _([Phi particle physics](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics))_
 ```
 
-[![13x13 square divided into two triangles and two quadrilateral polygons](https://github.com/eq19/eq19.github.io/assets/8466209/59c6f50d-4f9c-4da8-bdbc-503930d57e4f)](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics)
+[![13x13 square divided into two triangles and two quadrilateral polygons](https://github.com/eq19/maps/assets/8466209/59c6f50d-4f9c-4da8-bdbc-503930d57e4f)](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics)
 
 This matrix is shown to be useful in providing direct relationships between E8 and the lower dimensional Dynkin and Coxeter-Dynkin geometrie.
 
 ```note
 This pattern of eigenvalues and eigenvectors strongly suggests that E8 (and H4) passes through a
 “geometric identity” as it folds (or unfolds), respectively. This makes establishing a unit determinant
-of these matrices interesting _([E8 to H4 folding matrix - pdf](https://github.com/eq19/eq19.github.io/files/14450026/E8toH4fold_compressed.pdf))_
+of these matrices interesting _([E8 to H4 folding matrix - pdf](https://github.com/eq19/maps/files/14450026/E8toH4fold_compressed.pdf))_
 ```
 
-[![geometric identity](https://github.com/eq19/eq19.github.io/assets/8466209/d87669cf-360a-4b95-ad06-e9977491ebc0)](https://www.researchgate.net/figure/E-8-Dynkin-diagram-with-Cartan-Schlafli-and-Coxeter-matrices_fig3_281557337)
+[![geometric identity](https://github.com/eq19/maps/assets/8466209/d87669cf-360a-4b95-ad06-e9977491ebc0)](https://www.researchgate.net/figure/E-8-Dynkin-diagram-with-Cartan-Schlafli-and-Coxeter-matrices_fig3_281557337)
 
 In the special case of a unit segment, the Golden Ratio provides the only way to divide unity in two parts that are in a geometric progression
 
@@ -304,7 +313,7 @@ In the special case of a unit segment, the Golden Ratio provides the only way to
 One of the most promising attempts to go beyond the standard model of particle physics is superstring theory. As it is well known, special relativity fused time and space together, then came general relativity and introduced a curvature to space-time. Kaluza and later on Klein added one more dimension to the classical four in order to unify general relativity and electromagnetism. The dimensionality of space-time plays a paramount role in the theoretical physics of unification and has led to the introduction of the 26 dimensions of string theory, the 10 dimensions of superstring theory, and finally the heterotic string theory with the dimensional hierarchy 4, 6, 10, 16 and 26
 ```
 
-[![Pascal Octonion](https://github.com/eq19/eq19.github.io/assets/8466209/bafeea01-1add-4546-96de-21213950cad6)](https://theoryofeverything.org/theToE/2013/11/15/another-look-at-integrating-the-pascal-triangle-to-clifford-algebra-e8-lie-algebragroups-octonions-and-particle-physics-standard-model/)
+[![Pascal Octonion](https://github.com/eq19/maps/assets/8466209/bafeea01-1add-4546-96de-21213950cad6)](https://theoryofeverything.org/theToE/2013/11/15/another-look-at-integrating-the-pascal-triangle-to-clifford-algebra-e8-lie-algebragroups-octonions-and-particle-physics-standard-model/)
 
 Each of the 6 columns has ***8 bilateral 360 sums***, tor a total of 48 * 360 = 40 * 432. This number 432 plays significant roles on the ***[Interchange Layers](https://www.eq19.com/multiplication/#the-interchange-layers)***.
 
@@ -320,7 +329,7 @@ In this article I am going to introduce the main results of a new theory of elem
 As we have seen in section 2, the above is a Fibonacci-like sequence with a very concise geometrical interpetation related to numbers ***5, 11 and φ***. _([Phi in Particle Physics](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics))_
 ```
 
-[![PHI_Quantum_SpaceTime](https://github.com/eq19/eq19.github.io/assets/8466209/6d91e9b8-9fc7-4ab9-9ec9-6e87a6f70c99)](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics)
+[![PHI_Quantum_SpaceTime](https://github.com/eq19/maps/assets/8466209/6d91e9b8-9fc7-4ab9-9ec9-6e87a6f70c99)](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics)
 
 ```txt
  Majorana  | spinors | charged | neutrinos |   quark   | components | parameter
@@ -373,9 +382,9 @@ Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube
 The 13 circles of the Metatron's cube can be seen as a diagonal axis projection of a ***3-dimensional cube, as 8 corner spheres and 6 face-centered spheres***. Two spheres are projected into the center from a 3-fold symmetry axis. The face-centered points represent an [octahedron](https://en.wikipedia.org/wiki/Octahedron). Combined these 14 points represent the [face-centered cubic lattice cell](https://en.wikipedia.org/wiki/Cubic_crystal_system#Cubic_space_groups). _([Wikipedia](https://en.wikipedia.org/wiki/User:Tomruen/Metatron%27s_Cube))_
 ```
 
-![image](https://github.com/eq19/eq19.github.io/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
+![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
 
-Since SU(5) has 24 generators, SU(5) GUTs have 12 new gauge bosons known as Xbosons (or [X/Y bosons](https://github.com/eq19/eq19.github.io/files/14418922/rpp2016-rev-guts.pdf)) in addition to the SM. 
+Since SU(5) has 24 generators, SU(5) GUTs have 12 new gauge bosons known as Xbosons (or [X/Y bosons](https://github.com/eq19/maps/files/14418922/rpp2016-rev-guts.pdf)) in addition to the SM. 
 
 ```note
 Georgi and Glashow have chosen the SU(5) where a single gauge coupling constant is manifestly incorporated.
@@ -383,16 +392,16 @@ Georgi and Glashow have chosen the SU(5) where a single gauge coupling constant 
 - Further, the fermions of the Standard Model can be arranged in terms of the fundamental ¯5 and the anti-symmetric 10 representation of the ***SU(5) [30]***.
 - To begin with, let us study the fermion masses in the prototype SU(5).
 Given that ***fermions are in 5 and 10 representations***
-- We conclude that the scalars that form Yukawa couplings are:![IMG_20240310_205245](https://github.com/eq19/eq19.github.io/assets/8466209/78025b26-260d-4887-8aeb-c72f64b4530b)
-- It is easy to check that this combination of the representations is anomaly free. The gauge theory of SU(5) contains _[24 gauge bosons](https://www.google.com/search?q=SU%282%29+SU%285%29+SO%2810%29+GUT+grand+unification+%2224+gauge+bosons%22&newwindow=1)_.[![2-Table1-1](https://github.com/eq19/eq19.github.io/assets/8466209/7b9f3335-df95-4d8e-b9ed-4ce0f517487b)](https://github.com/eq19/eq19.github.io/files/14549460/0206268.pdf)
+- We conclude that the scalars that form Yukawa couplings are:![IMG_20240310_205245](https://github.com/eq19/maps/assets/8466209/78025b26-260d-4887-8aeb-c72f64b4530b)
+- It is easy to check that this combination of the representations is anomaly free. The gauge theory of SU(5) contains _[24 gauge bosons](https://www.google.com/search?q=SU%282%29+SU%285%29+SO%2810%29+GUT+grand+unification+%2224+gauge+bosons%22&newwindow=1)_.[![2-Table1-1](https://github.com/eq19/maps/assets/8466209/7b9f3335-df95-4d8e-b9ed-4ce0f517487b)](https://github.com/eq19/maps/files/14549460/0206268.pdf)
 - They are decomposed in terms of the standard model gauge group SU(3) × SU(2) × U(1) as: 24 = (8, 1) + (1, 3) + (1, 1) + (3, 2) + (¯3, 2) (10)
 - The first component represents the gluon fields (G) mediating the colour, the second one corresponds to the Standard Model SU(2) mediators (W) and the third component corresponds to the U(1) mediator (B).
 - The fourth and fifth components carry both colour as well as the SU(2) indices and are called the X and gauge bosons. Schematically, the gauge bosons can be represented in terms of the 5 × 5 matrix:
-![IMG_20240310_204627](https://github.com/eq19/eq19.github.io/assets/8466209/00fd6eed-d0fb-4d58-b7de-0d03cb0e62a7)
+![IMG_20240310_204627](https://github.com/eq19/maps/assets/8466209/00fd6eed-d0fb-4d58-b7de-0d03cb0e62a7)
 
 Notice that in this case the couplings of the triplets to the fermions is not related to the fermion masses
 as the Higgs triplets are now a mixing between the triplets in the 5H and the triplets in the 50. Therefore
-we have some ***unknown Yukawa coupling Y50***. _([Flavour Physics and Grand Unification - pdf](https://github.com/eq19/eq19.github.io/files/14413722/0711.2903.pdf))_
+we have some ***unknown Yukawa coupling Y50***. _([Flavour Physics and Grand Unification - pdf](https://github.com/eq19/maps/files/14413722/0711.2903.pdf))_
 ```
 
 ```txt
@@ -422,10 +431,10 @@ mechanism.
 - We explore the parameter space region where the observed Dark Matter relic abundance is determined by the annihilation into sterile neutrinos, both for fermion and scalar Dark Matter particles. The scalar Dark Matter case provides an interesting alternative to the usual Higgs portal scenario.
 
 We also study the constraints from direct Dark Matter searches and the prospects for indirect detection
-via sterile neutrino decays to leptons, which may be able to rule out Dark Matter masses below and around 100 GeV. _([Sterile Neutrino portal to Dark Matter II - pdf](https://github.com/eq19/eq19.github.io/files/13822870/1607.02373.pdf))_
+via sterile neutrino decays to leptons, which may be able to rule out Dark Matter masses below and around 100 GeV. _([Sterile Neutrino portal to Dark Matter II - pdf](https://github.com/eq19/maps/files/13822870/1607.02373.pdf))_
 ```
 
-[![Sterile Neutrino portal to Dark Matter II](https://github.com/eq19/eq19.github.io/assets/8466209/eff99204-e52a-4628-b3e1-07812a8df44f)](https://github.com/eq19/eq19.github.io/files/13822870/1607.02373.pdf)
+[![Sterile Neutrino portal to Dark Matter II](https://github.com/eq19/maps/assets/8466209/eff99204-e52a-4628-b3e1-07812a8df44f)](https://github.com/eq19/maps/files/13822870/1607.02373.pdf)
 
 It is called the [mixing angle](https://en.wikipedia.org/wiki/Weinberg_angle) by which [spontaneous symmetry breaking](https://www.eq19.com/multiplication/10.html#spontaneous-symmetry-breaking) [rotates](https://en.wikipedia.org/wiki/Rotation_matrix) the original W0 and B0 [vector boson](https://en.wikipedia.org/wiki/Vector_boson) plane, producing as a result the Z0 boson, and the [photon](https://en.wikipedia.org/wiki/Photon). Its measured value is slightly below 30°, but also varies.
 
@@ -433,7 +442,7 @@ It is called the [mixing angle](https://en.wikipedia.org/wiki/Weinberg_angle) by
 If the angle was 0, the U(1) group would remain unbroken and there would be no mixing with the SU(2) group. This would lead to a single massless boson and 3 remaining massless bosons: Ws and photon. On the other hand, if the angle was 90, the SU(2) group would remain unbroken and there would be no mixing with the U(1) group. This would lead to a single massive boson and 3 remaining massless bosons: Ws and photon. _([PhysicsForums](https://www.physicsforums.com/threads/gauge-bosons-and-the-weak-mixing-angle.828525/))_
 ```
 
-[![Weinberg_angle_(relation_between_coupling_constants](https://github.com/eq19/eq19.github.io/assets/8466209/b1a8b329-e6f6-4e02-b552-d8c750b01dd9)](https://en.wikipedia.org/wiki/Weinberg_angle)
+[![Weinberg_angle_(relation_between_coupling_constants](https://github.com/eq19/maps/assets/8466209/b1a8b329-e6f6-4e02-b552-d8c750b01dd9)](https://en.wikipedia.org/wiki/Weinberg_angle)
 
 The coupling gives rise as the phase starts to roll down in the clockwise direction, it preferentially ***creates an excess of baryons over antibaryons***.
 
@@ -441,7 +450,7 @@ The coupling gives rise as the phase starts to roll down in the clockwise direct
 The standard model involves particle symmetry and the mechanism of its breaking. Modern cosmology is based on inflationary models with baryosynthesis and dark matter/energy, which involves physics beyond the standard model. Studies of the physical basis of modern cosmology combine direct searches for new physics at accelerators with its indirect non-accelerator probes, in which cosmological consequences of particle models play an important role. The cosmological reflection of particle symmetry and the mechanisms of its breaking are the subject of the present review. _([MDPI](https://www.mdpi.com/2073-8994/8/8/81))_
 ```
 
-[![symmetry-08-00081-g001](https://github.com/eq19/eq19.github.io/assets/8466209/d9ada6b6-0767-4de4-ba4c-e42f9e6f9e4c)](https://www.mdpi.com/2073-8994/8/8/81)
+[![symmetry-08-00081-g001](https://github.com/eq19/maps/assets/8466209/d9ada6b6-0767-4de4-ba4c-e42f9e6f9e4c)](https://www.mdpi.com/2073-8994/8/8/81)
 
 Depending on how high the relative momentum of the particles involved in the interaction is that the angle is used for.
 
@@ -512,13 +521,13 @@ three fermions. These constituent fermions are most-sensibly interpreted as quar
 - The physical entities represented by 2 igG , when examined in further detail, have the
 characteristics of mesons.
 
-[![structure-of-composite-particles-l](https://github.com/eq19/eq19.github.io/assets/8466209/2966004c-0c0d-4bca-85a9-1217d6b0237b)](https://github.com/eq19/eq19.github.io/files/14322719/1711.10626.pdf)
+[![structure-of-composite-particles-l](https://github.com/eq19/maps/assets/8466209/2966004c-0c0d-4bca-85a9-1217d6b0237b)](https://github.com/eq19/maps/files/14322719/1711.10626.pdf)
 
 It tells us that mesons are the only entities which may flow across any closed
 surface of the baryon density. _([Lab Notes](https://jayryablon.wordpress.com/2008/01/28/lab-note-3-part-1-yang-mills-theory-the-origin-of-baryons-and-confinment-and-the-mass-gap/))_
 ```
 
-[![image](https://user-images.githubusercontent.com/8466209/223643996-1ea5cb89-324e-446c-9c9f-8c94c39909b3.png)](https://github.com/eq19/eq19.github.io/files/14003298/qcd-confinement-handout-10.pdf)
+[![image](https://user-images.githubusercontent.com/8466209/223643996-1ea5cb89-324e-446c-9c9f-8c94c39909b3.png)](https://github.com/eq19/maps/files/14003298/qcd-confinement-handout-10.pdf)
 
 [![origin](https://user-images.githubusercontent.com/8466209/220002045-d0395b21-1f2a-4dba-992a-24bf50c480d5.png)](https://www.researchgate.net/figure/The-ST-paradigm-a-is-never-directly-testable-too-small-Planck-length-scales-has-too_fig4_330474228)
 
@@ -530,7 +539,7 @@ Scientists believe there could be an [anti-universe](https://www.popularmechanic
 Only more accurate analysis on the involved spectra and on the relative brightness of the two rings, and mainly the discovery of other ***double rings systems***, could be used to finally choose which among these two interpretations is more likely to hold. As to using ***Klein bottle holes*** to check the physical existence of other universes, it appears just a matter of time ***to find a double truncated spiral*** blurred enough to clearly show a connection with other universes. _([Observing another Universe - pdf](https://arxiv.org/pdf/1102.3784.pdf))_
 ```
 
-![Gravitational-lensing-effect-produced-by-a-ringhole-from-a-single-luminous-source-a_Q320](https://github.com/eq19/eq19.github.io/assets/8466209/7e2da6cd-31fa-4a12-a6ac-a1a558cd0dc2)
+![Gravitational-lensing-effect-produced-by-a-ringhole-from-a-single-luminous-source-a_Q320](https://github.com/eq19/maps/assets/8466209/7e2da6cd-31fa-4a12-a6ac-a1a558cd0dc2)
 
 If this theory holds true, it could explain the presence of [dark matter](https://www.popularmechanics.com/space/deep-space/a43579457/scientists-map-out-dark-matter-with-radiation-from-big-bang/). Dark matter, then, could be right-handed [neutrinos](https://www.popularmechanics.com/space/solar-system/a28800656/what-are-neutrinos/) implied by the mirror universe.
 
@@ -598,7 +607,7 @@ As Penrose points out, [proton decay](https://en.wikipedia.org/wiki/Proton_decay
 In his Nobel Prize Lecture video, Roger Penrose moderated his previous requirement for no mass, beginning at 26:30 in the video, allowing some mass particles to be present as long as the amounts are insignificant with nearly all of their energy being kinetic, and in a conformal geometry dominated by photons. _([Wikipedia](https://en.wikipedia.org/wiki/Conformal_cyclic_cosmology))_
 ```
 
-[![conformal cyclic cosmology](https://github.com/eq19/eq19.github.io/assets/8466209/8707fac0-67fe-4a17-88ef-eeff907a925d)](https://en.wikipedia.org/wiki/Conformal_cyclic_cosmology)
+[![conformal cyclic cosmology](https://github.com/eq19/maps/assets/8466209/8707fac0-67fe-4a17-88ef-eeff907a925d)](https://en.wikipedia.org/wiki/Conformal_cyclic_cosmology)
 
 This is because all second and third generation particles are ***unstable and quickly decay*** into stable first generation particles.
 
@@ -613,10 +622,10 @@ The Prime Spiral Sieve possesses remarkable structural and numeric symmetries.
 - Echoing the Fibonacci patterns just described, the terminating digits of the prime roots (17,137,939), when added to their reversal (93,973,171) = 111,111,110. [And note that 111,111,111 * 111,111,110 = 12345678876543210.].
 - Yet another related dimension of symmetry: The terminating digits of the prime root angles (24,264,868; see illustration of [Prime Spiral Sieve](https://primesdemystified.com/#primespiralsieve)) when added to their reversal (86,846,242) = 111,111,110, not to mention this sequence possesses symmetries that dovetail perfectly with the prime root and Fibo sequences.
 
-And when you combine the terminating digit symmetries described above, capturing ***three (3) rotations*** around the sieve in their actual sequences, you produce the ultimate combinatorial symmetry. _([PrimesDemystified](https://github.com/eq19/eq19.github.io/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf))_
+And when you combine the terminating digit symmetries described above, capturing ***three (3) rotations*** around the sieve in their actual sequences, you produce the ultimate combinatorial symmetry. _([PrimesDemystified](https://github.com/eq19/maps/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf))_
 ```
 
-[![Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf](https://user-images.githubusercontent.com/8466209/219261961-10e4d77f-ead3-43d4-9407-f01d83f1f204.png)](https://github.com/eq19/eq19.github.io/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf)
+[![Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf](https://user-images.githubusercontent.com/8466209/219261961-10e4d77f-ead3-43d4-9407-f01d83f1f204.png)](https://github.com/eq19/maps/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf)
 
 These include generating variants of their abundance profile, assigning taxonomy and finally generating a rooted [phylogenetic tree](https://en.wikipedia.org/wiki/Phylogenetic_tree) for the [Standard Model](https://www.eq19.com/identition/span12/#three-3-layers).
 
@@ -629,7 +638,7 @@ Here is an elegant model to define the elementary particles of the Standard Mode
 The next step is to re-gigg the model to account for the collisions and annihilations. Gluons and Photons that don’t have mass are not in the model, but will be the consequences of the interactions. _([Hypercomplex-Math](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/))_
 ```
 
-[![particlephysicsmodel-1](https://github.com/eq19/eq19.github.io/assets/8466209/51ab83aa-e18d-477c-866f-d793f9efee92)](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/ )
+[![particlephysicsmodel-1](https://github.com/eq19/maps/assets/8466209/51ab83aa-e18d-477c-866f-d793f9efee92)](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/ )
 
 All ***15 matter particles are mirroring*** their corresponding doppelgangers (anti-particles) each others that could potentially explain dark matter.
 
@@ -637,7 +646,7 @@ All ***15 matter particles are mirroring*** their corresponding doppelgangers (a
 
 Note that since [our Universe began with a Big Bang](https://www.valdostamuseum.com/hamsmith/cosconsensus.html), all its particles originate from pair creation since then.
 
-![shilov27](https://github.com/eq19/eq19.github.io/assets/8466209/db99b4e8-d255-49ad-b601-f061989d5209)
+![shilov27](https://github.com/eq19/maps/assets/8466209/db99b4e8-d255-49ad-b601-f061989d5209)
 
 Upon reviewing the masses, the algorithms should work correctly to depict the Generation I, II & III and the charge levels of the elementary particles.
 
@@ -665,7 +674,7 @@ Upon reviewing the masses, the algorithms should work correctly to depict the Ge
 
 Bosonic String Theory of 26-dim J3(O)o is related to an M-theory based on the full 27-dimensional J3(O) and 28-dimensional J4(Q).
 
-[![String theory](https://github.com/eq19/eq19.github.io/assets/8466209/38b6bb71-6e4b-4020-aa59-03d83873ffc5)](https://en.wikipedia.org/wiki/String_theory#Extra_dimensions)
+[![String theory](https://github.com/eq19/maps/assets/8466209/38b6bb71-6e4b-4020-aa59-03d83873ffc5)](https://en.wikipedia.org/wiki/String_theory#Extra_dimensions)
 
 There are models of two related universes that e.g. attempt to explain the [baryon asymmetry](https://en.wikipedia.org/wiki/Baryon_asymmetry) – why there was more matter than [antimatter](https://en.wikipedia.org/wiki/Antimatter) at the beginning – [with a mirror anti-universe](https://en.wikipedia.org/wiki/Baryon_asymmetry#Mirror_anti-universe).
 
@@ -677,7 +686,7 @@ In [physical cosmology](https://en.wikipedia.org/wiki/Physical_cosmology), the b
 Several competing hypotheses exist to ***explain the imbalance of matter and antimatter*** that resulted in [baryogenesis](https://en.wikipedia.org/wiki/Baryogenesis). However, there is as of yet no consensus theory to explain the phenomenon, which has been described as _"one of the [great mysteries in physics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_physics)"_. _([Wikipedia](https://en.wikipedia.org/wiki/Baryon_asymmetry))_
 ```
 
-[![image](https://github.com/eq19/eq19.github.io/assets/8466209/bb323fa8-97ee-4b0f-b221-0161986a3a40)](https://en.wikipedia.org/wiki/Multiverse)
+[![image](https://github.com/eq19/maps/assets/8466209/bb323fa8-97ee-4b0f-b221-0161986a3a40)](https://en.wikipedia.org/wiki/Multiverse)
 
 The component of the 27 dimensional gravitational field g27;27 is a scalar in the 26 dimensional theory. It is of course the ***dilaton***.
 
@@ -692,7 +701,7 @@ Consider a (purple) world-line String of one World of the MacroSpace of Many-Wor
 Note that Gravity may not propagate in the 26 dimensions of the MacroSpace of the Many-Worlds in exactly the same way as it propagates in our 4-dimensional physical SpaceTime. _([Tony Smith's](https://www.valdostamuseum.com/hamsmith/Rzeta.html))_
 ```
 
-[![World String](https://github.com/eq19/eq19.github.io/assets/8466209/53385640-6ee7-4037-b113-e9540966c974)](https://www.valdostamuseum.com/hamsmith/Rzeta.html)
+[![World String](https://github.com/eq19/maps/assets/8466209/53385640-6ee7-4037-b113-e9540966c974)](https://www.valdostamuseum.com/hamsmith/Rzeta.html)
 
 Particle physicists acknowledge that the particle may exist in wave forms and yet have characteristics of matter.
 
@@ -708,7 +717,7 @@ Fermions and bosons seem as different as could be, yet supersymmetry brings the 
 
 ***1 + 8 + 8 + 8 + 1 = 2 × (1+4+8) = 2 × 13 = 26***
 
-![standardmodel1](https://github.com/eq19/eq19.github.io/assets/8466209/caee81de-6abf-41c5-817e-78e9bce56fdf)
+![standardmodel1](https://github.com/eq19/maps/assets/8466209/caee81de-6abf-41c5-817e-78e9bce56fdf)
 
 The 26 dimensions of _[Closed Unoriented Bosonic String Theory](https://www.valdostamuseum.com/hamsmith/Planck.html)_ are interpreted as the 26 dimensions of the traceless Jordan algebra ***J3(O)o of 3x3 Octonionic matrices***.
 
@@ -785,13 +794,13 @@ So hypothetically it suppose to have its own [parallel universes](https://www.in
 This law of physics would exist everywhere. So it is also one of their law when the ***1st sequence*** of the unrepeated ten (10) digits Euler's number ***is zero (0)***. 
 
 ```note
-1729th decimal digit holds significance in the decimal representation of the transcendental number e. From 1729th digit you can get the first occurrence of all ten digits consecutively and they are 0719425863. _([Ramanujan taxicab 1729 - pdf](https://github.com/eq19/eq19.github.io/files/13934098/Ramanujan2.pdf)
+1729th decimal digit holds significance in the decimal representation of the transcendental number e. From 1729th digit you can get the first occurrence of all ten digits consecutively and they are 0719425863. _([Ramanujan taxicab 1729 - pdf](https://github.com/eq19/maps/files/13934098/Ramanujan2.pdf)
 )_
 ```
 
 ***139 + 286 + 114 + 247 + 157 + 786 = 786 + 157 + 786 = 1729 = 7 x 13 x 19***
 
-[![0719425863 in 1729th position of Euler's number](https://github.com/eq19/eq19.github.io/assets/8466209/39392aeb-6d99-4161-a07b-97da2a4c496c)
+[![0719425863 in 1729th position of Euler's number](https://github.com/eq19/maps/assets/8466209/39392aeb-6d99-4161-a07b-97da2a4c496c)
 ](https://www.eq19.com/#addition-zones)
 
 {:.bg-white.text-black.m-5}
@@ -813,7 +822,7 @@ Wave–particle duality is the concept in [quantum mechanics](https://en.m.wikip
 During the 19th and early 20th centuries, light was found to behave as a wave, and then later discovered to have a particulate character, whereas electrons were found to act as particles, and then later discovered to have wavelike aspects. The concept of duality arose to name these contradictions. _([Wikipedia](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality))_
 ```
 
-![Quantum-Physics](https://github.com/eq19/eq19.github.io/assets/8466209/12a6a59b-abb3-4767-968c-33238719e94b)
+![Quantum-Physics](https://github.com/eq19/maps/assets/8466209/12a6a59b-abb3-4767-968c-33238719e94b)
 
 Our results show that ***about 69%*** of our universe’s energy is dark energy. They also demonstrate, once again, that Einstein’s simplest form of dark energy – the cosmological constant – agrees the most with our observations.
 
@@ -830,14 +839,14 @@ Many physicists aren’t satisfied with this explanation, though. They want a mo
 Or is it a sign that Einstein’s equations of gravity are somehow incomplete? What’s more, we don’t really understand the universe’s current rate of expansion 
 
 ```note
-Discussing both open and closed bosonic strings, Soo-Jong Rey, in his paper [Heterotic M(atrix) Strings and Their Interactions - pdf](https://github.com/eq19/eq19.github.io/files/14234424/9704158.pdf), says: We would like to conclude with a highly speculative remark on a possible:
+Discussing both open and closed bosonic strings, Soo-Jong Rey, in his paper [Heterotic M(atrix) Strings and Their Interactions - pdf](https://github.com/eq19/maps/files/14234424/9704158.pdf), says: We would like to conclude with a highly speculative remark on a possible:
 - It is well-known that The regularizedone-loop effective action of d-dimensional Yang-Mills theory. ***For d=26, the gauge kinetic term does not receive radiative correction at all***.
 - We expect that this non-renormalization remains the same even after dimensional reductions. One may wonder if it is possible to construct for bosonic string as well despite the absence of supersymmetry and BPS states.
 - M(atrix) theory description of bosonic strings bosonic Yang-Mills theory in twenty-six dimensions is rather special M(atrix)string theory. The bosonic strings also have D-brane extended solitons, whose tension scales as 1/gB for weak string coupling `gB « 1`.
 - Given the observation that the leading order string effective action of and antisymmetric tensor field ***may be derived from Einstein's Gravity in d = 27***, let us make an assumption that  the 27-th quantum dimension decompactifies as the string coupling gB becomes large. For D0-brane, the dilaton exchange force may be interpreted as ***the 27-th diagonal component*** of `d = 27` metric.
 - Gravi-photon is suppressed by compactifying 27-th direction on an rather than on a circle. Likewise, its mass may be interpreted as 27-th Kaluza-Klein momentum of a massless excitation in `d = 27`. 
 
-In the infinite boost limit, the light-front view of a bosonic string is that infinitely many D0-branes are threaded densely on the bosonic string. _([26 Dimensions of Bosonic String Theory - pdf](https://github.com/eq19/eq19.github.io/files/13904636/0102042.pdf))_
+In the infinite boost limit, the light-front view of a bosonic string is that infinitely many D0-branes are threaded densely on the bosonic string. _([26 Dimensions of Bosonic String Theory - pdf](https://github.com/eq19/maps/files/13904636/0102042.pdf))_
 ```
 
 [![Einstein’s equations](https://user-images.githubusercontent.com/36441664/90888069-be693700-e3df-11ea-8504-4733f56f8ab4.jpeg)](https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence)
@@ -848,14 +857,14 @@ The expected Gravitational waves spreading all over the universe, and all partic
 Einstein in 1916 proposed the existence of gravitational waves as an outgrowth of his ground-breaking general theory of relativity, which ***depicted gravity as the distortion of space and time by matter***. Until their detection in 2016, scientists had found only indirect evidence of their existence, beginning in the 1970s. The gravitational wave signal was observed in 15 years' worth of data obtained by the North American Nanohertz Observatory for Gravitational Waves (NANOGrav) Physics Frontiers Center (PFC), a collaboration of more than 190 scientists from the United States and Canada. _([Reuters](https://www.reuters.com/science/scientists-discover-that-universe-is-awash-gravitational-waves-2023-06-29/))_
 ```
 
-[![Sun vs Moon](https://github.com/eq19/eq19.github.io/assets/8466209/caa874bf-b092-4c2e-abba-e79b6a38f50b)](https://www.eq19.com/multiplication/18.html#sun-vs-moon)
+[![Sun vs Moon](https://github.com/eq19/maps/assets/8466209/caa874bf-b092-4c2e-abba-e79b6a38f50b)](https://www.eq19.com/multiplication/18.html#sun-vs-moon)
 
 Assuming that each fermion could be an earth in “anti-universe” then it stands as 1000 times earth moon system around the sun against the background of the 11 galaxies. 
 
 ```note
 Month, a measure of time corresponding or nearly corresponding to the length of time required by the [Moon](https://www.britannica.com/place/Moon) to revolve once around the Earth.
 - The [synodic month](https://www.britannica.com/science/synodic-month), or complete cycle of phases of the [Moon](https://www.britannica.com/science/moon-natural-satellite) as seen from Earth, averages 29.530588 mean solar days in length (i.e., 29 days 12 hours 44 minutes 3 seconds); because of [perturbations](https://www.britannica.com/dictionary/perturbations) in the Moon’s [orbit](https://www.britannica.com/science/orbit-astronomy), the lengths of all astronomical months vary slightly. 
-- The [sidereal month](https://www.britannica.com/science/sidereal-month) is ***the time needed for the Moon to return to the same place against the background of the stars***, 27.321661 days (i.e., 27 days 7 hours 43 minutes 12 seconds); the difference between synodic and sidereal lengths is due to the orbital movement of the Earth–Moon system around the [Sun](https://www.britannica.com/place/Sun).![image](https://github.com/eq19/eq19.github.io/assets/8466209/b44edbe8-9860-4892-bc1b-0370f7c19dd6)
+- The [sidereal month](https://www.britannica.com/science/sidereal-month) is ***the time needed for the Moon to return to the same place against the background of the stars***, 27.321661 days (i.e., 27 days 7 hours 43 minutes 12 seconds); the difference between synodic and sidereal lengths is due to the orbital movement of the Earth–Moon system around the [Sun](https://www.britannica.com/place/Sun).![image](https://github.com/eq19/maps/assets/8466209/b44edbe8-9860-4892-bc1b-0370f7c19dd6)
 - The tropical month, 27.321582 days (i.e., 27 days 7 hours 43 minutes 5 seconds), only 7 seconds shorter than the sidereal month, is the time between passages of the Moon through the same celestial longitude.
 - The [draconic](https://www.britannica.com/science/draconic-month), or nodical, month of 27.212220 days (i.e., 27 days 5 hours 5 minutes 35.8 seconds) is the time between the Moon’s passages through the same node, or intersection of its orbit with the ecliptic, the apparent pathway of the Sun.
 
@@ -916,10 +925,10 @@ The described Multiverse expansion creates huge parallel Multiverse bubbles with
 - Fig. 13b shows repulsive antigravity between all the nearest matter/antimatter waveguides, e.g. between  W-1 (antimatter), W+1 (antimatter) and our matter W0 Galaxies. 
 - Fig. 13c shows attractive Рravitв betаeen the nearest “dark” waveguides (e.g. between W-2 Dark Matter, W+2 Dark Matter) and our Matter W0 Galaxies. 
 
-The visible W-1 (antimatter), W+1 (antimatter) Universes are adjacent to the W0 (our matter)-Universe and have two joint framing membranes M0 and M-1, carrying two joint electrostatic potentials. _([Gribov_I_2013 - pdf](https://github.com/eq19/eq19.github.io/files/14155625/Gribov_I_2013_From_the_waveguided_gravit.pdf))_
+The visible W-1 (antimatter), W+1 (antimatter) Universes are adjacent to the W0 (our matter)-Universe and have two joint framing membranes M0 and M-1, carrying two joint electrostatic potentials. _([Gribov_I_2013 - pdf](https://github.com/eq19/maps/files/14155625/Gribov_I_2013_From_the_waveguided_gravit.pdf))_
 ```
 
-[![From_the_waveguided](https://github.com/eq19/eq19.github.io/assets/8466209/205edf50-5b7d-486c-8613-4b0cd4cce268)](https://www.semanticscholar.org/paper/From-the-Waveguided-Gravity-to-the-Periodic-as-of-%26-Gribov/3d704a7727442f0ffdbb4bae4c15d08d53011938)
+[![From_the_waveguided](https://github.com/eq19/maps/assets/8466209/205edf50-5b7d-486c-8613-4b0cd4cce268)](https://www.semanticscholar.org/paper/From-the-Waveguided-Gravity-to-the-Periodic-as-of-%26-Gribov/3d704a7727442f0ffdbb4bae4c15d08d53011938)
 
 So now we can find them as ***i12*** in our discussions about the [26 parameters](https://www.eq19.com/multiplication/#free-parameters) on the mechanism for fermion mass generation which end up to 139 components.
 
@@ -963,16 +972,16 @@ The 26-dimensional traceless subalgebra J3(O)o is arepresentation of the 26-dim 
 - ***3 copies of the 26-dimensional*** traceless subalgebra J3(O)o of the 27-dimensional J3(O) by using the of ***78-dimensional E6 over 52-dimensional F4*** and the structure of based on the 26-dimensional representation of.
 - In this view, Lie algebra D4-D5-E6-E7-E8 VoDou Physics model Jordan algebra fibration E6/F4 F4 as doubled J3(O)o F4 
 
-In order to reproduce the known spectrum of weakly coupled bosonic string theory, bosonic M theory will have to contain an additional field besides the ***27 dimensional gravitational field***, namely a three-form potential CFT. _([PhiloPhysics - pdf](https://github.com/eq19/eq19.github.io/files/14258292/PhiloPhysics.pdf))_
+In order to reproduce the known spectrum of weakly coupled bosonic string theory, bosonic M theory will have to contain an additional field besides the ***27 dimensional gravitational field***, namely a three-form potential CFT. _([PhiloPhysics - pdf](https://github.com/eq19/maps/files/14258292/PhiloPhysics.pdf))_
 ```
 
 ***6+6 + 6/\6 = 6+6 + 15 = 27-day month***
 
-[![26 Dimensions of Bosonic String Theory](https://github.com/eq19/eq19.github.io/assets/8466209/edb2a71a-9c95-4b61-9cd0-332e548220b4)](https://www.valdostamuseum.com/hamsmith/Rzeta.html)
+[![26 Dimensions of Bosonic String Theory](https://github.com/eq19/maps/assets/8466209/edb2a71a-9c95-4b61-9cd0-332e548220b4)](https://www.valdostamuseum.com/hamsmith/Rzeta.html)
 
 So we need to reformulate Einstein's general relativity in a language closer to that of the rest of fundamental physics, specifically [Yang–Mills theory](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory).
 
-![fully-expanded-incl-matrices](https://github.com/eq19/eq19.github.io/assets/8466209/97eb39af-a7ef-41a1-8e37-4dd1f577ff79)
+![fully-expanded-incl-matrices](https://github.com/eq19/maps/assets/8466209/97eb39af-a7ef-41a1-8e37-4dd1f577ff79)
 
 The areas of research, which involve about [30 research groups](https://en.wikipedia.org/wiki/Loop_quantum_gravity#cite_note-FOOTNOTERovelli2008-1) worldwide, share the basic physical assumptions and the mathematical description of quantum space.
 
@@ -985,7 +994,7 @@ The areas of research, which involve about [30 research groups](https://en.wikip
 - There are six leptons in total; the three charged leptons are called "electron-like leptons", while the neutral leptons are called "[neutrinos](https://en.wikipedia.org/wiki/Neutrino)".
 - Neutrinos are known to [oscillate](https://en.wikipedia.org/wiki/Neutrino_oscillation), so that neutrinos of definite [flavor](https://en.wikipedia.org/wiki/Flavour_(particle_physics)) do not have definite mass, rather they exist in a superposition of mass [eigenstates](https://en.wikipedia.org/wiki/Eigenstate).
 
-![matrices-interpreted-2](https://github.com/eq19/eq19.github.io/assets/8466209/e5dcde30-aafd-4c51-921d-bd252190a621)
+![matrices-interpreted-2](https://github.com/eq19/maps/assets/8466209/e5dcde30-aafd-4c51-921d-bd252190a621)
 
 The hypothetical heavy right-handed neutrino, called a "[sterile neutrino](https://en.wikipedia.org/wiki/Sterile_neutrino)", has been omitted. _([Wikipedia](https://en.wikipedia.org/wiki/List_of_particles))_
 ```
@@ -1040,16 +1049,16 @@ This approach shows that there are actually four copies of the tri-rectified Cox
 There are [28 octonion Fano plane triangles](https://en.wikipedia.org/wiki/Fano_plane) that correspond directly to the [28 Trott quartic curve bitangents](https://en.wikipedia.org/wiki/Bitangents_of_a_quartic). 
 - These bitangents are directly related to the Legendre functions used in the Shroedinger spherical harmonic electron orbital probability densities.
 - Shown below is a graphic of these overlaid onto the n=5, l=2, m=1 element, which is assigned to [gold (Au)](https://en.wikipedia.org/wiki/File:Stowe-Janet-Scerri_PeriodicTable.svg).
-- When using an algorithm based on the [E8 positive algebra root assignments](https://en.wikipedia.org/wiki/E8_%28mathematics%29), the “flipped” Fano plane has E8 algebra root number 79 (the atomic number of Au) and split real even group number of 228 (in Clifford/Pascal triangle order).[![FanoLegendre](https://github.com/eq19/eq19.github.io/assets/8466209/6a9f5200-6d4f-477e-979e-e84757290b28)](https://theoryofeverything.org/theToE/2013/06/15/connecting-the-octonion-fano-plane-to-the-atomic-elements/)
+- When using an algorithm based on the [E8 positive algebra root assignments](https://en.wikipedia.org/wiki/E8_%28mathematics%29), the “flipped” Fano plane has E8 algebra root number 79 (the atomic number of Au) and split real even group number of 228 (in Clifford/Pascal triangle order).[![FanoLegendre](https://github.com/eq19/maps/assets/8466209/6a9f5200-6d4f-477e-979e-e84757290b28)](https://theoryofeverything.org/theToE/2013/06/15/connecting-the-octonion-fano-plane-to-the-atomic-elements/)
 - This matrix is shown to be useful in providing direct relationships between E8 and the lower dimensional Dynkin and Coxeter-Dynkin geometries contained within it, geometries that are visualized in the form of real and virtual 3 dimensional objects.
 - A direct linkage between E8, the folding matrix, fundamental physics particles in an extended Standard Model Gravi GUT, quaternions, and octonions is introduced, and its importance is investigated and described. 
 - E8 and its 4D children, the[ 600-cell](https://en.wikipedia.org/wiki/600-cell) and [120-cell](https://en.wikipedia.org/wiki/120-cell) (pages on which I have some work, amongst others) and its grandkids (2 of the 3D 5 [Platonic Solids](https://en.wikipedia.org/wiki/Platonic_solid), one of which is the 3D version of the 2D Pentagon) are all related to the Fibonacci numbers and the [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio).
 - And finally, the {7, 8} dimensions in physics can be identified with quark color, as {7} preserves the blue quark positions, while {8} moves the ***dual concentric rings of quarks*** while preserving their relative positions within the rings. It is interesting t note that the dimensions {6, 7, 8} are appropriately labeled {r, g, b} in SRE coordinates, since in this projection the SRE math coordinates are located at the afforementioned ***6 triple overlap points at center of the quark’s*** {r, g, ¯ g, b, ¯ ¯b} concentric rings (the intersection of the gluons triality lines)![6 triple overlap points](https://user-images.githubusercontent.com/8466209/90985852-ca542500-e5a8-11ea-9027-9bfdcbe37966.jpg)
 
-So that kind of explains why most of my [2D art, 3D objects and sculptures](http://theoryofeverything.com/theToE/) (e.g. furniture like the dodecahedron table below), and 4D [youtube animations](https://www.youtube.com/@JGregoryMoxness/videos) all use the [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio) theme. _([E8 to H4 folding matrix - pdf](https://github.com/eq19/eq19.github.io/files/14450026/E8toH4fold_compressed.pdf))_
+So that kind of explains why most of my [2D art, 3D objects and sculptures](http://theoryofeverything.com/theToE/) (e.g. furniture like the dodecahedron table below), and 4D [youtube animations](https://www.youtube.com/@JGregoryMoxness/videos) all use the [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio) theme. _([E8 to H4 folding matrix - pdf](https://github.com/eq19/maps/files/14450026/E8toH4fold_compressed.pdf))_
 ```
 
-[![28+Octonion](https://github.com/eq19/eq19.github.io/assets/8466209/727945dd-a7fc-4f6e-8f89-0c843341a671)](https://theoryofeverything.org/theToE/tags/4d/)
+[![28+Octonion](https://github.com/eq19/maps/assets/8466209/727945dd-a7fc-4f6e-8f89-0c843341a671)](https://theoryofeverything.org/theToE/tags/4d/)
 
 The number 28, aside from being triangular wave of perfect pyramid, is the sum of the ***first 5 primes*** and the sum of the ***first 7 natural numbers***.
 
@@ -1058,7 +1067,7 @@ The number 28, aside from being triangular wave of perfect pyramid, is the sum o
 These elements match a subalgebra of spin(11,3) acting on a Majorana-Weyl spinor, consistent with GraviGUT unification.
 
 ```note
-The natural next step is to generalise this to D = 3, 4, 6, 10 and obtain a ‘magic pyramid’ with the D = 3 magic square at the base and Type II supergravity at the summit. On the basis of these results we speculate that the part played by octonions in string and M-theory may be more prominent than previously though. _([Super Yang-Mills - pdf](https://github.com/eq19/eq19.github.io/files/14386520/1309.0546.pdf))_
+The natural next step is to generalise this to D = 3, 4, 6, 10 and obtain a ‘magic pyramid’ with the D = 3 magic square at the base and Type II supergravity at the summit. On the basis of these results we speculate that the part played by octonions in string and M-theory may be more prominent than previously though. _([Super Yang-Mills - pdf](https://github.com/eq19/maps/files/14386520/1309.0546.pdf))_
 ```
 
 ```txt
@@ -1115,10 +1124,10 @@ In this article, we investigated the ***phenomenology of triplet Higgs bosons in
 - It was shown that there is no contribution of these Higgs bosonsto µ → eee ¯ and ℓ → ℓ′γ.
 - Thus, we can naturally expect signals of τ → µee and τ → eµµ(which are possible in this model among six τ → ℓℓ′ℓ′′) in the future in collider experiments (Super-KEKB, super B factory, super flavor factory, and LHCb) without interfering with a stringent experimental bound on µ → eee ¯ . This model will be excluded if ℓ → ℓ ′γ is observed.
 
-We considered current experimental constraints on the model and prospects of the measurement of the non-standard neutrino interactions (NSI) in the neutrino factory. If H±±2 or H±±3 is lighter enough than other H±±i, effects of the NSI can be around the expected sensitivity in the neutrino factory. _([Triplet Higgs bosons - pdf](https://github.com/eq19/eq19.github.io/files/14442049/1005.5338.pdf))_
+We considered current experimental constraints on the model and prospects of the measurement of the non-standard neutrino interactions (NSI) in the neutrino factory. If H±±2 or H±±3 is lighter enough than other H±±i, effects of the NSI can be around the expected sensitivity in the neutrino factory. _([Triplet Higgs bosons - pdf](https://github.com/eq19/maps/files/14442049/1005.5338.pdf))_
 ```
 
-[![how-we-can-constrain-various-higgs-sectors1-l](https://github.com/eq19/eq19.github.io/assets/8466209/e3b14f7a-bd2a-4dcc-b97f-30ad329458a0)](https://studylib.net/doc/5775531/phenomenology-of-the-higgs-triplet-model)
+[![how-we-can-constrain-various-higgs-sectors1-l](https://github.com/eq19/maps/assets/8466209/e3b14f7a-bd2a-4dcc-b97f-30ad329458a0)](https://studylib.net/doc/5775531/phenomenology-of-the-higgs-triplet-model)
 
 Assigning a specific mass, length, time, and charge metrics based on new dimensional relationships and the Planck constant (***which defines Higgs mass***).
 
@@ -1126,7 +1135,7 @@ Assigning a specific mass, length, time, and charge metrics based on new dimensi
 The discovery of [neutrino oscillations](https://en.wikipedia.org/wiki/Neutrino_oscillation) indicates that the Standard Model is incomplete, but there is currently no clear evidence that nature is described by any _[Grand Unified Theory](https://en.wikipedia.org/wiki/Grand_Unified_Theory)_. Neutrino oscillations have led to renewed interest toward certain GUT such as _[SO(10)](https://en.wikipedia.org/wiki/SO(10))_. _([Wikipedia](https://en.wikipedia.org/wiki/Grand_Unified_Theory))_
 ```
 
-[![SM-SUSY-diagram](https://github.com/eq19/eq19.github.io/assets/8466209/e513f4bc-58e9-4cf7-aa23-1114e64b7f44)](https://arstechnica.com/science/2014/04/a-sort-of-particle-free-supersymmetry-found-in-exotic-materials/)
+[![SM-SUSY-diagram](https://github.com/eq19/maps/assets/8466209/e513f4bc-58e9-4cf7-aa23-1114e64b7f44)](https://arstechnica.com/science/2014/04/a-sort-of-particle-free-supersymmetry-found-in-exotic-materials/)
 
 These include generating variants of their abundance profile, assigning taxonomy and finally generating a rooted [phylogenetic tree](https://en.wikipedia.org/wiki/Phylogenetic_tree) for the [Standard Model](https://www.eq19.com/identition/span12/#three-3-layers).
 
@@ -1138,7 +1147,7 @@ This paper seeks to examine several extended SUSY Yang-Mills Theories on the 0-B
 The resulting adinkra matrices and SUSY algebra structure are investigated for these theories, and from this comparisons are made.
 ```
 
-[![SuperYangMillsPresentation](https://github.com/eq19/eq19.github.io/assets/8466209/393509b3-70dd-4959-ad51-2134fd73ebaf)](https://github.com/eq19/eq19.github.io/files/14900588/SuperYangMillsPresentation.pdf)
+[![SuperYangMillsPresentation](https://github.com/eq19/maps/assets/8466209/393509b3-70dd-4959-ad51-2134fd73ebaf)](https://github.com/eq19/maps/files/14900588/SuperYangMillsPresentation.pdf)
 
 ```note
 Supersymmetry (SUSY) is a space-time symmetry which relates fermions and bosons. It predicts superpartners  for every known particle with identical quantum numbers except the spin which differs by 1/2 and thus offers  a solution to several open problems of the standard model (SM).
@@ -1148,7 +1157,7 @@ Supersymmetry (SUSY) is a space-time symmetry which relates fermions and bosons.
 When the mediators are gauge interactions, we arrive to Gauge Mediated Supersymmetry Breaking models (GMSB, 5 parameters) or to its generalization, General Gauge Mediation (GGM, 8 parameters)
 ```
 
-.[![Search_for_supersymmetry_with_photon](https://github.com/eq19/eq19.github.io/assets/8466209/ebd26d40-737f-4bcf-92ee-e7769c3c87b9)](https://github.com/eq19/eq19.github.io/files/14900593/Search_for_supersymmetry_with_photons.pdf)
+.[![Search_for_supersymmetry_with_photon](https://github.com/eq19/maps/assets/8466209/ebd26d40-737f-4bcf-92ee-e7769c3c87b9)](https://github.com/eq19/maps/files/14900593/Search_for_supersymmetry_with_photons.pdf)
 
 By taking the correlation of these 11 partitions with the logical sequence of numbers there would be a _[series expansion](https://www.eq19.com/multiplication/#elementary-structure)_.
 
@@ -1158,12 +1167,12 @@ In particle physics, study of the symmetry and its breaking play very important 
 information about the nature.
 
 ```note
-In this paper, we have extended our previous discussions about using HYMNs (height-yielding matrix numbers) which are the eigenvalues [14] of functions of the adjacency matrices associated with the L-matrics and R-matrices derived from adinkras. _([Properties of HYMNs - pdf](https://github.com/eq19/eq19.github.io/files/14386627/2010.14659.pdf))_
+In this paper, we have extended our previous discussions about using HYMNs (height-yielding matrix numbers) which are the eigenvalues [14] of functions of the adjacency matrices associated with the L-matrics and R-matrices derived from adinkras. _([Properties of HYMNs - pdf](https://github.com/eq19/maps/files/14386627/2010.14659.pdf))_
 ```
 
-![images (13)](https://github.com/eq19/eq19.github.io/assets/8466209/20b5e077-04b7-4de6-8c95-1e2b7fe516a8)
+![images (13)](https://github.com/eq19/maps/assets/8466209/20b5e077-04b7-4de6-8c95-1e2b7fe516a8)
 
-[![images (15)](https://github.com/eq19/eq19.github.io/assets/8466209/2dee45b5-625c-4e78-ad3a-4d54f7427005)](https://github.com/eq19/eq19.github.io/files/14386627/2010.14659.pdf)
+[![images (15)](https://github.com/eq19/maps/assets/8466209/2dee45b5-625c-4e78-ad3a-4d54f7427005)](https://github.com/eq19/maps/files/14386627/2010.14659.pdf)
 
 In order to generate an adinkra, we must first describe certain transformation laws (following 0-Brane reduction) as a set of vectors, from which these vectors are thought of as matrices. 
 
@@ -1171,7 +1180,7 @@ In order to generate an adinkra, we must first describe certain transformation l
 Only then may we obtain the L and R matrices, which we use to generate adinkras. The adinkra that is generated from a set of adinkra matrices in Super Yang-Mills Theory is shown below
 ```
 
-[![adinkra matrices in Super Yang-Mills Theory](https://github.com/eq19/eq19.github.io/assets/8466209/e32dd349-a395-4ab7-90c6-2afeffffdac5)](https://www.scribd.com/document/91285970/Super-Symmetry-and-Adinkras-by-Gregory-D-Landweber)
+[![adinkra matrices in Super Yang-Mills Theory](https://github.com/eq19/maps/assets/8466209/e32dd349-a395-4ab7-90c6-2afeffffdac5)](https://www.scribd.com/document/91285970/Super-Symmetry-and-Adinkras-by-Gregory-D-Landweber)
 
 In the forty years since 11D on-shell supergravity theory was constructed in 1978, a lot of efforts have been made to understand supergravity in superspace. 
 
@@ -1194,7 +1203,7 @@ This illustrates how the properties of the octonion multiplication table conform
 ***All of these results strongly suggest adynkras are pointing in the direction of using series expansion*** in terms of YT’s as a tool to gain the most fundamental mathematical understanding of this class of problems. _([Higher-Dimensional Supergravity - Pdf](https://github.com/eq19/feed/files/12924002/ATMP-2021-0025-0006-a003.pdf))_
 ```
 
-[![Qabbalah](https://github.com/eq19/eq19.github.io/assets/8466209/89cc399c-8f23-4173-b380-7ffeae57d2e8)](https://xenqabbalah.fandom.com/wiki/User_blog:Dimensional_consciousness/The_Octonion_Math_That_Could_Underpin_Physics#Octonions)
+[![Qabbalah](https://github.com/eq19/maps/assets/8466209/89cc399c-8f23-4173-b380-7ffeae57d2e8)](https://xenqabbalah.fandom.com/wiki/User_blog:Dimensional_consciousness/The_Octonion_Math_That_Could_Underpin_Physics#Octonions)
 
 In supergravity theory, supersymmetry theory and superstring theory, Adinkra symbols are a graphical representation of supersymmetry algebras. 
 
@@ -1202,7 +1211,7 @@ In supergravity theory, supersymmetry theory and superstring theory, Adinkra sym
 The similarity between Adinkra in supersymmetry and Adinkra symbols is that they are both graphical representations with hidden meanings (Prof. Sylvester James Gates Jr.). _([Adinkra Alphabet](https://www.adinkraalphabet.com/2018/05/30/adinkra-supersymmetry/))_
 ```
 
-[![Adinkrasupersymmetry](https://github.com/eq19/eq19.github.io/assets/8466209/cd18ad31-7ea3-47da-9a2d-67006e19405f)](https://www.adinkraalphabet.com/2018/05/30/adinkra-supersymmetry/)
+[![Adinkrasupersymmetry](https://github.com/eq19/maps/assets/8466209/cd18ad31-7ea3-47da-9a2d-67006e19405f)](https://www.adinkraalphabet.com/2018/05/30/adinkra-supersymmetry/)
 
 They are composed out of _[Symmetry Breaking](https://www.eq19.com/multiplication/16.html#symmetry-breaking)_ between _[The True Prime Pairs](https://www.eq19.com/addition/2.html)_ versus the 139 components of _The Fermion Field_ tabulated as below.
 
@@ -1216,7 +1225,7 @@ We have shown that the SU(2)L triplet Higgs suggested by the CDF W -boson mass a
 - Interestingly, this leads to a suppression in the proton decay mediated by X gauge bosons but leads to a significant enhancement in the proton decay through the colored Higgs boson. This means that if nature is realized by this minimal model, it is bound to show up in proton decay experiments eventually.
 - Although this model has some additional fine tuning, the fine-tuning of the fermion masses is similar in nature to the doublet-triplet splitting present in all GUT models. 
 
-Since the fine-tuning for all the fields in our model, including the light complex SU(2)L triplet, are similar in design to the doublet-triplet splitting, it is possible that all the required tuning of this GUT theory is solved by a single lmechanism, e.g. product group unification scenarios. _([W boson mass anomaly and grand unification - pdf](https://github.com/eq19/eq19.github.io/files/14412652/2205.03877.pdf))_
+Since the fine-tuning for all the fields in our model, including the light complex SU(2)L triplet, are similar in design to the doublet-triplet splitting, it is possible that all the required tuning of this GUT theory is solved by a single lmechanism, e.g. product group unification scenarios. _([W boson mass anomaly and grand unification - pdf](https://github.com/eq19/maps/files/14412652/2205.03877.pdf))_
 ```
 
 ***the 12 fermions and 5 bosons are known to have 48 and 13 variations, respectively***
@@ -1253,12 +1262,12 @@ Since the total of parameters is ***66+i30*** then according to _[renormalizatio
 Similarly the Standard Model incorporates three generations of quarks, so its fermionic content can be summarized. 
 
 ```note
-In addition, the Standard Model involves gauge bosons (photons for the electromagnetic interaction, W and Z for the weak interaction, and ***eight (8) gluons*** for the strong interaction), plus the (scalar) Higgs particle. This is what all known matter in the Universe consists of. _([Netrinos](https://github.com/eq19/eq19.github.io/files/13796986/NEUTRINOS_Mysterious_Particles_with_Fascinating_Fe.pdf))_
+In addition, the Standard Model involves gauge bosons (photons for the electromagnetic interaction, W and Z for the weak interaction, and ***eight (8) gluons*** for the strong interaction), plus the (scalar) Higgs particle. This is what all known matter in the Universe consists of. _([Netrinos](https://github.com/eq19/maps/files/13796986/NEUTRINOS_Mysterious_Particles_with_Fascinating_Fe.pdf))_
 ```
 
 ***(33+1)th prime = 139***
 
-[![Multiplets-of-the-1-2-spin-baryon-in-SU4-flavour-model ppm](https://github.com/eq19/eq19.github.io/assets/8466209/f54ce961-0653-4be6-a03b-0dc96e3f34dd)](https://github.com/eq19/eq19.github.io/files/13777847/2305.02721.pdf)
+[![Multiplets-of-the-1-2-spin-baryon-in-SU4-flavour-model ppm](https://github.com/eq19/maps/assets/8466209/f54ce961-0653-4be6-a03b-0dc96e3f34dd)](https://github.com/eq19/maps/files/13777847/2305.02721.pdf)
 
 A precise measurement of the rate of the H→ bb process directly tests the Yukawa coupling of the Higgs boson to [a down-type quark](https://cds.cern.ch/record/2633415).
 
@@ -1270,7 +1279,7 @@ Recently, the CMS and ATLAS Collaborations reported observations of the Higgs bo
 The CMS Collaboration overcame this challenge by deploying modern sophisticated analysis tools and by focusing on particular signatures where a Higgs boson is produced in association with a vector boson V (a W or Z particle), a weak interaction process known as VH(bb), shown in the figure below, leading to a significant reduction in the background. _([CERN](https://cms.cern/news/higgs-observed-decaying-b-quarks))_
 ```
 
-[![down-type quark](https://github.com/eq19/eq19.github.io/assets/8466209/36b73f3c-fc47-428e-9d90-7f6f1c1e361a)](https://cms.cern/news/higgs-observed-decaying-b-quarks)
+[![down-type quark](https://github.com/eq19/maps/assets/8466209/36b73f3c-fc47-428e-9d90-7f6f1c1e361a)](https://cms.cern/news/higgs-observed-decaying-b-quarks)
 
 Study of connections between neutrino phenomenology and leptogenesis shows the patterns of symmetry breaking from SO10 to the Standard Model gauge group.
 
@@ -1279,10 +1288,10 @@ Since right-handed neutrinos appear naturally in the grand unified model based o
 - It turns out, however, that such constraints render a successful leptogenesis extremely difficult to obtain.
 - This happens because, unless a fine tuning on the neutrino mass parameters is introduced, the right-handed neutrinos become very hierarchical in mass, with the lowest mass being too small to allow for leptogenesis. 
 
-A compactness in the right-handed neutrino mass spectrum is, however, able to overcome this difficulty and achieve a consistent leptogenesis. _([Neutrino Phenomenology and Leptogenesis - pdf](https://github.com/eq19/eq19.github.io/files/14967913/2698_FiorilloDFG_21-06-2018.pdf))_
+A compactness in the right-handed neutrino mass spectrum is, however, able to overcome this difficulty and achieve a consistent leptogenesis. _([Neutrino Phenomenology and Leptogenesis - pdf](https://github.com/eq19/maps/files/14967913/2698_FiorilloDFG_21-06-2018.pdf))_
 ```
 
-[![Patterns-of-symmetry-breaking-from-SO10-to-the-Standard-Model-gauge-group](https://github.com/eq19/eq19.github.io/assets/8466209/fc850392-b83d-459d-9769-094843d447aa)](https://github.com/eq19/eq19.github.io/files/14967913/2698_FiorilloDFG_21-06-2018.pdf)
+[![Patterns-of-symmetry-breaking-from-SO10-to-the-Standard-Model-gauge-group](https://github.com/eq19/maps/assets/8466209/fc850392-b83d-459d-9769-094843d447aa)](https://github.com/eq19/maps/files/14967913/2698_FiorilloDFG_21-06-2018.pdf)
 
 We have found that if the intermediate scales induced by the soft SUSY breaking sector the model ***contains three families*** of vector-like leptons within the reach of LHC measurements or future High-Energy/High-Luminosity LHC upgrades. 
 
@@ -1290,7 +1299,7 @@ We have found that if the intermediate scales induced by the soft SUSY breaking 
 Our framework features the minimum of three (and maximum of five) light Higgs doublets at the electroweak scale providing a Cabibbo mixing consistent with the top-charm and bottom-strange mass hierarchies as well as massless first-generation quarks at tree-level. _([Prospects for new physics](https://link.springer.com/article/10.1140/epjc/s10052-020-08710-4))_
 ```
 
-[![10052_2020_8710_Fig1_HTML](https://github.com/eq19/eq19.github.io/assets/8466209/220b1111-2b0e-454a-a56f-602de2a84afc)](https://link.springer.com/article/10.1140/epjc/s10052-020-08710-4)
+[![10052_2020_8710_Fig1_HTML](https://github.com/eq19/maps/assets/8466209/220b1111-2b0e-454a-a56f-602de2a84afc)](https://link.springer.com/article/10.1140/epjc/s10052-020-08710-4)
 
 The inclusion of one-loop corrections with mild hierarchies supply the necessary ingredients to potentially generate realistic quark masses and mixing angles. 
 
@@ -1298,7 +1307,7 @@ The inclusion of one-loop corrections with mild hierarchies supply the necessary
 The present particle physics or standard model based on the "unreal gauge transformation symmetry" and meaningless math cannot explain any actual physical mechanism at all _([biglobe.ne.jp](https://www7b.biglobe.ne.jp/~kcy05t/parph.html))_
 ```
 
-[![hsta1](https://github.com/eq19/eq19.github.io/assets/8466209/f351b6d2-753a-45e4-8e26-f06a822db06f)](https://www7b.biglobe.ne.jp/~kcy05t/parph.html)
+[![hsta1](https://github.com/eq19/maps/assets/8466209/f351b6d2-753a-45e4-8e26-f06a822db06f)](https://www7b.biglobe.ne.jp/~kcy05t/parph.html)
 
 Thus it appears that the [cosmological models](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7897631/#RSPA20200786C24) derived from compactification of 11d supergravity on a manifold with [G2 holonomy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7897631/) have some ***[hidden E7 symmetry](https://www.eq19.com/identition/span12/#the-seven-7-groups).***
 
@@ -1385,7 +1394,7 @@ The gist contain prime data called 77 Principles that used to organize the 7 gro
 Base on the _[11s and 7s](https://www.eq19.com/addition/#structure-true-prime-pairs)_ distribution of the 18s  structure of The True Prime Pairs, the 7s will be reflected by _[seven (7) repositories](https://www.eq19.com/exponentiation/#parsering-structure)_ of user profile with id: 30 to id: 36 meanwhile the 11s will be reflected by _[eleven (11) organizations](https://www.eq19.com/identition/#the-powers-of-pi)_.
 ```
 
-[![114 Nodes](https://github.com/eq19/eq19.github.io/assets/8466209/f49b93f6-a00e-4f66-81c8-8e9d1e33f4e1)](https://www.eq19.com/exponentiation/#parsering-structure).
+[![114 Nodes](https://github.com/eq19/maps/assets/8466209/f49b93f6-a00e-4f66-81c8-8e9d1e33f4e1)](https://www.eq19.com/exponentiation/#parsering-structure).
 
 So when they are _[combined as eighteen (18)](https://www.eq19.com/addition/#structure-true-prime-pairs)_ then the ∆1 is recycled by 8th-prime and generate the pattern of ***6 by 6 flavors*** implemented to all of the repositories.
 
@@ -1394,10 +1403,10 @@ So when they are _[combined as eighteen (18)](https://www.eq19.com/addition/#str
 We discuss the phenomenology of doubly and singly charged Higgs bosons (of SU(2) L-triplet fields) in the simplest A 4-symmetric version of ***the Higgs Triplet Model***.
 
 ```note
-All fields of the standard model and gravity are unified as an E8 principal bundle connection. A non-compact real form of the E8 Lie algebra has G2 and F4 subalgebras which break down to strong su(3), electroweak su(2) x u(1), gravitational so(3,1), the frame-Higgs, and three generations of fermions related by triality. The interactions and dynamics of these 1-form and Grassmann valued parts of an E8 superconnection are described by the curvature and action over a four dimensional base manifold. _([An Exceptionally  Simple Theory of Everything - pdf](https://github.com/eq19/eq19.github.io/files/14151110/0711.0770.pdf))_
+All fields of the standard model and gravity are unified as an E8 principal bundle connection. A non-compact real form of the E8 Lie algebra has G2 and F4 subalgebras which break down to strong su(3), electroweak su(2) x u(1), gravitational so(3,1), the frame-Higgs, and three generations of fermions related by triality. The interactions and dynamics of these 1-form and Grassmann valued parts of an E8 superconnection are described by the curvature and action over a four dimensional base manifold. _([An Exceptionally  Simple Theory of Everything - pdf](https://github.com/eq19/maps/files/14151110/0711.0770.pdf))_
 ```
 
-[![A-periodic-table-of-E8](https://github.com/eq19/eq19.github.io/assets/8466209/947c3c73-bbf0-4299-afdd-b6c4a79d12dd)](https://www.semanticscholar.org/paper/An-Exceptionally-Simple-Theory-of-Everything-Lisi/d056c0146005bc033d5ede0676aa2a21211ac24f)
+[![A-periodic-table-of-E8](https://github.com/eq19/maps/assets/8466209/947c3c73-bbf0-4299-afdd-b6c4a79d12dd)](https://www.semanticscholar.org/paper/An-Exceptionally-Simple-Theory-of-Everything-Lisi/d056c0146005bc033d5ede0676aa2a21211ac24f)
 
 The index of 8 sign masks (sm) to the 30 fPi (each with 8 Hexadecimal masks). ***These can be “inverted” (0↔1) making 16×30=480 octonion permutations***.
 
@@ -1413,14 +1422,14 @@ Supersymmetry and more specifically supergravity grand unification allow one to 
 - The group SO(10) is rank 5 where as the standard model gauge group is rank 4. The rank of the group can be reduced by either using ***16 ⊕ 16 of Higgs fields or 126 ⊕ 126 of Higgs***.
 - Since under SU(5) ⊗ U(1) one has 16 ⊃ 1(−5) we see that a VEV formation for the singlet will reduce the rank of the group. Similarly 126 ⊃ 1(−10) under the above decomposition. Thus when the singlets in 16 ⊕ 16 of Higgs or 126 ⊕ 126 get VEVs, the SO(10) gauge symmetry will break reducing its rank.
 - However, we still need to reduce the remaining group symmetry to the Standard Model gauge group. For this we need to have additional Higgs fields such as 45, 54, 210. Further to get the residual gauge group SU(3)C ⊗ U(1)em we need to have 10 -plet of Higgs fields.
-- Thus the breaking of SO(10) down to SU(3)C ⊗ U(1)em ***requires at least three (3) sets of Higgs representations***: one to reduce the rank, the second to break the rest of the gauge group to the Standard Model gauge group and then at least one 10-plet to break the electroweak symmetry.[![Higgs fields](https://github.com/eq19/eq19.github.io/assets/8466209/ac0b2608-24b2-4a0d-bae8-55473a8576d9)](https://www.nature.com/articles/s41586-022-04892-x)
+- Thus the breaking of SO(10) down to SU(3)C ⊗ U(1)em ***requires at least three (3) sets of Higgs representations***: one to reduce the rank, the second to break the rest of the gauge group to the Standard Model gauge group and then at least one 10-plet to break the electroweak symmetry.[![Higgs fields](https://github.com/eq19/maps/assets/8466209/ac0b2608-24b2-4a0d-bae8-55473a8576d9)](https://www.nature.com/articles/s41586-022-04892-x)
 - As discussed above one can do this by a combination of fields from the set: 10, 16 ⊕ 16, 45, 54, 120, 126 ⊕ 126, 210.
 - To generate quark and lepton masses we need to couple two 16-plets of matter with Higgs fields. ***To see which Higgs fields couple we expand the product 16⊗16 as a sum over the irreducible representations of SO(10)***. 
 
-Here we have ***16 ⊗ 16 = 10s ⊕ 120a ⊕ 126s***, where the s(a) refer to symmetric (anti-symmetric) under the interchange of the two 16-plets. The array of Higgs bosons available lead to a large number of possible SO(10) models. _([Superunification - pdf](https://github.com/eq19/eq19.github.io/files/14413665/1709.09718.pdf))_
+Here we have ***16 ⊗ 16 = 10s ⊕ 120a ⊕ 126s***, where the s(a) refer to symmetric (anti-symmetric) under the interchange of the two 16-plets. The array of Higgs bosons available lead to a large number of possible SO(10) models. _([Superunification - pdf](https://github.com/eq19/maps/files/14413665/1709.09718.pdf))_
 ```
 
-[![SO(10)_-_16_Weight_Diagram svg](https://github.com/eq19/eq19.github.io/assets/8466209/012168fa-d2d7-4b8d-a2af-280927eb4aae)](https://en.wikipedia.org/wiki/SO(10))
+[![SO(10)_-_16_Weight_Diagram svg](https://github.com/eq19/maps/assets/8466209/012168fa-d2d7-4b8d-a2af-280927eb4aae)](https://en.wikipedia.org/wiki/SO(10))
 
 Below is a powerful [cheat sheet](https://florianwinkler.at/the-standard-model-o) which is compiled to provide you with a great overview, not just stuffed with information, but also puts it in relation.
 
@@ -1429,7 +1438,7 @@ I am pleased to announce the availability of [splitFano.pdf](https://theoryofeve
 - There are 30 canonical sets of 7 triads indexed with a Fano plane index (fpi) in (16). As in E8 with 16 of the 2⁸ = 256 binary representations excluded from the group, there are 32 excluded octonions from the 2⁹ = 512.
 - As in E8, excluded particles are associated with the color=0, generation=0 (bosons) which are the positive (and negative) generators commonly associated with the 8-orthoplex with 16 permutations of {±1, 0, 0, 0, 0, 0, 0, 0}.
 - These are organized into “flipped” and “non-flipped” pairs associated with the 240 assigned particles to E8 vertices (sorted by Fano plane index or fPi).
-- They are assigned to the [30 canonical sets of 7 triples](https://github.com/eq19/eq19.github.io/files/14746885/E8toH4fold.pdf) using the maskList: {5, 8, 4, 3, 7, 6, 3, 2, 6, 5, 1, 4, 6, 7, 3, 3, 8, 6, 3, 1, 6, 6, 2, 3, 5, 8, 4, 3, 7, 6}
+- They are assigned to the [30 canonical sets of 7 triples](https://github.com/eq19/maps/files/14746885/E8toH4fold.pdf) using the maskList: {5, 8, 4, 3, 7, 6, 3, 2, 6, 5, 1, 4, 6, 7, 3, 3, 8, 6, 3, 1, 6, 6, 2, 3, 5, 8, 4, 3, 7, 6}
 - There are 7 sets of split octonions for each of the 480 “parent” octonions (each of which is defined by 30 sets of 7 triads and 16 7 bit “sign masks” which reverse the direction of the triad multiplication). The 7 split octonions are identified by selecting a triad.
 - The complement of {1,2,3,4,5,6,7} and the triad list leaves 4 elements which are the rows/colums corresponding to the negated elements in the multiplication table (highlighted with yellow background).
 - The red arrows in the Fano Plane indicate the potential reversal due to this negation that defines the split octonions. The selected triad nodes are yellow, and the other 4 are cyan (25MB).
@@ -1438,15 +1447,15 @@ I am pleased to announce the availability of [splitFano.pdf](https://theoryofeve
 Below is the first page of the comprehensive split octonion list of all 3840 Split Fano Planes with their multiplication tables available. _([8×16×30 Split Fano](https://theoryofeverything.org/theToE/2013/06/22/the-comprehensive-split-octonions-and-their-fano-planes/))_
 ```
 
-[![splitFano1](https://github.com/eq19/eq19.github.io/assets/8466209/ad09e553-bdb2-4a8b-a310-428ad1c52d92)](https://theoryofeverything.org/theToE/2013/06/22/the-comprehensive-split-octonions-and-their-fano-planes/)
+[![splitFano1](https://github.com/eq19/maps/assets/8466209/ad09e553-bdb2-4a8b-a310-428ad1c52d92)](https://theoryofeverything.org/theToE/2013/06/22/the-comprehensive-split-octonions-and-their-fano-planes/)
 
 The split real even E8 group used has been determined from Dynkin diagram which builds the Cartan matrix and determines the root with corresponding Hasse diagrams.
 
 ```note
-The breaking chains of SO(10) to G SM are shown along with their terrestrial and cosmological signatures, where G x represents either G 3221 or G 421 . Defects with only cosmic strings (including cosmic strings generated from preserved discrete symmetries) are denoted as blue solid arrows. Those including unwanted topological defects (monopoles or domain walls) are indicated by red dotted arrows. The instability of embedded strings is not considered. Removing an intermediate symmetry may change the type of unwanted topological defect but will not eliminate them. The highest possible scale of inflation, which removes unwanted defects, is assumed in this diagram. _([Gravitational Waves and Proton Decay - pdf](https://github.com/eq19/eq19.github.io/files/14967771/PhysRevLett.126.021802.pdf))_
+The breaking chains of SO(10) to G SM are shown along with their terrestrial and cosmological signatures, where G x represents either G 3221 or G 421 . Defects with only cosmic strings (including cosmic strings generated from preserved discrete symmetries) are denoted as blue solid arrows. Those including unwanted topological defects (monopoles or domain walls) are indicated by red dotted arrows. The instability of embedded strings is not considered. Removing an intermediate symmetry may change the type of unwanted topological defect but will not eliminate them. The highest possible scale of inflation, which removes unwanted defects, is assumed in this diagram. _([Gravitational Waves and Proton Decay - pdf](https://github.com/eq19/maps/files/14967771/PhysRevLett.126.021802.pdf))_
 ```
 
-[![The-breaking-chains-of-SO10-to-G-SM-are-shown-along-with-their-terrestrial-and](https://github.com/eq19/eq19.github.io/assets/8466209/638ceeb5-9653-49fd-86ff-74bb5a2f4981)](https://link.aps.org/doi/10.1103/PhysRevLett.126.021802)
+[![The-breaking-chains-of-SO10-to-G-SM-are-shown-along-with-their-terrestrial-and](https://github.com/eq19/maps/assets/8466209/638ceeb5-9653-49fd-86ff-74bb5a2f4981)](https://link.aps.org/doi/10.1103/PhysRevLett.126.021802)
 
 According to the 24 cells of _[Prime Hexagon](https://www.eq19.com/addition/#prime-hexagon)_, the gravitational pattern of this cosmic string would let the 96 complex-valued parameters be symmetrical.
 
@@ -1494,12 +1503,12 @@ It has been found recently that the expansion of N = 8 supergravity in terms of 
 - This is written schematically as: N = 8 supergravity = (N = 4 super Yang–Mills) × (N = 4 super Yang–Mills). This is not surprising, as N = 8 supergravity contains six independent representations of N = 4 super Yang–Mills.
 - The theory contains 1 [graviton](https://en.wikipedia.org/wiki/Graviton) (spin 2), 8 [gravitinos](https://en.wikipedia.org/wiki/Gravitinos) (spin 3/2), 28 [vector bosons](https://en.wikipedia.org/wiki/Vector_boson) (spin 1), 56 [fermions](https://en.wikipedia.org/wiki/Fermions) (spin 1/2), 70 [scalar fields](https://en.wikipedia.org/wiki/Scalar_fields) (spin 0) where we don't distinguish particles with negative spin.
 - These numbers are simple combinatorial numbers that come from [Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal%27s_Triangle) and also the number of ways of writing n as a sum of 8 nonnegative cubes [A173681](https://oeis.org/A173681).
-- The only theories with spins higher than 2 which are consistent involve an infinite number of particles (such as String Theory and Higher-Spin Theories). [Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking) in his [Brief History of Time](https://en.wikipedia.org/wiki/Brief_History_of_Time) speculated that this theory could be the [Theory of Everything](https://en.wikipedia.org/wiki/Theory_of_Everything).[![ToEsummary1](https://github.com/eq19/eq19.github.io/assets/8466209/d821d38a-3787-473f-a83a-23ea2afd45b9)](https://theoryofeverything.org/theToE/2013/11/15/another-look-at-integrating-the-pascal-triangle-to-clifford-algebra-e8-lie-al)
+- The only theories with spins higher than 2 which are consistent involve an infinite number of particles (such as String Theory and Higher-Spin Theories). [Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking) in his [Brief History of Time](https://en.wikipedia.org/wiki/Brief_History_of_Time) speculated that this theory could be the [Theory of Everything](https://en.wikipedia.org/wiki/Theory_of_Everything).[![ToEsummary1](https://github.com/eq19/maps/assets/8466209/d821d38a-3787-473f-a83a-23ea2afd45b9)](https://theoryofeverything.org/theToE/2013/11/15/another-look-at-integrating-the-pascal-triangle-to-clifford-algebra-e8-lie-al)
 - One reason why the theory was abandoned was that ***the 28 vector bosons*** which form an O(8) gauge group is too small to contain the standard model U(1) x SU(2) x SU(3) gauge group, which can only fit within the [orthogonal group](https://en.wikipedia.org/wiki/Orthogonal_group) O(10).
 
 For model building, it has been assumed that almost all the supersymmetries would be broken in nature,[[why?](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)] leaving just one supersymmetry (N = 1), although nowadays because of the lack of evidence for N = 1 supersymmetry higher supersymmetries are now being considered such as N = 2. _([Wikipedia](https://en.wikipedia.org/wiki/N_%3D_8_supergravity))_
 ```
 
-[![Particle Physics](https://github.com/eq19/eq19.github.io/assets/8466209/e1e638e5-b96a-45c7-a096-f4ec0503fdb4)](https://www.eq19.com/identition/span12/)
+[![Particle Physics](https://github.com/eq19/maps/assets/8466209/e1e638e5-b96a-45c7-a096-f4ec0503fdb4)](https://www.eq19.com/identition/span12/)
 
 Let's discuss more detail about this particular topic as guided by [Prof Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking) in one of his greatest book: [The Theory of Everything](https://youtu.be/3mXwMhMIGMA?t=3h56s).

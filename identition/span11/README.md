@@ -1,3 +1,12 @@
+---
+sort: 29
+spin: 39
+span: 
+suit: 163
+description: 
+---
+# Everything is Connected (span 11)
+
 {% include list.liquid all=true %}
 
 ```
@@ -36,13 +45,13 @@ Zecharia Sitchin suggests that the star-shaped symbol and ***11 other dots*** on
 
 ![default](https://user-images.githubusercontent.com/36441664/85060684-db12a400-b1cf-11ea-8f37-6b9b3bcab2f2.gif)
 
-![The-Total-History-of-the-Universe-including-the-quantum-eras-before-Inflation-in-units](https://github.com/eq19/eq19.github.io/assets/8466209/23411c8b-1488-415e-8378-b5a145cc5203)
+![The-Total-History-of-the-Universe-including-the-quantum-eras-before-Inflation-in-units](https://github.com/eq19/maps/assets/8466209/23411c8b-1488-415e-8378-b5a145cc5203)
 
-![origin](https://github.com/eq19/eq19.github.io/assets/8466209/a00dea47-8fbf-4c98-9ee8-db78339e8755)
+![origin](https://github.com/eq19/maps/assets/8466209/a00dea47-8fbf-4c98-9ee8-db78339e8755)
 
-![Ean6eoJWAAIWjrY](https://github.com/eq19/eq19.github.io/assets/8466209/5b0dadb2-4f18-4603-9732-df712318387b)
+![Ean6eoJWAAIWjrY](https://github.com/eq19/maps/assets/8466209/5b0dadb2-4f18-4603-9732-df712318387b)
 
-![quantum-gravity](https://github.com/eq19/eq19.github.io/assets/8466209/a0598884-b4cf-4cd4-a99a-0059d4e03548)
+![quantum-gravity](https://github.com/eq19/maps/assets/8466209/a0598884-b4cf-4cd4-a99a-0059d4e03548)
 
 Space and Time: Minkowski's Papers on Relativity, published by the Minkowski Institute. Hand-tinted transparency presented by Hermann Minkowski in his famous Raum und Zeit talk to the German Society of Scientists and Physicians in 1908
 

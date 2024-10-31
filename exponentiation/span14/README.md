@@ -1,4 +1,13 @@
-Establishment theoretical framework as _[the standard theory](https://github.com/eq19/eq19.github.io/files/13931443/The_Standard_Model_of_Electroweak_Interactions.pdf)_ of electroweak interactions: Higgs searches, quark mixing, neutrino oscillations.
+---
+sort: 25
+spin: 34
+span: 
+suit: 137
+description: 
+---
+# Electroweak Theory (parser)
+
+Establishment theoretical framework as _[the standard theory](https://github.com/eq19/maps/files/13931443/The_Standard_Model_of_Electroweak_Interactions.pdf)_ of electroweak interactions: Higgs searches, quark mixing, neutrino oscillations.
 
 {% include list.liquid all=true %}
 
@@ -10,36 +19,33 @@ Gauge invariance is a powerful tool to determine the dynamical forces. Particle 
 ***The Higgs and the electromagnetic field have no effect on each other***, at the level of the fundamental forces ("tree level"), while any other combination of the hypercharge and the weak isospin must interact with the Higgs. ***This causes an apparent separation between the weak force, which interacts with the Higgs, and electromagnetism, which does not***. _([Wikipedia](https://en.wikipedia.org/wiki/Electroweak_interaction#Formulation))_
 ```
 
-![image](https://github.com/eq19/eq19.github.io/assets/8466209/7aa970a3-ee76-4b08-afd1-6e818392e78d)
+![image](https://github.com/eq19/maps/assets/8466209/7aa970a3-ee76-4b08-afd1-6e818392e78d)
 
-![f22b28c976a4980061b601872e2faac8039dd7d8](https://github.com/eq19/eq19.github.io/assets/8466209/0b47e7b5-ec45-4964-9dba-8fb03379483d)
+![f22b28c976a4980061b601872e2faac8039dd7d8](https://github.com/eq19/maps/assets/8466209/0b47e7b5-ec45-4964-9dba-8fb03379483d)
 
-![images (2)](https://github.com/eq19/eq19.github.io/assets/8466209/898f7c2c-015b-46eb-ae9c-67a5222e9457)
+![images (2)](https://github.com/eq19/maps/assets/8466209/898f7c2c-015b-46eb-ae9c-67a5222e9457)
 
-![images (4)](https://github.com/eq19/eq19.github.io/assets/8466209/731eb5b5-498e-45d0-a6c0-599276cc0704)
+![images (4)](https://github.com/eq19/maps/assets/8466209/731eb5b5-498e-45d0-a6c0-599276cc0704)
 
-![images (3)](https://github.com/eq19/eq19.github.io/assets/8466209/37362c8c-a26a-4fe9-9ca1-b0b8f5fa8e56)
+![images (3)](https://github.com/eq19/maps/assets/8466209/37362c8c-a26a-4fe9-9ca1-b0b8f5fa8e56)
 
 Experiments have verified that the weak and electromagnetic force become identical at very small distances and provide the GUT description of the carrier particles for the forces.
 
 ## Interactions
 
-![images (1)](https://github.com/eq19/eq19.github.io/assets/8466209/ae4e3b5e-cb48-49a4-9563-5ed07261c009)
+![images (1)](https://github.com/eq19/maps/assets/8466209/ae4e3b5e-cb48-49a4-9563-5ed07261c009)
 
-![boson-particle-decay-virtual-particle-w-and-z-bosons-lepton-synchrotron-hadron-particle-physics-annihilation-scattering-thumbnail](https://github.com/eq19/eq19.github.io/assets/8466209/1bb197ad-453f-4539-8df2-d674d05f626e)
+![boson-particle-decay-virtual-particle-w-and-z-bosons-lepton-synchrotron-hadron-particle-physics-annihilation-scattering-thumbnail](https://github.com/eq19/maps/assets/8466209/1bb197ad-453f-4539-8df2-d674d05f626e)
 
-![TjQdBoIUDG](https://github.com/eq19/eq19.github.io/assets/8466209/f99e8694-1f3d-4b9e-a224-01888fb406bb)
+![TjQdBoIUDG](https://github.com/eq19/maps/assets/8466209/f99e8694-1f3d-4b9e-a224-01888fb406bb)
 
-![image](https://github.com/eq19/eq19.github.io/assets/8466209/f7dd5f3a-e63d-4a7f-ac4a-b4e16e1038f6)
+![image](https://github.com/eq19/maps/assets/8466209/f7dd5f3a-e63d-4a7f-ac4a-b4e16e1038f6)
 
-### 1
-![EWT3b-600x400](https://github.com/eq19/eq19.github.io/assets/8466209/70b992e3-252b-4e6f-8dcc-01bc1e982822)
+![EWT3b-600x400](https://github.com/eq19/maps/assets/8466209/70b992e3-252b-4e6f-8dcc-01bc1e982822)
 
-![Figure_34_06_01](https://github.com/eq19/eq19.github.io/assets/8466209/305ca73b-1e79-4510-9e9c-8ccb914a7d1f)
+![Figure_34_06_01](https://github.com/eq19/maps/assets/8466209/305ca73b-1e79-4510-9e9c-8ccb914a7d1f)
 
-![w-boson-kaon-w-and-z-bosons-weak-interaction-meson-standard-model-feynman-diagram-elementary-particle-pion-boson](https://github.com/eq19/eq19.github.io/assets/8466209/fa4275d6-a5b8-4951-b012-9c86534ce23f)
-
-![weak-nuclear-force-1](https://github.com/eq19/eq19.github.io/assets/8466209/62a25ce1-ecd3-4d62-91d0-fd52bed169cd)
+![weak-nuclear-force-1](https://github.com/eq19/maps/assets/8466209/62a25ce1-ecd3-4d62-91d0-fd52bed169cd)
 
 ```txt
   Fermion  | spinors | charged | neutrinos |   quark   | components | parameter
@@ -84,7 +90,7 @@ majorana-3 |   2x2   |    -    |    13     |     -     |     13     |   i13
 The pattern of [weak isospin](https://en.wikipedia.org/wiki/Weak_isospin), T3, and [weak hypercharge](https://en.wikipedia.org/wiki/Weak_hypercharge), YW, of the known elementary particles, showing electric charge along the [weak mixing angle](https://en.wikipedia.org/wiki/Weinberg_angle). The four components of the Higgs field (squares) break the electroweak symmetry and interact with other particles to give them mass, with three components becoming part of the massive W and Z bosons. Allowed decays of the neutral Higgs boson, H, (circled) satisfy electroweak charge conservation. _([Wikipedia](https://en.wikipedia.org/wiki/Electroweak_interaction))_
 ```
 
-[![Electroweak svg (2)](https://github.com/eq19/eq19.github.io/assets/8466209/3faed199-8458-463d-936f-45d4564d0abf)](https://en.wikipedia.org/wiki/Electroweak_interaction)
+[![Electroweak svg (2)](https://github.com/eq19/maps/assets/8466209/3faed199-8458-463d-936f-45d4564d0abf)](https://en.wikipedia.org/wiki/Electroweak_interaction)
 
 The [Lagrangian](https://en.wikipedia.org/wiki/Lagrangian_(field_theory)) for the electroweak interactions is divided into ***[four parts](https://en.wikipedia.org/wiki/Electroweak_interaction#Lagrangian)*** before [electroweak symmetry breaking](https://en.wikipedia.org/wiki/Electroweak_symmetry_breaking) becomes manifest,
 
@@ -113,20 +119,7 @@ $True Prime Pairs:
                     Δ                 Δ                 Δ       
 ```
 
-![Beta-minus_Decay svg](https://github.com/eq19/eq19.github.io/assets/8466209/9f176844-b61c-4623-80d8-fdcf6c457cf1)
-
-Unlike the strong and electromagnetic forces, the intermediary particles of the weak interaction, the W+, the W-, and the Z0 have rather large masses.
-
-```note
-A key aspect of the theory is the explanation of why three out of four of the intermediary particles of the electroweak force are massive. Illustration of two weak reactions.
-- The left panel shows beta decay while the middle panel shows how electron antineutrinos can be detected by conversion to a positron.
-- The right panel shows how W- emission works according to the quark model, ***resulting in the conversion of a down quark to an up quark and the resulting transformation of a neutron into a proton***.
-
-The real reason for the apparent weakness of the weak force is the large mass of the intermediary particles. As we have seen, large mass translates into short range for a virtual particle at low momentum transfers. This short range is what causes the weak force to appear weak for momentum transfers much less than the masses of the W and Z particles. _([libre texts.org](https://phys.libretexts.org/Bookshelves/University_Physics/Radically_Modern_Introductory_Physics_Text_II_(Raymond)/20%3A_The_Standard_Model/20.03%3A_The_Electroweak_Theory))_
-```
-
-[![Beta decay](https://github.com/eq19/eq19.github.io/assets/8466209/e4a41d26-7ffd-43f2-9ff8-fc3abfe4247c)
-](https://opg.optica.org/oe/fulltext.cfm?uri=oe-27-20-28350&id=420769)
+![Beta-minus_Decay svg](https://github.com/eq19/maps/assets/8466209/9f176844-b61c-4623-80d8-fdcf6c457cf1)
 
 ```txt
 $True Prime Pairs:
@@ -170,7 +163,7 @@ Research topic: Can the validity of the electroweak theory be restored?
 Remark: Further  contradictions are discussed in [8]. _([Research Topics](https://oprassn.org/a-problem-in-the-electroweak-theory/))_
 ```
 
-[![A Problem with the Electroweak Theory](https://github.com/eq19/eq19.github.io/assets/8466209/79b02bf3-6e4f-427c-897b-8d58de8e4c13)](https://oprassn.org/a-problem-in-the-electroweak-theory/)
+[![A Problem with the Electroweak Theory](https://github.com/eq19/maps/assets/8466209/79b02bf3-6e4f-427c-897b-8d58de8e4c13)](https://oprassn.org/a-problem-in-the-electroweak-theory/)
 
 ```txt
 The True Prime Pairs
@@ -213,9 +206,9 @@ Axial (e-e rES repulsions blue aggregating to black axial outward, vs weak axial
 So, in the end, you do need. But the path can get similar when you move off arbitration x,y,z or X1,X2,X3 frame-of-reference to the quantitized hemispherical coordinates of the quantum numbers understood as (r#,theta#,phi#,z#).
 ```
 
-[![main-qimg-521a032d4132a419487624564dd201b2-pjlq](https://github.com/eq19/eq19.github.io/assets/8466209/dd9e515d-a580-44e2-a1e9-bf8a4d986d4c)](https://www.quora.com/How-do-you-resolve-Maxwell-equations-as-euler-lagrange-equation-without-electromagnetic-potential-electromagnetism-lagrangian-formalism-field-theory-Maxwell-equations-variational-principle-physics/answer/Arno-Vigen?ch=15&oid=296992884&share=0e52abe7&srid=Yz5Fe&target_type=answer)
+[![main-qimg-521a032d4132a419487624564dd201b2-pjlq](https://github.com/eq19/maps/assets/8466209/dd9e515d-a580-44e2-a1e9-bf8a4d986d4c)](https://www.quora.com/How-do-you-resolve-Maxwell-equations-as-euler-lagrange-equation-without-electromagnetic-potential-electromagnetism-lagrangian-formalism-field-theory-Maxwell-equations-variational-principle-physics/answer/Arno-Vigen?ch=15&oid=296992884&share=0e52abe7&srid=Yz5Fe&target_type=answer)
 
-![main-qimg-5f05266cfdc63d60f86ad0852076ee00](https://github.com/eq19/eq19.github.io/assets/8466209/066effef-5753-4164-91b4-6d77401ea8bd)
+![main-qimg-5f05266cfdc63d60f86ad0852076ee00](https://github.com/eq19/maps/assets/8466209/066effef-5753-4164-91b4-6d77401ea8bd)
 
 ![](https://user-images.githubusercontent.com/36441664/74104225-1697c480-4b85-11ea-8819-870981638baf.png)
 
@@ -237,7 +230,7 @@ So, in the end, you do need. But the path can get similar when you move off arbi
 |-- 38 ---|              |-- 33 ---|                        |-- {27}--|
 ```
 
-![1591890434759 (1)](https://github.com/eq19/eq19.github.io/assets/8466209/bf65715f-bace-4037-ab1d-6f46a29c7689)
+![1591890434759 (1)](https://github.com/eq19/maps/assets/8466209/bf65715f-bace-4037-ab1d-6f46a29c7689)
 
 ```txt
 $True Prime Pairs:
@@ -292,4 +285,5 @@ True Prime Pairs:
      |------ 618¨ -----|--------------- 168¨ ----------------|
 ```
 
-![IMG_20240118_121014](https://github.com/eq19/eq19.github.io/assets/8466209/942b517a-954c-4f1e-b075-14a52e08d9be)
+![IMG_20240118_121014](https://github.com/eq19/maps/assets/8466209/942b517a-954c-4f1e-b075-14a52e08d9be)
+

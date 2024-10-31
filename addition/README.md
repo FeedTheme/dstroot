@@ -1,3 +1,12 @@
+---
+sort: 1
+spin: 1
+span: 
+suit: 1
+description: 
+---
+# Addition Zones (0-18)
+
 Addition is the form of an expression set equal to zero as the ***additive identity*** which is common practice in several areas of mathematics.
 
 {% include list.liquid all=true %}
@@ -195,7 +204,7 @@ The most obvious interesting feature of proceeding this prime hexagon, the numbe
 Each time a prime number is encountered, the spin or ‘wall preference’ is switched. So, from the first cell, exit from 2’s left side. This sets the spin to left and the next cell is 3, a prime, so switches to right. 4 is not prime and continues right. 5 is prime, so switch to left and so on. _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_
 ```
 
-[![Defining the Prime Hexagon](https://github.com/eq19/eq19.github.io/assets/8466209/36aeac77-ecb2-4c94-b2ea-fe0f8b7e391c)](https://www.hexspin.com/defining-the-prime-hexagon/)
+[![Defining the Prime Hexagon](https://github.com/user-attachments/assets/8b3ea4e4-f2ac-4f7c-acdb-5cf1222bf678)](https://www.hexspin.com/defining-the-prime-hexagon/)
 
 As the number line winds about toward infinity, bending around prime numbers, it never exits the ***24 cells***. And it is the fact that 168 divided by 24 is ***exactly seven (7)***.
 
@@ -203,7 +212,7 @@ As the number line winds about toward infinity, bending around prime numbers, it
 Surprisingly, the 24-cell hexagon confines all natural numbers. The reason: no prime numbers occupy a cell with a right or left wall on the t-hexagon’s outer boundary, other than 2 and 3, the initial primes that forced the number line into this complex coil. Without a prime number in the outer set of triangles, the number line does not change to an outward course and ***remains forever contained in the 24 cells***. _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_
 ```
 
-[![Euler Partition](https://github.com/eq19/eq19.github.io/assets/8466209/b73fec0f-1798-4679-bbc2-ed6060484543)](https://eq19.com/identition/#euler-partition)
+[![Euler Partition](https://github.com/eq19/maps/assets/8466209/b73fec0f-1798-4679-bbc2-ed6060484543)](https://eq19.com/identition/#euler-partition)
 
 You may notice that there are twists and turns until 19 abuts 2 therefore this addition zone takes only the seven (7) primes out of the 18's structure of _[True Prime Pairs](https://www.eq19.com/addition/file02.html#true-prime-pairs)_.
 
@@ -292,7 +301,7 @@ Moreover there are view statements mentioned by the provider which also bring us
 That is, if the powers of 10 all returned with blue spin, or as a series of rainbows, or evenly alternating colors or other non-random results, ***then I’d say prime numbers appear to have a linkage to 10.  I may not know what the the linkage is, just that it appears to exist*** _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
 ```
 
-![image](https://github.com/eq19/eq19.github.io/assets/36441664/8997b388-e0b8-481f-a763-76a46a07e085)
+![image](https://github.com/eq19/maps/assets/36441664/8997b388-e0b8-481f-a763-76a46a07e085)
 
 Another is that phi and its members have a pisano period if the resulting fractional numbers are truncated. 
 
@@ -313,7 +322,7 @@ Let's consider a prime spin theory of compactifying the 7-dimensional manifold o
 Proceeding, the number line begins to coil upon itself; 20 lands on 2’s cell, 21 on 3’s cell. Prime number 23 sends the number line left to form the fourth (4th) hexagon, purple. As it is not a twin, the clockwise progression (rotation) reverses itself. Twin primes ***29 and 31 define the fifth (5th) hexagon***, cyan. Finally, 37, again not a twin, reverses the rotation of the system, so 47 can define the yellow hexagon _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_.
 ```
 
-![IMG_20231221_074421](https://github.com/eq19/eq19.github.io/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
+![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
 
 Taking 19 as a certain parameter we can see that the left handed cycles are happen on ***5th-spin*** (forms 4th hexagon, purple) and ***6th-spin*** (forms 5th hexagon, cyan). Both have different rotation with other spin below 9th spin (forms 6th hexagon, yellow).
 
@@ -329,7 +338,7 @@ There's another hidden dimension of our domain worth noting involving multiples 
 
 ***16 × 6 = 96***
 
-[![96 perfect squares](https://github.com/eq19/eq19.github.io/assets/8466209/f593bd5a-d088-4b38-8b96-7e2bdaa7576e)](https://primesdemystified.com/#Distribution_of_Perfect_Squares)
+[![96 perfect squares](https://github.com/eq19/maps/assets/8466209/f593bd5a-d088-4b38-8b96-7e2bdaa7576e)](https://primesdemystified.com/#Distribution_of_Perfect_Squares)
 
 Also note, the digital roots of the Prime Root Set as well as the digital roots of Fibonnaci numbers and indexed to it all sum to ***432 (48x9) in 360° cycles***.
 
@@ -349,7 +358,7 @@ Each of the digital root multiplication matrices produced by the six channels co
 We can generate triangles and magic squares by tiering the Fibonacci digital root sequence with two pairs of terms that are + 3 or + 6 from the initial terms {1,1}. The values of the 2nd and 3rd tiers, or rows, must differ, or symmetry is lost. In other words, ***the first two columns should read either {1,4,7 + 1,7,4, or vice versa} but not {1,4,7 + 1,4,7, or 1,7,4, + 1,7,4}***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
 ```
 
-[![Multiplication_Matrix_Transforms](https://github.com/eq19/eq19.github.io/assets/8466209/2b8e8a2b-4bbd-4562-a907-9cad0dc61f76)](https://www.primesdemystified.com/twinprimes.html)
+[![Multiplication_Matrix_Transforms](https://github.com/eq19/maps/assets/8466209/2b8e8a2b-4bbd-4562-a907-9cad0dc61f76)](https://www.primesdemystified.com/twinprimes.html)
 
 The above seven (7) primes will act then as ***[extended branes](https://en.m.wikipedia.org/wiki/D-brane)***. This is what we mean by ***addition zones*** and it happens whenever a cycle is restarted.
 
@@ -359,7 +368,7 @@ The above seven (7) primes will act then as ***[extended branes](https://en.m.wi
 When these 9 squares are combined and segregated to create a 6 x 6 (36 element) square, and this square is compared to the Vedic Square minus its 3's, 6's and 9's (the result dubbed "[Imaginary Square](https://www.primesdemystified.com/Factorization.html)"), you'll discover that they share identical vertical and horizontal secquences, though in a different order (alternating +2 and -2 from each other), and that these can be easily made to match exactly by applying a simple function multiplier, as described and illustrated later below. _([PrimesDemystified](https://www.primesdemystified.com/magicmatrix.html))_
 ```
 
-[![ReciprocalTransform](https://github.com/eq19/eq19.github.io/assets/8466209/98adc6d1-d3e5-4384-b85c-a111165e191b)](https://www.primesdemystified.com/magicmatrix.html)
+[![ReciprocalTransform](https://github.com/eq19/maps/assets/8466209/98adc6d1-d3e5-4384-b85c-a111165e191b)](https://www.primesdemystified.com/magicmatrix.html)
 
 They are the source of triangular coordinates when translated into vertices of a modulo 9 circle which ***by definition has 9 equidistant points each separated by 40°***.
 
@@ -380,7 +389,7 @@ When we additively sum the three period-24 digital root cycles these dyads produ
 It's remarkable that ***objects consisting of star polygons, spiraling irregular pentagons***, and possessing nonagon perimeters and centers, can be constructed from only ***27 coordinates pointing to 9 triangles in 3 variations***. Each period-24 cycle produces two 'palindromagons'. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
 ```
 
-[![Twin_Prime_Digital_Root_Polygon](https://github.com/eq19/eq19.github.io/assets/8466209/ffd3fdb1-5d9d-4a21-95a6-e5f492d6e374)](https://www.primesdemystified.com/twinprimes.html)
+[![Twin_Prime_Digital_Root_Polygon](https://github.com/eq19/maps/assets/8466209/ffd3fdb1-5d9d-4a21-95a6-e5f492d6e374)](https://www.primesdemystified.com/twinprimes.html)
 
 ```note
 In our approach a 3-form is not an object that exist in addition to the metric, it is the only object that exist and in particular ***[the 4D metric, is defined by the 3-form](https://www.eq19.com/identition/span12/#three-3-layers)***.
@@ -389,10 +398,10 @@ one can find in the literature on Kaluza–Klein compactifications of supergravi
 - We show that the resulting 4D theory is (Riemannian) [General Relativity](https://www.sciencedirect.com/topics/physics-and-astronomy/general-relativity) (GR) in Plebanski formulation, modulo corrections that are negligible for curvatures smaller than Planckian.
 - Possibly the most interesting point of this construction is that the dimensionally reduced theory is GR with a non-zero cosmological constant, and the value of the cosmological constant is directly related to the size of . Realistic values of Λ correspond to of Planck size.
 
-Also, in the supergravity context a 7D manifold with a G2 structure is used for compactifying the 11D supergravity down to 4D. In contrast, we compactify from 7D to 4D. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/eq19.github.io/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
+Also, in the supergravity context a 7D manifold with a G2 structure is used for compactifying the 11D supergravity down to 4D. In contrast, we compactify from 7D to 4D. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/maps/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
 ```
 
-![Standard Spin](https://github.com/eq19/eq19.github.io/assets/8466209/a675ed2e-2a9b-4506-a6c3-ddbb92474219)
+![Standard Spin](https://github.com/eq19/maps/assets/8466209/a675ed2e-2a9b-4506-a6c3-ddbb92474219)
 
 ## Consistent Truncation
 
@@ -410,7 +419,7 @@ Focusing on just the twin prime distribution channels, we see the relationships 
 
 ***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
 
-[![Twin_Primes_Channel_Matrices (1)](https://github.com/eq19/eq19.github.io/assets/8466209/4c480d9b-7e6d-4056-9caf-16cfc3bfe6d1)](https://www.eq19.com/multiplication/)
+[![Twin_Primes_Channel_Matrices (1)](https://github.com/eq19/maps/assets/8466209/4c480d9b-7e6d-4056-9caf-16cfc3bfe6d1)](https://www.eq19.com/multiplication/)
 
 By the _[Δ(19 vs 18) Scenario](https://www.eq19.com/identition/span12/#the-seven-7-groups)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
 
@@ -420,7 +429,7 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 
 ***0 + 30 + 36 + 102 = 168 = π(1000)***
 
-[![0, 1 and negative numbers](https://github.com/eq19/eq19.github.io/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
+[![0, 1 and negative numbers](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
 
 ```note
 Because the value 30 is the first (common) product of the first 3 primes. And this 30th order repeats itself to infinity. Even in the first 30s system, therefore, the positions are fixed in which the number information positions itself to infinity. We call it the first member of the MEC 30.
@@ -438,7 +447,7 @@ From our consideration we can conclude that the distribution of prime numbers mu
 Speaking of iterative digital division–a powerful tool for exposing structure–we get this astonishing equation: iteratively dividing the digital roots of the first 12 Fibonacci numbers times the divisively iterated 1000th prime, 7919, times 3604 gives us 1000. Keep in mind that the first two and last two digits of the Fibo sequence below, ***11 and 89, sum to 100; that 89 is the 11th Fibo number; that there are 1000 primes between 1 and 892; and that 89 has the Fibonacci sequence embedded in its decimal expansion***
 ```
 
-[![112_2112_Prime_Pyramid](https://github.com/eq19/eq19.github.io/assets/8466209/4f617f61-9230-491b-a2db-995b7bc6182f)](https://www.primesdemystified.com/First1000Primes.html)
+[![112_2112_Prime_Pyramid](https://github.com/eq19/maps/assets/8466209/4f617f61-9230-491b-a2db-995b7bc6182f)](https://www.primesdemystified.com/First1000Primes.html)
 
 ## Hidden Dimensions
 
@@ -450,7 +459,7 @@ The four faces of our pyramid additively cascade 32 four-times triangular number
 The table below shows the telescopic progressions of triangular, 4-times triangular numbers and cascade of perfect squares that populate the pyramid's faces.
 ```
 
-[![Pyramid_Triangular_Numbers](https://github.com/eq19/eq19.github.io/assets/8466209/d1d7e033-b91d-4c38-a84f-c695b5e1fa50)](https://www.primesdemystified.com/First1000Primes.html)
+[![Pyramid_Triangular_Numbers](https://github.com/eq19/maps/assets/8466209/d1d7e033-b91d-4c38-a84f-c695b5e1fa50)](https://www.primesdemystified.com/First1000Primes.html)
 
 The equality between the product on the 1st-line and the formulas ***in the 3rd- and 4th-lines*** is _[Euler's pentagonal number](https://en.m.wikipedia.org/wiki/Pentagonal_number_theorem)_ where `p(33) = 10143` landed exactly by `n - 7`.
 
@@ -460,7 +469,7 @@ Using Euler's method to find p(40): A ruler with plus and minus signs (grey box)
 
 ***π(π(π(1000th prime))) + 1 = 40***
 
-[![image](https://github.com/eq19/eq19.github.io/assets/8466209/810f734c-fe35-44de-a096-6021ebfecc76)
+[![image](https://github.com/eq19/maps/assets/8466209/810f734c-fe35-44de-a096-6021ebfecc76)
 ](https://www.eq19.com/addition/3.html#subclasses-of-partitions)
 
 As explicitly indicated by `n - 7` within identition zones this `p(33)` behave reversal to the _[exponentiation zones](https://www.eq19.com/exponentiation/#exponentiation-zones-31-36)_ so it would stand as [`π(π(π(1000th prime)))+1`](https://www.eq19.com/addition/file02.html#true-prime-pairs).
@@ -473,6 +482,6 @@ So there would be the empty spaces for `18 - 7 = 11` numbers. By our project the
 
 ***(11x7) + (29+11) + (25+6) + (11+7) + (4+1) = 77+40+31+18+5 = 171***
 
-[![extended branes](https://github.com/eq19/eq19.github.io/assets/8466209/deb0e309-2178-4dc5-a1d6-30c81c4a8305)](https://www.eq19.com/multiplication/)
+[![extended branes](https://github.com/eq19/maps/assets/8466209/deb0e309-2178-4dc5-a1d6-30c81c4a8305)](https://www.eq19.com/multiplication/)
 
 So by simple words this 11 dimensions brings us back to the _[root functions](https://www.eq19.com/exponentiation/#root-functions)_. The only difference is _the base unit_. It is now carrying the above `p(33) = 10143`.

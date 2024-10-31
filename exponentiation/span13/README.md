@@ -1,3 +1,12 @@
+---
+sort: 26
+spin: 35
+span: 
+suit: 139
+description: 
+---
+# Grand Unified Theory (syntax)
+
 Grand Unified Theory (GUT) is successful in describing the four forces as distinct under normal circumstances, but connected in fundamental ways.
  
 {% include list.liquid all=true %}
@@ -6,29 +15,19 @@ GUT is also successful in describing a system of carrier particles for all four 
 
 ## User Profiles 
 
-[<img width="149" alt="Capture-49" src="https://github.com/eq19/eq19.github.io/assets/8466209/0809795a-ae31-495c-89d4-d5a56bc51d99">](https://oprassn.org/a-problem-in-the-electroweak-theory/)
+[<img width="149" alt="Capture-49" src="https://github.com/eq19/maps/assets/8466209/0809795a-ae31-495c-89d4-d5a56bc51d99">](https://oprassn.org/a-problem-in-the-electroweak-theory/)
 
-![Triangle_diagram](https://github.com/eq19/eq19.github.io/assets/8466209/916c3bc0-c186-4f4b-b66b-17adb0364686)
+![Triangle_diagram](https://github.com/eq19/maps/assets/8466209/916c3bc0-c186-4f4b-b66b-17adb0364686)
 
-![images](https://github.com/eq19/eq19.github.io/assets/8466209/db0c928d-3737-4c0d-ba80-f6c4c764e675)
+![images](https://github.com/eq19/maps/assets/8466209/db0c928d-3737-4c0d-ba80-f6c4c764e675)
 
-![Electroweak svg (1)](https://github.com/eq19/eq19.github.io/assets/8466209/ee076e8d-f300-472b-b9f3-08ffc989483e)
+![Electroweak svg (1)](https://github.com/eq19/maps/assets/8466209/ee076e8d-f300-472b-b9f3-08ffc989483e)
 
-![image](https://github.com/eq19/eq19.github.io/assets/36441664/67e4cc85-97e2-4e67-8b69-793a382e7149)
+![image](https://github.com/eq19/maps/assets/36441664/67e4cc85-97e2-4e67-8b69-793a382e7149)
 
-![image](https://github.com/eq19/eq19.github.io/assets/36441664/37c92ad8-99ee-4137-a7e3-3273d973cf1b)
-
-![image](https://github.com/eq19/eq19.github.io/assets/8466209/d08043d0-91fc-4931-9fc1-af5ba231e5c4)
-
-```note
-How can the Universe be so uniform? Now, the time for light to cross a significant part of the Universe is billions of years. We call this time the light communication time, and it is the shortest time required for any changes to be felt between two parts of the Universe. (From J. Schombert)
-```
-
-![horizon_problem](https://github.com/eq19/eq19.github.io/assets/8466209/94e118cb-9a89-49d6-b3ac-f5394fa761d7)
+![image](https://github.com/eq19/maps/assets/36441664/37c92ad8-99ee-4137-a7e3-3273d973cf1b)
 
 ## Unification
-
-GUT predicts that the other forces become identical under conditions so extreme that they cannot be tested in the laboratory, although there may be lingering evidence of them in the evolution of the universe.
 
 ```txt
 $True Prime Pairs:
@@ -55,7 +54,7 @@ $True Prime Pairs:
                     Δ                 Δ                 Δ       
 ```
 
-[![GUTs - The Unification of Forces.pdf](https://github.com/eq19/eq19.github.io/assets/8466209/dadce6fe-aa9c-4f00-98cc-5ce7c9d992d5)](https://github.com/eq19/eq19.github.io/files/13936301/CP_33.6.GUTs.-.The.Unification.of.Forces_pg1460-1463.pdf)
+[![GUTs - The Unification of Forces.pdf](https://github.com/eq19/maps/assets/8466209/dadce6fe-aa9c-4f00-98cc-5ce7c9d992d5)](https://github.com/eq19/maps/files/13936301/CP_33.6.GUTs.-.The.Unification.of.Forces_pg1460-1463.pdf)
 
 ```txt
 $True Prime Pairs:
@@ -82,7 +81,7 @@ $True Prime Pairs:
                     Δ                 Δ                 Δ       
 ```
 
-![Figure_34_06_03](https://github.com/eq19/eq19.github.io/assets/8466209/1ba3a1f3-2679-45bd-924b-86ed1435273c)
+![Figure_34_06_03](https://github.com/eq19/maps/assets/8466209/1ba3a1f3-2679-45bd-924b-86ed1435273c)
 
 ```txt
 $True Prime Pairs:
@@ -109,7 +108,7 @@ $True Prime Pairs:
                     Δ                 Δ                 Δ       
 ```
 
-![The-strong-force-is-complicated-since-observable-particles-that-feel-the-strong-force](https://github.com/eq19/eq19.github.io/assets/8466209/84f82f32-5e46-42ab-9123-740791d98b41)
+![The-strong-force-is-complicated-since-observable-particles-that-feel-the-strong-force](https://github.com/eq19/maps/assets/8466209/84f82f32-5e46-42ab-9123-740791d98b41)
 
 ```txt
 $True Prime Pairs:
@@ -136,7 +135,7 @@ $True Prime Pairs:
                     Δ                 Δ                 Δ       
 ```
 
-![CCJanFeb23_EFT_fermi-635x206](https://github.com/eq19/eq19.github.io/assets/8466209/cec8dcb7-cde3-4e40-9065-56d7331a121f)
+![CCJanFeb23_EFT_fermi-635x206](https://github.com/eq19/maps/assets/8466209/cec8dcb7-cde3-4e40-9065-56d7331a121f)
 
 ```txt
 $True Prime Pairs:
@@ -165,11 +164,11 @@ $True Prime Pairs:
 
 ## Black Hole
 
-![main-qimg-6874830a97ce37b0b02cc3ae3d2268f1](https://github.com/eq19/eq19.github.io/assets/8466209/d2e19618-dbba-4c29-b03c-8a4a3bdc0bcd)
+![main-qimg-6874830a97ce37b0b02cc3ae3d2268f1](https://github.com/eq19/maps/assets/8466209/d2e19618-dbba-4c29-b03c-8a4a3bdc0bcd)
 
-![1591890434759](https://github.com/eq19/eq19.github.io/assets/8466209/f70d88d5-6d21-42ce-baea-131a52b0fcaf)
+![1591890434759](https://github.com/eq19/maps/assets/8466209/f70d88d5-6d21-42ce-baea-131a52b0fcaf)
 
-![I4dae](https://github.com/eq19/eq19.github.io/assets/8466209/646da007-9322-4468-b36a-d73016a129b0)
+![I4dae](https://github.com/eq19/maps/assets/8466209/646da007-9322-4468-b36a-d73016a129b0)
 
 ![](https://user-images.githubusercontent.com/36441664/81162523-874d5200-8fb7-11ea-9b66-65f476bc5427.jpg)
 
@@ -218,12 +217,12 @@ Conclusion:
 
 ![](https://user-images.githubusercontent.com/8466209/206956260-f8c3647a-232c-470e-8c0b-e93a6fea14f7.png)
 
-[![main-qimg-2d9e529abca58e22d8abc805a24b27bd](https://github.com/eq19/eq19.github.io/assets/8466209/119974da-4e09-4bfb-812c-fd5950a9ba90)](https://qr.ae/pKqEOa)
+[![main-qimg-2d9e529abca58e22d8abc805a24b27bd](https://github.com/eq19/maps/assets/8466209/119974da-4e09-4bfb-812c-fd5950a9ba90)](https://qr.ae/pKqEOa)
 
 ## How water is formed
 
 ```note
-Finally, there exist scenarios in which there could actually be more than [4D of spacetime](https://en.wikipedia.org/wiki/PMNS_matrix). String theories require extra dimensions of spacetime for their mathematical consistency. In string theory, spacetime is ***[26-dimensional](https://github.com/eq19/eq19.github.io/files/13904636/0102042.pdf)***, while in superstring theory it is 10-dimensional, and in M-theory it is 11-dimensional.
+Finally, there exist scenarios in which there could actually be more than [4D of spacetime](https://en.wikipedia.org/wiki/PMNS_matrix). String theories require extra dimensions of spacetime for their mathematical consistency. In string theory, spacetime is ***[26-dimensional](https://github.com/eq19/maps/files/13904636/0102042.pdf)***, while in superstring theory it is 10-dimensional, and in M-theory it is 11-dimensional.
 [![String theory](https://user-images.githubusercontent.com/8466209/229411952-b42cd7a1-4962-44c7-960a-bf9077713de5.png)](https://en.wikipedia.org/wiki/String_theory#Extra_dimensions)
 
 These are situations where theories in two or three spacetime dimensions are no more useful. This classification theorem identifies several infinite families of groups as well as ***26 additional groups*** which do not fit into any family. _([Wikipedia](https://en.wikipedia.org/wiki/String_theory))_
@@ -287,19 +286,15 @@ This would even close to the similar ability of human brain without undertanding
 
 ![](https://user-images.githubusercontent.com/36441664/84536499-2cc2b680-ad18-11ea-926d-5b877b17afd4.jpg)
 
-![l9mo0z1dltu61](https://github.com/eq19/eq19.github.io/assets/8466209/ac5f436f-ecd4-4cef-becc-6bb3365e7796)
+![l9mo0z1dltu61](https://github.com/eq19/maps/assets/8466209/ac5f436f-ecd4-4cef-becc-6bb3365e7796)
 
-![EU4RYL7UcAAzZN2](https://github.com/eq19/eq19.github.io/assets/8466209/8430c02a-fb45-41cb-807d-b606f0619973)
+![EU4RYL7UcAAzZN2](https://github.com/eq19/maps/assets/8466209/8430c02a-fb45-41cb-807d-b606f0619973)
 
-![final-theory](https://github.com/eq19/eq19.github.io/assets/8466209/b08ba16b-921d-4602-8d57-b5b2974ccec8)
+![final-theory](https://github.com/eq19/maps/assets/8466209/b08ba16b-921d-4602-8d57-b5b2974ccec8)
 
 ![](https://user-images.githubusercontent.com/8466209/200475393-f3e42f0b-d291-4f17-93c4-9bec6e6943de.png)
 
-![ckm-angles-n](https://github.com/eq19/eq19.github.io/assets/8466209/d9cf0e77-97be-4372-a8b2-5428719bc3e1)
-
-![HEXAHEDRONTORUS1](https://github.com/eq19/eq19.github.io/assets/8466209/ce33a44d-7431-44b9-9073-902cbbcfc68b)
-
-[![0](https://github.com/eq19/eq19.github.io/assets/8466209/e84da25f-c03c-4116-8278-b4ea7ea503e4)](https://nige.wordpress.com/2010/05/07/category-morphisms-for-quantum-gravity-masses-and-draft-material-for-new-paper/)
+![HEXAHEDRONTORUS1](https://github.com/eq19/maps/assets/8466209/ce33a44d-7431-44b9-9073-902cbbcfc68b)
 
 ![](https://user-images.githubusercontent.com/8466209/200472044-dab44257-7c9a-4a91-82bb-c90cb7143e91.png)
 
