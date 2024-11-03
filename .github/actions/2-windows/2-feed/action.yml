@@ -179,9 +179,9 @@ runs:
               -e RUNNER_NAME=Google-optimized-instance \
               -e RUNNER_REPOSITORY_URL=https://github.com/${{ inputs.repository }} \
               -e GITHUB_ACCESS_TOKEN=${{ inputs.token }} \
+              -v /home/runner/.docker:/home/runner/.docker \
               -v /mnt:/mnt -v /var/run/docker.sock:/var/run/docker.sock \
-              -v /home/runner/.env:/home/runner/.env -v /home/runner/.docker:/home/runner/.docker \
-              --env-file /home/runner/.env --name myrunner --pull=always eq19/lexer:id-${{ env.IMAGE_TAG }}
+              --name myrunner --pull=always eq19/lexer:id-${{ env.IMAGE_TAG }}
 
         runcmd:
         - systemctl daemon-reload
