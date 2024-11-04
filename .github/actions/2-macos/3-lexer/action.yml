@@ -79,8 +79,8 @@ runs:
     - id: describe
       shell: bash
       run: |
-        TF=$(brew install terraform)
-        ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
+        TF=$(brew install mosh)
+        ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
         echo 'instances='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) >> ${GITHUB_OUTPUT}
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
         echo 'IP='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format='value(networkInterfaces.accessConfigs[0].natIP)') >> ${GITHUB_ENV}
