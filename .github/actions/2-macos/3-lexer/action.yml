@@ -81,7 +81,7 @@ runs:
       run: |
         brew install mosh
         ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
-        echo '$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json)' > $TMPDIR/instance
+        echo $(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) > instance
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
         echo 'IP='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format='value(networkInterfaces.accessConfigs[0].natIP)') >> ${GITHUB_ENV}
 
@@ -92,7 +92,7 @@ runs:
       run: >
         echo 'function='$(curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function 
         -H "Authorization: Bearer $(gcloud auth print-identity-token)" -H "Content-Type: application/json"
-        -data @$TMPDIR/instance) >> ${GITHUB_OUTPUT}
+        --data @instance) >> ${GITHUB_OUTPUT}
 
     #Ref: https://blog.benoitblanchon.fr/github-action-run-ssh-commands/
     - name: Configure SSH
