@@ -87,6 +87,7 @@ runs:
 
     #Fill in metadata with ${{ steps.artifact.outputs.orgs_json }}
     - name: Run identity
+      if: runner.os == '-Windows'           
       shell: bash
       env:
         TOKEN: ${{ steps.auth.outputs.id_token }}

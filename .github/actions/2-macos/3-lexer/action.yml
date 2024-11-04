@@ -79,7 +79,7 @@ runs:
     - id: describe
       shell: bash
       run: |
-        brew install locales && locale-gen en_US.UTF-8
+        brew install mosh
         ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
         echo 'instances='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) >> ${GITHUB_OUTPUT}
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
@@ -99,6 +99,7 @@ runs:
       id: 'compute-ssh'
       shell: bash
       run: |
+        localedef -i en_US -f UTF-8 en_US.UTF-8
         ssh-keyscan -t rsa ${{ env.IP }} >> $HOME/.ssh/known_hosts
         chmod 600 $HOME/.ssh/id_rsa
         cat << EOL >> $HOME/.ssh/config
