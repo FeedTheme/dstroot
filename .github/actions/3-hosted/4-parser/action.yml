@@ -87,7 +87,6 @@ runs:
 
     #Fill in metadata with ${{ steps.artifact.outputs.orgs_json }}
     - name: Run identity
-      if: runner.os == '-macOS'
       shell: bash
       run: |
         TOKEN=$(/mnt/disks/platform/usr/bin/gcloud auth print-identity-token)
