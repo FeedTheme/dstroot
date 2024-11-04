@@ -18,7 +18,7 @@ name: COmpendium of RElations – Modulo 6
 # For more information on these settings, see https://www.tensorflow.org/quantum/design.
 #
 on:
-  #push:
+  push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
@@ -99,8 +99,8 @@ jobs:
     strategy:
       matrix:
         config:
-          - { os: macos-latest, id: 3 }
-          - { os: self-hosted, id: 4 }
+          - { os: self-hosted, id: 3 }
+          - { os: macos-latest, id: 4 }
 
       # ✔️ Completeness relations    
       max-parallel: ${{ contains(needs.*.result, 'success') && 1 || 2 }}
