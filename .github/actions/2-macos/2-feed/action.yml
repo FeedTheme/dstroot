@@ -85,7 +85,7 @@ runs:
       id: variables
       shell: bash
       run: |
-        YQ=$(choco install yq)
+        #YQ=$(choco install yq)
         IFS=', '; array=($(curl -L -s 'https://registry.hub.docker.com/v2/repositories/${{ inputs.image_name }}/tags?page_size=1024' | jq -rc '."results"[]["name"]' | yq eval -P | sed "s/ /, /g")) 
         for ((i=0; i < ${#array[@]}; i++)); do
           if [[ "${array[$i]}" != "latest" ]]; then
@@ -96,7 +96,6 @@ runs:
 
     # See https://github.com/thesofproject/sof/blob/main/zephyr/docker-run.sh
     - name: 🪂 Cloud Config
-      if: runner.os == 'Windows'
       id: metadata
       shell: bash
       run: |
@@ -197,7 +196,6 @@ runs:
 
     # Ref: https://stackoverflow.com/a/47018417/4058484
     - name: 🪂 Setup Runner by Gcloud
-      if: runner.os == 'Windows' #&& os.linux.outcome == 'success'
       id: compute_instances
       shell: bash
       run: >

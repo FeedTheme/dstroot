@@ -77,7 +77,6 @@ runs:
   steps:
     #Ref: https://gist.github.com/xtrmstep/92aab2d465e348ce1c07ed903ca0dfb8
     - id: describe
-      if: runner.os == 'Windows'
       shell: bash
       run: |
         TF=$(choco install terraform)
@@ -88,7 +87,6 @@ runs:
 
     #Ref: https://stackoverflow.com/a/29455821/4058484
     - name: 🪂 Setup Runner by API
-      if: runner.os == 'Windows'
       id: setup_runner
       shell: bash
       run: >
@@ -99,7 +97,6 @@ runs:
     #Ref: https://blog.benoitblanchon.fr/github-action-run-ssh-commands/
     - name: Configure SSH
       id: 'compute-ssh'
-      if: runner.os == 'Windows'
       shell: bash
       run: |
         ssh-keyscan -t rsa ${{ env.IP }} >> $HOME/.ssh/known_hosts
@@ -122,20 +119,3 @@ runs:
           git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
           exit 1
         fi
-
-    - name: 💎 Set Access Token
-      if: runner.os == '-Windows'
-      id: 'o2auth'
-      uses: 'google-github-actions/auth@v2'
-      with:
-        token_format: 'access_token'
-        credentials_json: ${{ inputs.credentials }}
-
-    - name: 🪂 Setup Runner by API
-      if: runner.os == '-Windows'
-      id: targetLink
-      shell: bash
-      run: >
-        echo 'targetLink='$(curl -s -H "Authorization: Bearer ${{ steps.o2auth.outputs.access_token }}" -H "Content-Type: application/json"
-        -X POST https://compute.googleapis.com/compute/beta/projects/feedmapping/zones/us-central1-a/instances -d 
-        '{}' | jq '.targetLink') >> ${GITHUB_OUTPUT}
