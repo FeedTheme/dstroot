@@ -81,7 +81,7 @@ runs:
       run: |
         brew install mosh
         ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
-        echo 'instances='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) >> ${GITHUB_OUTPUT}
+        echo '$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json)' > $TMPDIR/instance
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
         echo 'IP='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format='value(networkInterfaces.accessConfigs[0].natIP)') >> ${GITHUB_ENV}
 
@@ -92,14 +92,14 @@ runs:
       run: >
         echo 'function='$(curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function 
         -H "Authorization: Bearer $(gcloud auth print-identity-token)" -H "Content-Type: application/json"
-        -d '${{ steps.describe.outputs.instances }}') >> ${GITHUB_OUTPUT}
+        -data @$TMPDIR/instance) >> ${GITHUB_OUTPUT}
 
     #Ref: https://blog.benoitblanchon.fr/github-action-run-ssh-commands/
     - name: Configure SSH
       id: 'compute-ssh'
       shell: bash
       run: |
-        localedef -i en_US -f UTF-8 en_US.UTF-8
+        #localedef -i en_US -f UTF-8 en_US.UTF-8
         ssh-keyscan -t rsa ${{ env.IP }} >> $HOME/.ssh/known_hosts
         chmod 600 $HOME/.ssh/id_rsa
         cat << EOL >> $HOME/.ssh/config
