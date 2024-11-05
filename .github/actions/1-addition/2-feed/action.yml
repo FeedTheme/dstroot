@@ -65,10 +65,10 @@ inputs:
     required: false
 
 outputs:
-  init:
-    value: ${{ join(steps.init.outputs.*, '\n') }}
+  artifact:
+    value: ${{ toJSON(steps.artifact.outputs.*) }}
   variables:
-    value: ${{ join(steps.variables.outputs.*, '\n') }}
+    value: ${{ toJSON(steps.variables.outputs.*) }}
 
 runs:
   using: composite
@@ -140,6 +140,7 @@ runs:
       id: variables
       shell: bash
       run: |
+        ${{ steps.artifact.outputs.repo }}
         BASE_NAME=$(basename ${{ inputs.image_name }})
         IFS=', '; array=($(curl -L -s 'https://registry.hub.docker.com/v2/repositories/${{ inputs.image_name }}/tags?page_size=1024' | jq -rc '."results"[]["name"]' | yq eval -P | sed "s/ /, /g")) 
         for ((i=0; i < ${#array[@]}; i++)); do

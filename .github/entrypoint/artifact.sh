@@ -80,6 +80,7 @@ jekyll_build() {
   echo -e "\n$hr\nCONFIG\n$hr"
   
   [[ $1 == *"github.io"* ]] && OWNER=$2  
+  echo 'repo='${OWNER}/$1 >> ${GITHUB_OUTPUT}
   echo 'TARGET_REPOSITORY='${OWNER}/$1 >> ${GITHUB_ENV}
   if [[ $1 != "eq19.github.io" ]]; then SITEID=$(( $3 + 2 )); else SITEID=1; fi
   
