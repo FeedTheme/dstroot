@@ -65,12 +65,12 @@ inputs:
     required: false
 
 outputs:
-  command:
+  ip:
     description: 'The command.outputs'
-    value: ${{ steps.command.outputs.stdout }}
+    value: ${{ steps.describe.outputs.ip }}
   decays:
     description: 'The target repository'
-    value: ${{ env.PGSERVICEFILE }}
+    value: ${{ steps.setup_runner.outputs.function }}
 
 runs:
   using: composite
@@ -83,7 +83,7 @@ runs:
         ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
         echo $(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) > instance
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
-        echo 'IP='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format='value(networkInterfaces.accessConfigs[0].natIP)') >> ${GITHUB_ENV}
+        echo 'ip='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format='value(networkInterfaces.accessConfigs[0].natIP)') >> ${GITHUB_ENV}
 
     #Ref: https://stackoverflow.com/a/29455821/4058484
     - name: 🪂 Setup Runner by API
@@ -96,15 +96,16 @@ runs:
 
     #Ref: https://blog.benoitblanchon.fr/github-action-run-ssh-commands/
     - name: Configure SSH
+      if: runner.os == '-Linux'           
       id: 'compute-ssh'
       shell: bash
       run: |
         #localedef -i en_US -f UTF-8 en_US.UTF-8
-        ssh-keyscan -t rsa ${{ env.IP }} >> $HOME/.ssh/known_hosts
+        ssh-keyscan -t rsa ${{ env.ip }} >> $HOME/.ssh/known_hosts
         chmod 600 $HOME/.ssh/id_rsa
         cat << EOL >> $HOME/.ssh/config
         Host staging
-          HostName ${{ env.IP }}
+          HostName ${{ env.ip }}
           User runner
           IdentityFile $HOME/.ssh/id_rsa
           StrictHostKeyChecking no
