@@ -18,7 +18,7 @@ name: COmpendium of RElations – Modulo 6
 # For more information on these settings, see https://www.tensorflow.org/quantum/design.
 #
 on:
-  push:
+  #push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
@@ -40,9 +40,12 @@ jobs:
         config:
           - { os: ubuntu-latest, id: 1 }
           - { os: macos-latest, id: 2 }
+    runs-on: ${{ matrix.config.os }}
+    outputs:
+      description: 🏃‍♂️ Simulate Gell-Mann
+      value: ${{ join(steps.*.outputs.*, '\n') }}
     
     # 🔧 Commutation relations
-    runs-on: ${{ matrix.config.os }}
     if: ${{ github.event_name == 'push' ||
         github.event.workflow_run.conclusion == 'success' }}
 
@@ -86,12 +89,6 @@ jobs:
           docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
           initiate_pauli_sum: ${{ toJSON(steps.feed-mapping.outputs) }}
          
-    outputs:
-      # 🏃‍♂️ Simulate Gell-Mann Matrices
-      id: ${{ join(steps.build-parser.outputs.*, '\n') }}
-      spin: ${{ join(steps.feed-mapping.outputs.*, '\n') }}
-      target: ${{ join(steps.set-lexering.outputs.*, '\n') }}
-
   parsering:
     needs: lexering
     continue-on-error: true
