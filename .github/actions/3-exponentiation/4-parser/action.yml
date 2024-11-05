@@ -63,9 +63,10 @@ inputs:
     required: false
 
 outputs:
-  site_id:
-    description: "A file path to a results file."
-    value: ${{ env.ID}}
+  init:
+    value: ${{ join(steps.init.outputs.*, '\n') }}
+  variables:
+    value: ${{ join(steps.variables.outputs.*, '\n') }}
 
 runs:
   #using: 'node20'

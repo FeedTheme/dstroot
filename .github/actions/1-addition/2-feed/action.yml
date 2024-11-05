@@ -65,12 +65,10 @@ inputs:
     required: false
 
 outputs:
-  spin:
-    description: 'The spin of current repository'
-    value: ${{ steps.set_output.outputs.runCmdOutput }}
-  private_key:
-    description: 'The generated key to connect to VM'
-    value: ${{ steps.matadata.outputs.private_key }}
+  init:
+    value: ${{ join(steps.init.outputs.*, '\n') }}
+  variables:
+    value: ${{ join(steps.variables.outputs.*, '\n') }}
 
 runs:
   using: composite

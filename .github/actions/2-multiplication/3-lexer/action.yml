@@ -65,12 +65,10 @@ inputs:
     required: false
 
 outputs:
-  ip:
-    description: 'The command.outputs'
-    value: ${{ steps.describe.outputs.ip }}
-  decays:
-    description: 'The target repository'
-    value: ${{ steps.setup_runner.outputs.function }}
+  init:
+    value: ${{ join(steps.init.outputs.*, '\n') }}
+  variables:
+    value: ${{ join(steps.variables.outputs.*, '\n') }}
 
 runs:
   using: composite
@@ -82,17 +80,10 @@ runs:
         gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a
         ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
+
         echo $(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) > instance
         echo 'ip='$(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format='value(networkInterfaces.accessConfigs[0].natIP)') >> ${GITHUB_ENV}
-
-    #Ref: https://stackoverflow.com/a/29455821/4058484
-    - name: 🪂 Setup Runner by API
-      id: setup_runner
-      shell: bash
-      run: >
-        echo 'function='$(curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function 
-        -H "Authorization: Bearer $(gcloud auth print-identity-token)" -H "Content-Type: application/json"
-        --data @instance) >> ${GITHUB_OUTPUT}
+        echo 'function='$(curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function -H "Authorization: Bearer $(gcloud auth print-identity-token)" -H "Content-Type: application/json" --data @instance) >> ${GITHUB_OUTPUT}
 
     #Ref: https://blog.benoitblanchon.fr/github-action-run-ssh-commands/
     - name: Configure SSH

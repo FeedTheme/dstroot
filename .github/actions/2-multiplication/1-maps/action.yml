@@ -65,6 +65,12 @@ branding:
   icon: 'command'
   color: 'yellow'
 
+outputs:
+  init:
+    value: ${{ join(steps.init.outputs.*, '\n') }}
+  variables:
+    value: ${{ join(steps.variables.outputs.*, '\n') }}
+
 runs:
   using: composite
   steps:
