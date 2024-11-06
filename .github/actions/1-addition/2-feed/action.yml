@@ -66,9 +66,11 @@ inputs:
 
 outputs:
   artifact:
-    value: ${{ toJSON(steps.artifact.outputs.*) }}
-  variables:
-    value: ${{ toJSON(steps.variables.outputs.*) }}
+    description: Collect artifact outputs
+    value: ${{ toJSON(steps.artifact.outputs.repo) }}
+  set_output:
+    description: Collect set_output outputs
+    value: ${{ toJSON(steps.set_output.outputs) }}
 
 runs:
   using: composite
