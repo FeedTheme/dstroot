@@ -18,7 +18,7 @@ name: COmpendium of RElations – Modulo 6
 # For more information on these settings, see https://www.tensorflow.org/quantum/design.
 #
 on:
-  push:
+  #push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
@@ -86,18 +86,19 @@ jobs:
           docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
           initiate_pauli_sum: ${{ toJSON(steps.feed-mapping.outputs) }}
 
-      - name: Generate output
+      - name: 📝 Generate Output
         id: gen_output
         shell: bash
         run: |
-          id="${{ matrix.config.id }}"
-          echo "output_${id}=${id}" >> "$GITHUB_OUTPUT"
+          id=${{ matrix.config.id }}
+          set=${{ matrix.config.id == 1 &&
+            steps.feed-mapping.outputs.addition ||
+            steps.set-lexering.outputs.multiplication }}
+          echo "output_${id}=${set}" >> ${GITHUB_OUTPUT}
 
     outputs:
       # ♻️ Simulate Gell-Mann Matrices
       #id: ${{ steps.build-parser.outputs.init }}
-      #spin: ${{ steps.feed-mapping.outputs.addition }}
-      #target: ${{ steps.set-lexering.outputs.multiplication }}
       spin: ${{ steps.gen_output.outputs.output_1 }}
       target: ${{ steps.gen_output.outputs.output_2 }}
 
@@ -123,7 +124,7 @@ jobs:
         with:
           submodules: recursive
           token: ${{ secrets.ACCESS_TOKEN }}
-          #repository: ${{ needs.lexering.outputs.spin }}
+          repository: ${{ needs.lexering.outputs.spin }}
           ref: ${{ matrix.config.id == 3 && 'gh-source' || 'gh-pages' }}
 
       - name: 🚀 Setup Parser
