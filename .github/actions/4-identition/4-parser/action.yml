@@ -76,6 +76,12 @@ runs:
   using: composite
   
   steps:
+    - name: Setup .NET SDK
+      if: ${{ runner.os == 'Windows' && inputs.failure_status == 'false' }}
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
     - name: 💎 Set ID Token
       id: 'auth'
       uses: 'google-github-actions/auth@v2'
@@ -92,7 +98,6 @@ runs:
       env:
         TOKEN: ${{ steps.auth.outputs.id_token }}
       run: |
-        #brew install ruby-full
         #gem install faraday-retry github-pages --platform=ruby
         curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function \
           -H "Authorization: Bearer ${TOKEN}" -H "Content-Type: application/json" \
