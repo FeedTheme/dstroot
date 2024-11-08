@@ -61,6 +61,9 @@ inputs:
   workspace:
     description: 'The deploy repository'
     required: false
+  failure_status:
+    description: 'The deploy branch'
+    required: false
 
 outputs:
   all_outputs:
@@ -95,7 +98,6 @@ runs:
       env:
         TOKEN: ${{ steps.auth.outputs.id_token }}
       run: |
-        #gem install faraday-retry github-pages --platform=ruby
         curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function \
           -H "Authorization: Bearer ${TOKEN}" -H "Content-Type: application/json" \
           --data @${{ inputs.workspace }}/docs/data.json | jq '.'
