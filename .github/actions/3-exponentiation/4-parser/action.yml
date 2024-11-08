@@ -102,7 +102,7 @@ runs:
         REDIS_HOST: 172.17.0.1
       shell: bash
       run: |
-        #node ${{ inputs.action_path}}/main.js
+        node ${{ inputs.action_path}}/main.js
         echo '${{ inputs.gell_mann }}'
     
     - name: 💎 Connect to postgres
@@ -113,5 +113,5 @@ runs:
         POSTGRES_HOST: 172.17.0.1
       shell: bash
       run: |
-        #node ${{ inputs.action_path}}/post.js
+        node ${{ inputs.action_path}}/post.js
         echo '${{ inputs.gell_mann }}'
