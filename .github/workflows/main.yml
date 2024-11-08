@@ -118,9 +118,9 @@ jobs:
 
     # 🕸️ Global Environment
     env:
-      IP_ADDRESS: '${{ needs.lexering.outputs.address }}'
+      PASS: ${{ contains(needs.*.result, 'failure') && false || true }}
       TARGET_REPOSITORY: '${{ needs.lexering.outputs.target }}'
-      PASS: ${{ contains(needs.*.result, 'failure')) && false || true }}
+      IP_ADDRESS: '${{ needs.lexering.outputs.address }}'
 
     # ✔️ Completeness status
     if: ${{ (always() && contains(needs.*.result, 'success')) ||
