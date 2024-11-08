@@ -30,7 +30,7 @@ inputs:
   dockerfile_path:
     description: Path to the dockerfile from which to build the image
     required: true
-  initiate_pauli_sum:
+  pauli_sum:
     description: Build args
     required: false
     default: ""
@@ -58,9 +58,8 @@ inputs:
   token:
     description: 'The deploy token'
     required: false
-  repository:
+  workspace:
     description: 'The deploy repository'
-    default: ${{ github.repository }}
     required: false
 
 outputs:
@@ -91,8 +90,7 @@ runs:
         id_token_audience: 'https://us-central1-feedmapping.cloudfunctions.net/function'
 
     #Fill in metadata with ${{ steps.artifact.outputs.orgs_json }}
-    - name: Run identity
-      if: runner.os == '-Windows'           
+    - name: Run identity  
       shell: bash
       env:
         TOKEN: ${{ steps.auth.outputs.id_token }}
@@ -100,4 +98,4 @@ runs:
         #gem install faraday-retry github-pages --platform=ruby
         curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function \
           -H "Authorization: Bearer ${TOKEN}" -H "Content-Type: application/json" \
-          --data @${{ github.workspace }}/docs/data.json | jq '.'
+          --data @${{ inputs.workspace }}/docs/data.json | jq '.'
