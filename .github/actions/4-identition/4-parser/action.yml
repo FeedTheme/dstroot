@@ -77,7 +77,6 @@ runs:
   
   steps:
     - name: Setup .NET SDK
-      if: ${{ runner.os == 'Windows' && inputs.failure_status == 'false' }}
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
