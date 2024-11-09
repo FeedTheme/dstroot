@@ -18,7 +18,7 @@ name: COmpendium of RElations – Modulo 6
 # For more information on these settings, see https://www.tensorflow.org/quantum/design.
 #
 on:
-  push:
+  #push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
@@ -136,7 +136,7 @@ jobs:
           repository: ${{ env.TARGET_REPOSITORY }}
 
       - name: 🚀 Setup Parser
-        if: ${{ env.PASS == true }}
+        if: ${{ env.PASS == 'true' }}
         uses: eq19/parser@v2
         id: set-parser
         with:
@@ -148,7 +148,7 @@ jobs:
             (matrix.config.id == 4 && contains(needs.*.result, 'failure')) }}
 
       - name: 🌀 Evaluate Syntax
-        if: ${{ env.PASS == true }}
+        if: ${{ env.PASS == 'true' }}
         uses: eq19/syntax@v2
         id: eval-syntax
         with:
