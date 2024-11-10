@@ -100,8 +100,8 @@ jobs:
       # ♻️ Simulate Gell-Mann Matrices
       target: ${{ steps.gen_outputs.outputs.output_1 }}
       address: ${{ steps.gen_outputs.outputs.output_2 }}
-      addition: ${{ steps.set-lexering.outputs.addition}}
-      multiplication: ${{ steps.set-lexering.outputs.multiplication}}
+      addition: ${{ steps.set-lexering.outputs.addition }}
+      multiplication: ${{ steps.set-lexering.outputs.multiplication }}
 
   parsering:
     needs: lexering
