@@ -96,7 +96,7 @@ runs:
         
         cd ${{ github.workspace }}/_site && rm -rf .git .devcontainer.json Dockerfile
         cd ${{ inputs.action_path }}/_site && mv -f ${{ github.workspace }}/_site/* .
-        cat .env && cat ${{ inputs.action_path }}/Dockerfile
+        cat ${{ inputs.action_path }}/Dockerfile
 
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
