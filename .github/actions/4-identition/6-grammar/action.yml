@@ -122,6 +122,6 @@ runs:
           git clone --single-branch --branch gh-pages ${{ env.TARGET_REPO }} gh-pages
 
           cd gh-pages && git rm -rfq . && shopt -s dotglob && mv -f ${{ inputs.workspace }}/* .
-          git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
-        
+          git fetch && git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git rebase && git push
+         
         fi

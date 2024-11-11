@@ -117,6 +117,6 @@ runs:
  
           cd /home/runner/_site && rm -rf .git .github .env .ssh .cache node-modules
           cd ${{ github.workspace }} && git rm -rfq . && shopt -s dotglob && mv -f /home/runner/_site/* .
-          git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
+          git fetch && git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git rebase && git push
  
         fi
