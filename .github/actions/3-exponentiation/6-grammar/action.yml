@@ -125,8 +125,11 @@ runs:
   
         else      
  
+          shopt -s dotglob && rm -rf ${RUNNER_TEMP}/*
           cd /home/runner/_site && rm -rf .git .github .env .ssh .cache node-modules
-          cd ${{ github.workspace }} && git rm -rfq . && shopt -s dotglob && mv -f /home/runner/_site/* .
+
+          cd ${{ github.workspace }} && mv -f .git ${RUNNER_TEMP}/         
+          rm -rf * && mv -f ${RUNNER_TEMP}/.git . && mv -f /home/runner/_site/* .
           git fetch && git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git rebase && git push
  
         fi
