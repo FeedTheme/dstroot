@@ -121,10 +121,11 @@ runs:
           cd ${{ inputs.workspace }} && rm -rf .git .bundle vendor
           git clone --single-branch --branch gh-pages ${{ env.TARGET_REPO }} ${{ inputs.action_path }}/gh-pages
 
-          shopt -s dotglob && rm -rf ${RUNNER_TEMP}/*
-          cd ${{ inputs.action_path }}/gh-pages && mv -f .git ${RUNNER_TEMP}/
-
-          rm -rf * && mv -f ${RUNNER_TEMP}/.git . && mv -f ${{ inputs.workspace }}/* .
+          cd ${{ inputs.action_path }}/gh-pages
+          find -not -path "./.git/*" -not -name ".git" | grep git
+          find -not -path "./.git/*" -not -name ".git" -delete
+          
+          shopt -s dotglob && mv -f ${{ inputs.workspace }}/* .
           git fetch && git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git rebase && git push
          
         fi
