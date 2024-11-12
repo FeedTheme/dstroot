@@ -103,7 +103,6 @@ runs:
           -H "Authorization: Bearer ${TOKEN}" -H "Content-Type: application/json" \
           --data @${{ inputs.workspace }}/docs/data.json | jq '.'
         #$BASE/entrypoint/init.sh
-        ls -al /home/runner/_site
         
     - name: View context attributes
       uses: actions/github-script@v7
