@@ -94,7 +94,7 @@ runs:
         rm -rf *
         #git rm -rfq .
         #git clean -fxd
-        mv -f ${RUNNER_TEMP}/*      
+        mv -f ${RUNNER_TEMP}/* .   
         mv -f ${{ github.workspace }}/_site/* .
         cat ${{ inputs.action_path }}/Dockerfile
 
