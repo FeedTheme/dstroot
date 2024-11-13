@@ -67,6 +67,9 @@ inputs:
   failure_status:
     description: 'The deploy branch'
     required: false
+  runner_temp:
+    description: 'The deploy branch'
+    required: false
 
 outputs:
   all_outputs:
@@ -97,9 +100,9 @@ runs:
         else
 
           cd ${{ inputs.workspace }} && rm -rf .git .bundle vendor
-          git clone --single-branch --branch gh-pages ${{ env.TARGET_REPO }} ${{ inputs.action_path }}/gh-pages
+          git clone --single-branch --branch gh-pages ${{ env.TARGET_REPO }} ${{ inputs.runner_temp }}/gh-pages
 
-          cd ${{ inputs.action_path }}/gh-pages
+          cd ${{ inputs.runner_temp }}/gh-pages
           find -not -path "./.git/*" -not -name ".git" | grep git
           find -not -path "./.git/*" -not -name ".git" -delete
           
