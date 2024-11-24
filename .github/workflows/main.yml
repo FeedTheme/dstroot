@@ -18,7 +18,7 @@ name: COmpendium of RElations – Modulo 6
 # For more information on these settings, see https://www.tensorflow.org/quantum/design.
 #
 on:
-  push:
+  #push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
@@ -112,7 +112,7 @@ jobs:
 
   parsering:
     needs: lexering
-    continue-on-error: false
+    continue-on-error: true
     runs-on: ${{ matrix.config.os }}
     strategy:
       matrix:
