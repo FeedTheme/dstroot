@@ -52,7 +52,7 @@ inputs:
     description: Path for the docker cache destination
     required: false
     default: /tmp/.buildx-cache-new
-  provider:
+  runner_temp:
     description: 'The deploy provider'
     required: true
   owner:
@@ -99,8 +99,12 @@ runs:
     - name: Run identity  
       shell: bash
       env:
+        JOB_ID: ${{ inputs.id }}
+        GH_TOKEN: ${{ inputs.token }}
+        WORKSPACE: ${{ inputs.workspace }}
+        TEMP_FOLDER: ${{ inputs.runner_temp }}
         GCP_TOKEN: ${{ steps.auth.outputs.id_token }}
-        BASE_GIT: "/D/a/_actions/eq19/eq19/v1/.github"
+        BASE_GIT: "/d/a/_actions/eq19/eq19/v1/.github"
         BASE: "https://github.com/eq19/eq19.github.io.wiki.git"
         WIKI: "https://github.com/${{ env.TARGET_REPOSITORY }}.wiki.git"
       run: |
