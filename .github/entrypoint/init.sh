@@ -86,6 +86,7 @@ elif [[ "${JOB_ID}" == "4" ]]; then
     find ${GITHUB_WORKSPACE} -type d -name "${FOLDER}" -prune -exec sh -c 'wiki.sh "$1"' sh {} \;
   fi
 
+  #echo "action_state=yellow" | Out-File -FilePath $env:GITHUB_ENV -Append # no need for -Encoding utf8
   find ${GITHUB_WORKSPACE} -type d -name "${FOLDER}" -prune -exec sh -c 'cat ${RUNNER_TEMP}/README.md >> $1/README.md' sh {} \;
   find ${GITHUB_WORKSPACE} -iname '*.md' -print0 | sort -zn | xargs -0 -I '{}' front.sh '{}'
     
