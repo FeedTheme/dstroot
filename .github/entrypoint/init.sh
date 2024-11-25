@@ -66,30 +66,23 @@ if [[ "${JOB_ID}" == "3" ]]; then
 
   cd /home/runner/_site && cp -R ${RUNNER_TEMP}/gistdir/* .
 
-elif [[ "${JOB_ID}" == "4" ]]; then
+elif [[ "${JOB_ID}" == "4" ]] && [[ "${WIKI}" != "${BASE}" ]]; then
 
   echo -e "\n$hr\nWORKSPACE\n$hr"
+  rm -rf ${RUNNER_TEMP//\\//}/wikidir
 
-  echo -e "\n${WIKI}"
-  echo -e "\n${BASE}"
-  echo -e "\n${FOLDER}"
-  echo -e "\n${RUNNER_TEMP//\\//}"
-  echo -e "\n${GITHUB_WORKSPACE//\\//}"
+  git clone $WIKI ${RUNNER_TEMP//\\//}/wikidir
+  cd ${RUNNER_TEMP//\\//}/wikidir && mv -f Home.md README.md
 
-  ls -al ${GITHUB_WORKSPACE//\\//}
+  find ${GITHUB_WORKSPACE//\\//} -type d -name "${FOLDER}" -prune -exec sh -c 'wiki.sh "$1"' sh {} \;
+  find ${GITHUB_WORKSPACE//\\//} -type d -name "${FOLDER}" -prune -exec sh -c 'cat ${RUNNER_TEMP//\\//}/README.md >> $1/README.md' sh {} \;
+  find ${GITHUB_WORKSPACE//\\//} -type d -name "${FOLDER}" -prune -exec sh -c 'ls -alR' sh {} \;
+
+  #echo "action_state=yellow" | Out-File -FilePath $env:GITHUB_ENV -Append # no need for -Encoding utf8
+  find ${GITHUB_WORKSPACE//\\//} -iname '*.md' -print0 | sort -zn | xargs -0 -I '{}' front.sh '{}'
 
   exit 1
 
-  if [[ "${WIKI}" != "${BASE}" ]]; then
-    git clone $WIKI ${RUNNER_TEMP}/wikidir
-    mv -f ${RUNNER_TEMP}/wikidir/Home.md ${RUNNER_TEMP}/wikidir/README.md
-    find ${GITHUB_WORKSPACE} -type d -name "${FOLDER}" -prune -exec sh -c 'wiki.sh "$1"' sh {} \;
-  fi
-
-  #echo "action_state=yellow" | Out-File -FilePath $env:GITHUB_ENV -Append # no need for -Encoding utf8
-  find ${GITHUB_WORKSPACE} -type d -name "${FOLDER}" -prune -exec sh -c 'cat ${RUNNER_TEMP}/README.md >> $1/README.md' sh {} \;
-  find ${GITHUB_WORKSPACE} -iname '*.md' -print0 | sort -zn | xargs -0 -I '{}' front.sh '{}'
-    
 fi
 
 if [[ -z ${PASS} ]] || [[ "${PASS}" == "true" ]]; then
