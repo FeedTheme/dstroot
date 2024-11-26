@@ -25,18 +25,6 @@ else
   echo 'LATEST_COMMIT='$LATEST_COMMIT >> ${GITHUB_ENV}
 fi
 
-if [[ "${JOB_ID}" == "1" ]]; then
-
-  cd "${GITHUB_WORKSPACE}" && rm -rf .github
-  cp -r /home/runner/work/_actions/eq19/eq19/v1/.github .
-  chown -R "$(whoami)" .github
-
-  git remote set-url origin ${REMOTE_REPO}        
-  git add . && git commit -m "update workflows" && git push
-  if [ $? -eq 0 ]; then exit 1; fi
-
-fi
-
 if [[ -z ${PASS} ]] || [[ "${PASS}" == "true" ]]; then
 
   echo -e "\n$hr\nENVIRONTMENT\n$hr"
@@ -53,9 +41,19 @@ if [[ -z ${PASS} ]] || [[ "${PASS}" == "true" ]]; then
 
 fi
 
-if [[ "${JOB_ID}" == "3" ]]; then
+echo -e "\n$hr\nWORKSPACE\n$hr"
+if [[ "${JOB_ID}" == "1" ]]; then
 
-  echo -e "\n$hr\nWORKSPACE\n$hr"
+  cd "${GITHUB_WORKSPACE}" && rm -rf .github
+  cp -r /home/runner/work/_actions/eq19/eq19/v1/.github .
+  chown -R "$(whoami)" .github
+
+  git remote set-url origin ${REMOTE_REPO}        
+  git add . && git commit -m "update workflows" && git push
+  if [ $? -eq 0 ]; then exit 1; fi
+
+elif [[ "${JOB_ID}" == "3" ]]; then
+
   gist.sh ${TARGET_REPOSITORY} ${FOLDER}
 
   find ${RUNNER_TEMP}/gistdir -type d -name .git -prune -exec rm -rf {} \;
@@ -68,7 +66,6 @@ if [[ "${JOB_ID}" == "3" ]]; then
 
 elif [[ "${JOB_ID}" == "4" ]] && [[ "${WIKI}" != "${BASE}" ]]; then
 
-  echo -e "\n$hr\nWORKSPACE\n$hr"
   rm -rf ${RUNNER_TEMP//\\//}/wikidir
 
   git clone $WIKI ${RUNNER_TEMP//\\//}/wikidir
