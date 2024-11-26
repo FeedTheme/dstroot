@@ -18,7 +18,7 @@ name: COmpendium of RElations – Modulo 6
 # For more information on these settings, see https://www.tensorflow.org/quantum/design.
 #
 on:
-  push:
+  #push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
@@ -46,6 +46,7 @@ jobs:
           - { os: macos-latest, id: 2 }
     env:
       ID: ${{ matrix.config.id }}
+      DOC: '${{ env.TARGET_REPOSITORY }}.wiki'
 
     # 🔧 Commutation relations
     runs-on: ${{ matrix.config.os }}
@@ -58,8 +59,7 @@ jobs:
         with:
           submodules: recursive
           token: ${{ secrets.ACCESS_TOKEN }}
-          ref: ${{ env.ID != 1 && 'gh-source' || '' }}
-          repository: ${{ env.ID != 1 && env.TARGET_REPOSITORY || '' }}
+          repository: ${{ env.ID != 1 && env.DOC || '' }}
 
       - name: ⚙️ Build Maps
         uses: eq19/maps@v2
