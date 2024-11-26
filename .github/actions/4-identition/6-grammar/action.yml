@@ -99,17 +99,14 @@ runs:
   
         else
 
-          rm -rf ${RUNNER_TEMP//\\//}/gh-pages
-          cd ${GITHUB_WORKSPACE//\\//} && rm -rf .git .bundle vendor
+          cd ${RUNNER_TEMP//\\//}/gh-source
+          rm -rf .git .bundle templates vendor xml
 
-          TARGET_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/$TARGET_REPOSITORY.git"
-          git clone --single-branch --branch gh-pages $TARGET_REPO ${RUNNER_TEMP//\\//}/gh-pages
-
-          cd ${RUNNER_TEMP//\\//}/gh-pages
+          cd ${GITHUB_WORKSPACE//\\//}
           find -not -path "./.git/*" -not -name ".git" | grep git
           find -not -path "./.git/*" -not -name ".git" -delete
           
-          shopt -s dotglob && mv -f ${GITHUB_WORKSPACE//\\//}/* .
+          shopt -s dotglob && mv -f ${RUNNER_TEMP//\\//}/gh-source/* .
           #git fetch && git add . && git commit --allow-empty -m "$LATEST_COMMIT" && git rebase && git push
           git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
 
