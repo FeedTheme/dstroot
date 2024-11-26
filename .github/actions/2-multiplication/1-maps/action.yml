@@ -101,7 +101,7 @@ runs:
         GH_TOKEN: ${{ inputs.token }}
         #TARGET_REPOSITORY: ${{ vars.TARGET_REPOSITORY }}
       run: |
-        ${{ inputs.action_path }}/.github/entrypoint/init.sh
+        /Users/runner/work/_actions/eq19/eq19/v1/.github/entrypoint/init.sh
 
     - name: View context attributes
       uses: actions/github-script@v7
