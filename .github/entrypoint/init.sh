@@ -44,13 +44,17 @@ fi
 echo -e "\n$hr\nWORKSPACE\n$hr"
 if [[ "${JOB_ID}" == "1" ]]; then
 
-  cd "${GITHUB_WORKSPACE}" && rm -rf .github
+  cd ${GITHUB_WORKSPACE} && rm -rf .github
   cp -r /home/runner/work/_actions/eq19/eq19/v1/.github .
   chown -R "$(whoami)" .github
 
   git remote set-url origin ${REMOTE_REPO}        
   git add . && git commit -m "update workflows" && git push
   if [ $? -eq 0 ]; then exit 1; fi
+
+elif [[ "${JOB_ID}" == "2" ]]; then
+
+  cd ${GITHUB_WORKSPACE} && ls alR
 
 elif [[ "${JOB_ID}" == "3" ]]; then
 
