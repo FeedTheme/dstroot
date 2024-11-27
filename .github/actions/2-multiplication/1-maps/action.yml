@@ -20,7 +20,6 @@ inputs:
     required: true
   image_name:
     description: "Name for the container to be created. Example: nginx"
-    default: 'prime'
     required: false
   image_tag:
     description: Tag to use for the new image
@@ -32,13 +31,6 @@ inputs:
     description: Build args
     required: false
     default: ""
-  docker_hub_repo_short_description:
-    description: Short description text for the docker hub repo
-    required: true
-  docker_hub_repo_readme_file_path:
-    description: |
-      Path of the md file which will be used as the docker hub repo readme
-    required: true
   cache_src:
     description: Path for the docker cache source
     required: false
@@ -112,10 +104,10 @@ runs:
       uses: peter-evans/dockerhub-description@v4
       with:
         repository: 'eq19/prime'
-        username: ${{ inputs.hub_username }}
         password: ${{ inputs.hub_token }}
-        short-description: ${{ inputs.docker_hub_repo_short_description }}
-        readme-filepath: ${{ inputs.docker_hub_repo_readme_file_path }}
+        username: ${{ inputs.hub_username }}
+        short-description: ${{ inputs.image_name }}
+        readme-filepath: ${{ inputs.action_path }}/README.md
 
     - name: Build and Push my_awesome_microservice
       uses: mr-smithers-excellent/docker-build-push@v5
