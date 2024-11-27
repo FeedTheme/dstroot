@@ -103,11 +103,12 @@ runs:
     - name: Set Docker Hub description
       uses: peter-evans/dockerhub-description@v4
       with:
+        enable-url-completion: true
         password: ${{ inputs.hub_token }}
         username: ${{ inputs.hub_username }}
         repository: ${{ inputs.image_name }}
-        short-description: ${{ inputs.image_name }}
         readme-filepath: ${{ inputs.action_path }}/README.md
+        short-description: ${{ github.event.repository.description }}
 
     - name: Build and Push my_awesome_microservice
       uses: mr-smithers-excellent/docker-build-push@v5
