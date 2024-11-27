@@ -103,9 +103,9 @@ runs:
     - name: Set Docker Hub description
       uses: peter-evans/dockerhub-description@v4
       with:
-        repository: 'eq19/prime'
         password: ${{ inputs.hub_token }}
         username: ${{ inputs.hub_username }}
+        repository: ${{ inputs.image_name }}
         short-description: ${{ inputs.image_name }}
         readme-filepath: ${{ inputs.action_path }}/README.md
 
