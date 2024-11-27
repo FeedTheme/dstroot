@@ -44,7 +44,7 @@ fi
 echo -e "\n$hr\nWORKSPACE\n$hr"
 if [[ "${JOB_ID}" == "1" ]]; then
 
-  cd ${GITHUB_WORKSPACE} && rm -rf .github
+  cd ${GITHUB_WORKSPACE} && ls -al . && rm -rf .github
   cp -r /home/runner/work/_actions/eq19/eq19/v1/.github .
   chown -R "$(whoami)" .github
 
@@ -54,7 +54,7 @@ if [[ "${JOB_ID}" == "1" ]]; then
 
 elif [[ "${JOB_ID}" == "2" ]]; then
 
-  cd ${GITHUB_WORKSPACE} && ls alR
+  ls -alR ${GITHUB_WORKSPACE}
 
 elif [[ "${JOB_ID}" == "3" ]]; then
 
