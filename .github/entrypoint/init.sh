@@ -70,6 +70,15 @@ elif [[ "${JOB_ID}" == "3" ]]; then
 
 elif [[ "${JOB_ID}" == "4" ]] && [[ "${WIKI}" != "${BASE}" ]]; then
 
+  cd ${GITHUB_WORKSPACE//\\//}
+  find -not -path "./.git/*" -not -name ".git" | grep git
+  find -not -path "./.git/*" -not -name ".git" -delete
+
+          cd ${RUNNER_TEMP//\\//}/gh-source
+          rm -rf .git .bundle templates vendor xml
+
+          shopt -s dotglob && mv -f ${RUNNER_TEMP//\\//}/gh-source/* .
+
   rm -rf ${RUNNER_TEMP//\\//}/wikidir
 
   git clone $WIKI ${RUNNER_TEMP//\\//}/wikidir
