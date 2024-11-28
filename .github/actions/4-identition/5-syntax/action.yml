@@ -97,10 +97,10 @@ runs:
       run: |
         echo -e "\n$hr\nBuild Pages\n$hr"
         #Jekyll Quick Reference https://gist.github.com/DrOctogon/bfb6e392aa5654c63d12
-        JEKYLL_GITHUB_TOKEN=${{ inputs.token }} DISABLE_WHITELIST=true bundle exec jekyll build --profile -t -p ${RUNNER_TEMP//\\//}/_plugins -d ${RUNNER_TEMP//\\//}/docs
+        JEKYLL_GITHUB_TOKEN=${{ inputs.token }} DISABLE_WHITELIST=true bundle exec jekyll build --profile -t -p ./_plugins -d ./docs
 
-        if [[ "${TARGET_REPOSITORY}" == "eq19/eq19.github.io" ]]; then echo "www.eq19.com" > ${RUNNER_TEMP//\\//}/docs/CNAME; fi
-        rm -rf ${RUNNER_TEMP//\\//}/docs/.nojekyll && touch ${RUNNER_TEMP//\\//}/docs/.nojekyll
+        if [[ "${TARGET_REPOSITORY}" == "eq19/eq19.github.io" ]]; then echo "www.eq19.com" > ./docs/CNAME; fi
+        rm -rf ./docs/.nojekyll && touch ./docs/.nojekyll
 
         echo -e "\n$hr\nFinal Pages\n$hr"
-        ls -al ${RUNNER_TEMP//\\//}/docs
+        ls -al ./docs
