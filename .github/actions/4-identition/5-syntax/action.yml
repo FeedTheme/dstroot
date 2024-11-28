@@ -95,8 +95,13 @@ runs:
       id: jekyll_site
       shell: bash
       run: |
+        cd ${GITHUB_WORKSPACE//\\//}
+
+        echo -e "\n$hr\nConfig\n$hr"
+        cat _config.yml
+
         echo -e "\n$hr\nSource Pages\n$hr"
-        cd ${GITHUB_WORKSPACE//\\//} && ls -al . && cat _config.yml
+        ls -al ${GITHUB_WORKSPACE//\\//}
 
         echo -e "\n$hr\nBuild Pages\n$hr"
         #Jekyll Quick Reference https://gist.github.com/DrOctogon/bfb6e392aa5654c63d12
