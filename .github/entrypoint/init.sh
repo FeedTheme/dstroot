@@ -68,21 +68,32 @@ elif [[ "${JOB_ID}" == "3" ]]; then
 
   cd /home/runner/_site && cp -R ${RUNNER_TEMP}/gistdir/* . && ls -lR .
 
-elif [[ "${JOB_ID}" == "4" ]] && [[ "${WIKI}" != "${BASE}" ]]; then
+elif [[ "${JOB_ID}" == "4" ]]; then
 
-  rm -rf ${RUNNER_TEMP//\\//}/wikidir
+  TARGET_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/$TARGET_REPOSITORY.git"
+  git clone --single-branch --branch gh-source $TARGET_REPO ${RUNNER_TEMP//\\//}/gh-source
+  cd ${RUNNER_TEMP//\\//}/gh-source && rm -rf .git .bundle templates vendor xml
+  
+  cd ${GITHUB_WORKSPACE//\\//}
+  find -not -path "./.git/*" -not -name ".git" | grep git
+  find -not -path "./.git/*" -not -name ".git" -delete
+  shopt -s dotglob && mv -f ${RUNNER_TEMP//\\//}/gh-source/* .
 
-  git clone $WIKI ${RUNNER_TEMP//\\//}/wikidir
-  cd ${RUNNER_TEMP//\\//}/wikidir && mv -f Home.md README.md
+  if [[ "${WIKI}" != "${BASE}" ]]; then
+    rm -rf ${RUNNER_TEMP//\\//}/wikidir
 
-  find ${GITHUB_WORKSPACE//\\//} -type d -name "${FOLDER}" -prune -exec sh -c 'wiki.sh "$1"' sh {} \;
-  find ${GITHUB_WORKSPACE//\\//} -type d -name "${FOLDER}" -prune -exec sh -c 'cat ${RUNNER_TEMP//\\//}/README.md >> $1/README.md' sh {} \;
-  find ${GITHUB_WORKSPACE//\\//} -type d -name "${FOLDER}" -prune -exec sh -c 'ls -alR' sh {} \;
+    git clone $WIKI ${RUNNER_TEMP//\\//}/wikidir
+    cd ${RUNNER_TEMP//\\//}/wikidir && mv -f Home.md README.md
 
-  #echo "action_state=yellow" | Out-File -FilePath $env:GITHUB_ENV -Append # no need for -Encoding utf8
-  find ${GITHUB_WORKSPACE//\\//} -iname '*.md' -print0 | sort -zn | xargs -0 -I '{}' front.sh '{}'
+    find . -type d -name "${FOLDER}" -prune -exec sh -c 'wiki.sh "$1"' sh {} \;
+    find . -type d -name "${FOLDER}" -prune -exec sh -c 'cat ${RUNNER_TEMP//\\//}/README.md >> $1/README.md' sh {} \;
+    find . -type d -name "${FOLDER}" -prune -exec sh -c 'ls -alR' sh {} \;
 
-  exit 1
+    #echo "action_state=yellow" | Out-File -FilePath $env:GITHUB_ENV -Append # no need for -Encoding utf8
+    find . -iname '*.md' -print0 | sort -zn | xargs -0 -I '{}' front.sh '{}'
+
+    exit 1
+  fi
 
 fi
 
