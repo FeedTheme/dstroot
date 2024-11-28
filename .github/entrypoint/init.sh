@@ -72,7 +72,7 @@ elif [[ "${JOB_ID}" == "4" ]]; then
 
   TARGET_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/$TARGET_REPOSITORY.git"
   git clone --single-branch --branch gh-source $TARGET_REPO ${RUNNER_TEMP//\\//}/gh-source
-  cd ${RUNNER_TEMP//\\//}/gh-source && rm -rf .git .bundle templates vendor xml
+  cd ${RUNNER_TEMP//\\//}/gh-source && rm -rf .git .bundle
   
   cd ${GITHUB_WORKSPACE//\\//}
   find -not -path "./.git/*" -not -name ".git" | grep git
