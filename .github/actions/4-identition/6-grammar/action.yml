@@ -99,14 +99,6 @@ runs:
   
         else
 
-          cd ${RUNNER_TEMP//\\//}/gh-source
-          rm -rf .git .bundle templates vendor xml
-
-          cd ${GITHUB_WORKSPACE//\\//}
-          find -not -path "./.git/*" -not -name ".git" | grep git
-          find -not -path "./.git/*" -not -name ".git" -delete
-          
-          shopt -s dotglob && mv -f ${RUNNER_TEMP//\\//}/gh-source/* .
           #git fetch && git add . && git commit --allow-empty -m "$LATEST_COMMIT" && git rebase && git push
           git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
 
