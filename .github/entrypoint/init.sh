@@ -68,19 +68,17 @@ elif [[ "${JOB_ID}" == "3" ]]; then
 
   cd /home/runner/_site && cp -R ${RUNNER_TEMP}/gistdir/* . && ls -lR .
 
-elif [[ "${JOB_ID}" == "4" ]]; then
+else
 
-  TARGET_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/$TARGET_REPOSITORY.git"
-  git clone --single-branch --branch gh-source $TARGET_REPO ${RUNNER_TEMP//\\//}/gh-source
-  cd ${RUNNER_TEMP//\\//}/gh-source && rm -rf .git .bundle
+  cd ${RUNNER_TEMP//\\//} && rm -rf gh-source
+  git clone --single-branch --branch gh-source $TARGET_REPO gh-source
   
   cd ${GITHUB_WORKSPACE//\\//}
-  find -not -path "./.git/*" -not -name ".git" | grep git
+  #find -not -path "./.git/*" -not -name ".git" | grep git
   find -not -path "./.git/*" -not -name ".git" -delete
-  ls -al ${GITHUB_WORKSPACE//\\//}
-  
-  shopt -s dotglob
-  mv -f ${RUNNER_TEMP//\\//}/gh-source/* . && cat _config.yml
+
+  rm -rf ${RUNNER_TEMP//\\//}/gh-source/.git
+  shopt -s dotglob && mv -f ${RUNNER_TEMP//\\//}/gh-source/* .
 
   if [[ "${WIKI}" != "${BASE}" ]]; then
     rm -rf ${RUNNER_TEMP//\\//}/wikidir
@@ -95,8 +93,9 @@ elif [[ "${JOB_ID}" == "4" ]]; then
     #echo "action_state=yellow" | Out-File -FilePath $env:GITHUB_ENV -Append # no need for -Encoding utf8
     find . -iname '*.md' -print0 | sort -zn | xargs -0 -I '{}' front.sh '{}'
 
-    exit 1
   fi
+
+   cd ${GITHUB_WORKSPACE//\\//} && pwd && ls -al .
 
 fi
 
