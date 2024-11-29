@@ -95,7 +95,6 @@ else
   #echo "action_state=yellow" | Out-File -FilePath $env:GITHUB_ENV -Append # no need for -Encoding utf8
   find . -iname '*.md' -print0 | sort -zn | xargs -0 -I '{}' front.sh '{}'
   cd ${GITHUB_WORKSPACE//\\//} && pwd && ls -alR .
-  exit 1
 
 fi
 
