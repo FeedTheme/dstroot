@@ -91,9 +91,7 @@ runs:
       run: |
         if [[ '${{ inputs.failure_status }}' == 'true' ]]; then
       
-          $BASE/entrypoint/init.sh
-          REMOTE_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"
-
+          REMOTE_REPO="https://$GITHUB_ACTOR:$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git"
           git clone --single-branch --branch gh-pages $REMOTE_REPO gh-pages && cd gh-pages
           git add . && git commit --allow-empty -m "rerun due to job failure" && git push
   
