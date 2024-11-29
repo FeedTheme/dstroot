@@ -77,7 +77,10 @@ elif [[ "${JOB_ID}" == "4" ]]; then
   cd ${GITHUB_WORKSPACE//\\//}
   find -not -path "./.git/*" -not -name ".git" | grep git
   find -not -path "./.git/*" -not -name ".git" -delete
-  shopt -s dotglob && mv -f ${RUNNER_TEMP//\\//}/gh-source/* .
+  ls -al ${GITHUB_WORKSPACE//\\//}
+  
+  shopt -s dotglob
+  mv -f ${RUNNER_TEMP//\\//}/gh-source/* . && cat _config.yml
 
   if [[ "${WIKI}" != "${BASE}" ]]; then
     rm -rf ${RUNNER_TEMP//\\//}/wikidir
