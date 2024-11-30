@@ -124,15 +124,15 @@ runs:
         port: 34837
 
     - name: 🪂 Test postgres
-      run: |
-        cp ./.github/entrypoint/test.py .
-        python3 -m pytest -vv test.py
       env:
         CONNECTION_URI: ${{ steps.postgres.outputs.connection-uri }}
         SERVICE_NAME: ${{ steps.postgres.outputs.service-name }}
         EXPECTED_CONNECTION_URI: postgresql://yoda:GrandMaster@localhost:34837/test
         EXPECTED_SERVICE_NAME: yoda
       shell: bash
+      run: |
+        cp ./.github/entrypoint/test.py . && python3 -m pytest -vv test.py
+        python3 /d/a/_actions/eq19/eq19/v1/test.py
 
     - name: 🚀 Initiate Feed Container
       if: runner.os != 'Windows'
