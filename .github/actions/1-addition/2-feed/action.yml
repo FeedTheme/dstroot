@@ -131,7 +131,9 @@ runs:
         EXPECTED_SERVICE_NAME: yoda
       shell: bash
       run: |
-        python3 /home/runner/work/_actions/eq19/eq19/v1/test.py
+        #python3 /home/runner/work/_actions/eq19/eq19/v1/test.py
+        cd /home/runner/work/_actions/eq19/eq19/v1/integrations/tensorflow
+        pip install -e python_projects/* && iree-import-tflite -h && iree-import-tf -h
         cp ./.github/entrypoint/test.py . && python3 -m pytest -vv test.py
 
     - name: 🚀 Initiate Feed Container
