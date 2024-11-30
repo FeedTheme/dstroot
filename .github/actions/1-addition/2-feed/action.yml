@@ -136,7 +136,9 @@ runs:
         cd /home/runner/work/_actions/eq19/eq19/v1/integrations/tensorflow
         pip install -e python_projects/* && iree-import-tflite -h && iree-import-tf -h
         cd /home/runner/work/_actions/eq19/eq19/v1/integrations/pjrt
-        python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
+        pip install -v --no-deps -e python_packages/iree_cpu_plugin
+        #python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
+        JAX_PLATFORMS=iree_cpu python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
 
     - name: 🚀 Initiate Feed Container
       if: runner.os != 'Windows'
