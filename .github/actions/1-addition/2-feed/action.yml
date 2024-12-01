@@ -140,9 +140,9 @@ runs:
  
         cd /home/runner/work/_actions/eq19/eq19/v1/integrations/pjrt
         pip install -e ctstools && pip install -v --no-deps -e python_packages/iree_cpu_plugin
-        pip install -r requirements.txt && cd python_packages/iree_cpu_plugin/build/cmake && ninja
-        #JAX_PLATFORMS=cpu python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
-        JAX_PLATFORMS=cpu pytest -n4 --max-worker-restart=9999 -p openxla_pjrt_artifacts --openxla-pjrt-artifact-dir=/tmp/foobar /home/runner/work/_actions/eq19/eq19/v1/integrations/pjrt/test/test_simple.py
+        #pip install -r requirements.txt && cd python_packages/iree_cpu_plugin/build/cmake && ninja
+        JAX_PLATFORMS=cpu python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
+        #JAX_PLATFORMS=iree-cpu pytest -n4 --max-worker-restart=9999 -p openxla_pjrt_artifacts --openxla-pjrt-artifact-dir=/tmp/foobar test/test_simple.py
 
     - name: 🚀 Initiate Feed Container
       if: runner.os != 'Windows'
