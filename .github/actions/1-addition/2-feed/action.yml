@@ -143,6 +143,8 @@ runs:
         pip install -v --no-deps -e python_packages/iree_vulkan_plugin && pip install -e ctstools
         #python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
         #JAX_PLATFORMS=iree_rocm python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
+        JAX_PLATFORMS=iree_vulkan pytest -n4 --max-worker-restart=9999 \
+          -p openxla_pjrt_artifacts --openxla-pjrt-artifact-dir=/tmp/foobar #~/src/jax/tests/nn_test.py
 
     - name: 🚀 Initiate Feed Container
       if: runner.os != 'Windows'
