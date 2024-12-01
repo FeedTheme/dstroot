@@ -129,6 +129,7 @@ runs:
         SERVICE_NAME: ${{ steps.postgres.outputs.service-name }}
         EXPECTED_CONNECTION_URI: postgresql://yoda:GrandMaster@localhost:34837/test
         EXPECTED_SERVICE_NAME: yoda
+        JAX_PLATFORMS: ''
       shell: bash
       run: |
         #python3 /home/runner/work/_actions/eq19/eq19/v1/test.py
@@ -139,9 +140,9 @@ runs:
  
         cd /home/runner/work/_actions/eq19/eq19/v1/integrations/pjrt
         #cd python_packages/iree_cpu_plugin/build/cmake && ninja
-        pip install -v --no-deps -e python_packages/iree_rocm_plugin && pip install -e ctstools
+        pip install -v --no-deps -e python_packages/iree_vulkan_plugin && pip install -e ctstools
         #python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
-        JAX_PLATFORMS=iree_rocm python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
+        #JAX_PLATFORMS=iree_rocm python -c "import jax; a = jax.numpy.asarray([1, 2, 3, 4, 5, 6, 7, 8, 9]); print(a + a);"
 
     - name: 🚀 Initiate Feed Container
       if: runner.os != 'Windows'
