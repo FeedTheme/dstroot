@@ -90,8 +90,7 @@ runs:
       shell: bash
       env:
         JOB_ID: ${{ inputs.id }}
-        GH_TOKEN: ${{ inputs.token }}
-        #TARGET_REPOSITORY: ${{ vars.TARGET_REPOSITORY }}
+        TOKEN: ${{ inputs.token }}
       run: |
         /Users/runner/work/_actions/eq19/eq19/v1/.github/entrypoint/init.sh
 

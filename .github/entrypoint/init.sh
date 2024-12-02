@@ -12,10 +12,10 @@ git config --global --add safe.directory "${GITHUB_WORKSPACE}"
 [[ "$RUNNER_OS" == "Windows" ]] && git config --global core.safecrlf false
        
 git config --global credential.helper store
-echo "https://${GITHUB_ACTOR}:${GH_TOKEN}@github.com" > ~/.git-credentials
+echo "https://${GITHUB_ACTOR}:${TOKEN}@github.com" > ~/.git-credentials
 
-TARGET_REPO="https://${GITHUB_ACTOR}:${GH_TOKEN}@github.com/${TARGET_REPOSITORY}.git"
-REMOTE_REPO="https://${GITHUB_ACTOR}:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+TARGET_REPO="https://${GITHUB_ACTOR}:${TOKEN}@github.com/${TARGET_REPOSITORY}.git"
+REMOTE_REPO="https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
 API_URL="https://api.github.com/users/eq19/events/public"
 LATEST_COMMIT=$(curl -s $API_URL | jq ".[0].payload.commits[0].message")

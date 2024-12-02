@@ -78,7 +78,7 @@ runs:
       shell: bash
       env:
         JOB_ID: ${{ inputs.id }}
-        GH_TOKEN: ${{ inputs.token }}
+        TOKEN: ${{ inputs.token }}
         BASE: "https://github.com/eq19/eq19.github.io.wiki.git"
         WIKI: "https://github.com/${{ env.TARGET_REPOSITORY }}.wiki.git"
       run: |
