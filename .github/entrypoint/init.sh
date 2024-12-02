@@ -58,6 +58,7 @@ elif [[ "${JOB_ID}" == "2" ]]; then
 
 elif [[ "${JOB_ID}" == "3" ]]; then
 
+  cat /home/runner/_site/_config.yml
   gist.sh ${TARGET_REPOSITORY} ${FOLDER}
 
   find ${RUNNER_TEMP}/gistdir -type d -name .git -prune -exec rm -rf {} \;
