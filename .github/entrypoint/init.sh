@@ -52,7 +52,7 @@ if [[ "${JOB_ID}" == "1" ]]; then
   git add . && git commit -m "update workflows" && git push
   if [ $? -eq 0 ]; then
     git clone --single-branch --branch gh-pages $REMOTE_REPO gh-pages && cd gh-pages
-    git add . && git commit -m "update workflows" && git push
+    git add . && git commit --allow-empty -m "rerun due to job failure" && git push
     exit 1
   else
     ls -al ${GITHUB_WORKSPACE}
