@@ -115,6 +115,17 @@ runs:
         mv -f ${{ inputs.action_path }} ${{ github.workspace }}/_site
         mkdir -p ${{ inputs.action_path }} && cp -R ${{ github.workspace }}/_site/. ${{ inputs.action_path }}/
 
+        python3 /home/runner/work/_actions/eq19/eq19/v1/test.py
+  
+        cd /home/runner/work/_actions/eq19/eq19/v1/integrations/tensorflow
+        pip install -e python_projects/* && iree-import-tflite -h && iree-import-tf -h
+
+        #cd /home/runner/work/_actions/eq19/eq19/v1/integrations/pjrt
+        #pip install -e ctstools python_packages/iree_cpu_plugin
+  
+        #pip install -r requirements.txt && cd python_packages/iree_cpu_plugin/build/cmake && ninja
+        #JAX_PLATFORMS=iree-cpu pytest -n4 --max-worker-restart=9999 -p openxla_pjrt_artifacts --openxla-pjrt-artifact-dir=/tmp/foobar test/test_simple.py
+
     - uses: ikalnytskyi/action-setup-postgres@v6 
       id: postgres
       with:
@@ -132,17 +143,8 @@ runs:
         JAX_PLATFORMS: ''
       shell: bash
       run: |
-        python3 /home/runner/work/_actions/eq19/eq19/v1/test.py
-        cp ./.github/entrypoint/test.py . && python3 -m pytest -vv test.py
-
-        cd /home/runner/work/_actions/eq19/eq19/v1/integrations/tensorflow
-        pip install -e python_projects/* && iree-import-tflite -h && iree-import-tf -h
-
-        #cd /home/runner/work/_actions/eq19/eq19/v1/integrations/pjrt
-        #pip install -e ctstools python_packages/iree_cpu_plugin
-  
-        #pip install -r requirements.txt && cd python_packages/iree_cpu_plugin/build/cmake && ninja
-        #JAX_PLATFORMS=iree-cpu pytest -n4 --max-worker-restart=9999 -p openxla_pjrt_artifacts --openxla-pjrt-artifact-dir=/tmp/foobar test/test_simple.py
+        cp ./.github/entrypoint/test.py .
+        python3 -m pytest -vv test.py
 
     - name: 🚀 Initiate Feed Container
       if: runner.os != 'Windows'
