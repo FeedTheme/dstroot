@@ -50,7 +50,13 @@ if [[ "${JOB_ID}" == "1" ]]; then
 
   git remote set-url origin ${REMOTE_REPO}        
   git add . && git commit -m "update workflows" && git push
-  if [ $? -eq 0 ]; then exit 1; else ls -al ${GITHUB_WORKSPACE};fi
+  if [ $? -eq 0 ]; then
+    git clone --single-branch --branch gh-pages $REMOTE_REPO gh-pages && cd gh-pages
+    git add . && git commit -m "update workflows" && git push
+    exit 1
+  else
+    ls -al ${GITHUB_WORKSPACE}
+  fi
 
 elif [[ "${JOB_ID}" == "2" ]]; then
 
