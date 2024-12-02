@@ -131,8 +131,8 @@ runs:
         EXPECTED_SERVICE_NAME: yoda
       shell: bash
       run: |
-        cd /home/runner/work/_actions/eq19/eq19/v1/integrations/tensorflow
-        pip install -e python_projects/* && iree-import-tflite -h && iree-import-tf -h
+        #cd /home/runner/work/_actions/eq19/eq19/v1/integrations/tensorflow
+        #pip install -e python_projects/* && iree-import-tflite -h && iree-import-tf -h
 
         #cd /home/runner/work/_actions/eq19/eq19/v1/integrations/pjrt
         #pip install -e ctstools python_packages/iree_cpu_plugin

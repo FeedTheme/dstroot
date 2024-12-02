@@ -69,7 +69,6 @@ set_target() {
     
     echo "SPIN=[${CELLPLUS}, ${SPANPLUS}]" >> ${GITHUB_ENV}
     echo "  spin: [${CELLPLUS}, ${SPANPLUS}]" >> ${RUNNER_TEMP}/_config.yml
-    echo "  span: $(python3 /home/runner/work/_actions/eq19/eq19/v1/test.py)" >> ${RUNNER_TEMP}/_config.yml
     echo "  pinned: [$(cat ${RUNNER_TEMP}/pinned_repos)]" >> ${RUNNER_TEMP}/_config.yml
     echo "  organization: [$(cat ${RUNNER_TEMP}/user_orgs)]" >> ${RUNNER_TEMP}/_config.yml
   fi
