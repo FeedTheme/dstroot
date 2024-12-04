@@ -5,9 +5,10 @@
   .. moduleauthor:: Jonathan Gross <jarthurgross@gmail.com>
 
   .. references::
+     - https://arxiv.org/pdf/0806.1174.pdf
      - https://github.com/iree-org/iree/tree/main/integrations/pjrt
      - https://mathworld.wolfram.com/GeneralizedGell-MannMatrix.html
-     - https://github.com/CQuIC/pysme/blob/master/src/pysme/gellmann.py
+     - https://github.com/husisy/klearning/blob/master/misc/draft_gellman.py
 
 """
 import numpy as np
