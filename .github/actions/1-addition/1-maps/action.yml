@@ -120,7 +120,8 @@ runs:
       run: |
         python -m pip -q install --upgrade pip setuptools six wheel
         python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
-
+        python -m pip -q install -e ${{ inputs.action_path }}/.github/entrypoint/artifact/python
+        
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
       with:
