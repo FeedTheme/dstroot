@@ -119,8 +119,9 @@ runs:
       shell: bash
       run: |
         python -m pip -q install --upgrade pip setuptools six wheel
-        python -m pip -q install -e ./.github/entrypoint/artifact/python
+        #python -m pip -q install -e ./.github/entrypoint/artifact/python
         python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
+        iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
         
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
