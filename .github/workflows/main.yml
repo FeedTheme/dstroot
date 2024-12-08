@@ -33,7 +33,7 @@ permissions: write-all
         
 # 🕸️ Global Environment
 env:
-  #GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+  GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
   TARGET_REPOSITORY: ${{ vars.TARGET_REPOSITORY }}
 
 jobs:
