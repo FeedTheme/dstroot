@@ -81,7 +81,6 @@ runs:
       shell: bash
       env:
         JOB_ID: ${{ inputs.id }}
-        TOKEN: ${{ inputs.token }}
       run: |
         HEADER="Accept: application/vnd.github+json"
         /home/runner/work/_actions/eq19/eq19/v1/.github/entrypoint/init.sh

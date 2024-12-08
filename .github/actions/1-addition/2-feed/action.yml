@@ -94,7 +94,7 @@ runs:
         TMP: ${{ inputs.tmp }}
         RUN: ${{ github.run_id }}
         USER: ${{ github.actor }}
-        TOKEN: ${{ inputs.token }}
+        #TOKEN: ${{ inputs.token }}
         REPO: ${{ github.repository }}
         ACTOR: ${{ github.triggering_actor }}
         OWNER: ${{ github.repository_owner }}
@@ -110,7 +110,7 @@ runs:
         iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
 
         g++ /home/runner/work/_actions/eq19/lexer/v3/src/marty/core/su_n_algebra.h -o anyname      
-        python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
+        #python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
         
         mv -f ${RUNNER_TEMP}/.env ${{ inputs.action_path }}/
         mv -f ${RUNNER_TEMP}/_config.yml ${{ inputs.action_path }}/
