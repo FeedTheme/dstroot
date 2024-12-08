@@ -109,7 +109,7 @@ runs:
         #Ref: https://iree.dev/building-from-source/getting-started/
         iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
 
-        g++ /home/runner/work/_actions/eq19/lexer/v3/src/marty/core/su_n_algebra.cpp -o anyname
+        g++ /home/runner/work/_actions/eq19/lexer/v3/src/marty/core/su_n_algebra.h -o anyname
 
          
         python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
