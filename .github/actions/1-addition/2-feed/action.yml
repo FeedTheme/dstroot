@@ -106,7 +106,12 @@ runs:
         mv -f ${{ inputs.action_path }}/_config.yml ${RUNNER_TEMP}/
         export PATH=$GITHUB_WORKSPACE/.github/entrypoint:$PATH && artifact.sh
 
+        #Ref: https://iree.dev/building-from-source/getting-started/
         iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
+
+        iree-compile /home/runner/work/_actions/eq19/lexer/v3/src/marty/core/su_n_algebra.cpp
+
+         
         python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
         
         mv -f ${RUNNER_TEMP}/.env ${{ inputs.action_path }}/
