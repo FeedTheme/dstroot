@@ -116,10 +116,15 @@ runs:
     - name: Install dependencies
       shell: bash
       run: |
-        python -m pip -q install --upgrade pip setuptools six wheel
+        #python -m pip -q install --upgrade pip setuptools six wheel
         #python -m pip -q install -e ./.github/entrypoint/artifact/python
-        python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
+        #python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
         
+        #Ref: https://github.com/iree-org/iree-experimental/tree/main
+        git clone https://github.com/iree-org/iree-experimental iree-samples && cd iree-samples
+        ./setup_venv.sh && source iree-samples.venv/bin/activate
+        lit -v tflitehub && lit -v -D FEATURES=hugetest tflitehub
+
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
       with:
