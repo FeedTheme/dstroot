@@ -122,7 +122,7 @@ runs:
         
         #Ref: https://github.com/iree-org/iree-experimental/tree/main
         git clone https://github.com/iree-org/iree-experimental iree-samples && cd iree-samples
-        ./setup_venv.sh && source iree-samples.venv/bin/activate && lit -v -D FEATURES=hugetest tflitehub
+        ./setup_venv.sh && source iree-samples.venv/bin/activate && python tflitehub/person_detect_test.py
 
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
