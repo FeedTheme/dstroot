@@ -81,17 +81,6 @@ runs:
      #Ref: https://gist.github.com/xtrmstep/92aab2d465e348ce1c07ed903ca0dfb8
     - id: describe
       shell: bash
-      env:
-        CC: gcc-9
-        CXX: g++-9
-        FC: gfortran-9
-        CMAKE_C_COMPILER: gcc-9
-        CMAKE_CXX_COMPILER: g++-9
-        CMAKE_Fortran_COMPILER: gfortran-9
-        GH_TOKEN: ${{ inputs.token }}
-        LDFLAGS: "-L/opt/homebrew/opt/qt@5/lib"
-        CPPFLAGS: "-I/opt/homebrew/opt/qt@5/include"
-        PKG_CONFIG_PATH: "/opt/homebrew/opt/qt@5/lib/pkgconfig"
       run: |
         cd ${{ inputs.action_path }} && doxygen > /dev/null 2>&1
         rm -rf ${{ github.workspace }}/xml && mv -f xml ${{ github.workspace }}/
@@ -99,6 +88,16 @@ runs:
         cd ${{ github.workspace }} && rm -rf cloud-config
         git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
 
+        cd /Users/runner/work/_actions/eq19/eq19/v1 && ls -al
+        cmake -G Ninja -B ../iree-build/ -S . \
+          -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+          -DIREE_ENABLE_ASSERTIONS=ON \
+          -DIREE_ENABLE_SPLIT_DWARF=ON \
+          -DCMAKE_C_COMPILER=clang \
+          -DCMAKE_CXX_COMPILER=clang++ \
+          -DIREE_ENABLE_LLD=ON
+        ls -al ../iree-build
+        
         #ssh-keygen -t rsa -b 3072 -N '' -f $HOME/.ssh/google_compute_engine -C root
         #sed -i.backup "1s|^|runner: |" $HOME/.ssh/google_compute_engine.pub && gh secret set GCP_ID_RSA < $HOME/.ssh/google_compute_engine
 
