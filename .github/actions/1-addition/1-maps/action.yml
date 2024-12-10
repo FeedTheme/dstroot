@@ -120,9 +120,12 @@ runs:
         
         #Ref: https://github.com/iree-org/iree-experimental/tree/main
         #python -m pip -q install -r ${{ inputs.action_path }}/requirements.txt
-        #python -m pip -q install -e ./.github/entrypoint/artifact/python
-        python ${{ inputs.action_path }}/pythonCode/testIREE.py
+        #python -m pip -q install -e ${{ github.workspace }}/.github/entrypoint/artifact/python
 
+        #python ${{ inputs.action_path }}/pythonCode/testIREE.py
+        #iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
+        python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
+        
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
       with:

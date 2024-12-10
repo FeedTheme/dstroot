@@ -106,9 +106,6 @@ runs:
         mv -f ${{ inputs.action_path }}/_config.yml ${RUNNER_TEMP}/
         export PATH=$GITHUB_WORKSPACE/.github/entrypoint:$PATH && artifact.sh
 
-        iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
-        #python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
-        
         mv -f ${RUNNER_TEMP}/.env ${{ inputs.action_path }}/
         mv -f ${RUNNER_TEMP}/_config.yml ${{ inputs.action_path }}/
  
