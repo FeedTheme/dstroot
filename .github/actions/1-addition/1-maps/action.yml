@@ -126,7 +126,7 @@ runs:
         #iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
         #python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
         
-        python ${{ inputs.action_path }}/numberGenerator/python/tests.py
+        cd ${{ inputs.action_path }}/numberGenerator/python && python tests.py
 
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
