@@ -128,7 +128,7 @@ runs:
         
         cd ${{ inputs.action_path }}/numberGenerator && mkdir hex
         python npreader.py -h
-        python map.py
+        python map.py -h
 
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
