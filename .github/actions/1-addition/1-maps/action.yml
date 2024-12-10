@@ -116,7 +116,7 @@ runs:
     - name: Install dependencies
       shell: bash
       run: |
-        python -m pip -q install --upgrade pip setuptools six wheel
+        python -m pip -q install --upgrade pip setuptools six wheel numpy
         
         #Ref: https://github.com/iree-org/iree-experimental/tree/main
         #python -m pip -q install -r ${{ inputs.action_path }}/requirements.txt
@@ -126,7 +126,7 @@ runs:
         #iree-compile --iree-llvmcpu-list-targets && iree-run-module --list_drivers
         #python ${{ github.workspace }}/.github/entrypoint/artifact/python/gellmann.py
         
-        cd ${{ inputs.action_path }}/numberGenerator/python && python tests.py
+        cd ${{ inputs.action_path }}/numberGenerator && python npreader.py
 
     - name: 🚀 Initiate Lexer
       uses: devcontainers/ci@v0.3
