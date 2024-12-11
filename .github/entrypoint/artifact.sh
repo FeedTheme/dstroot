@@ -95,7 +95,7 @@ jekyll_build() {
   sed -i "1s|^|repository: ${OWNER}/$1\n|" ${RUNNER_TEMP}/_config.yml
   [[ $1 != *"github.io"* ]] && sed -i "1s|^|baseurl: /$1\n|" ${RUNNER_TEMP}/_config.yml
   
-  FOLDER="span$(( 17 - $3 ))"
+  FOLDER="span$(( 19 - $SITEID ))"
   TARGET_REPOSITORY=${OWNER}/$1
   gh variable set FOLDER --body "$FOLDER"
   echo 'FOLDER='${FOLDER} >> ${RUNNER_TEMP}/.env
